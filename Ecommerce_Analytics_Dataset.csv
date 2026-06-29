@@ -1,0 +1,2001 @@
+OrderID,OrderDate,CustomerID,City,Region,Channel,Category,Product,Quantity,UnitPrice,Revenue,ReturnFlag,DeliveryDays,Rating
+1,2024-01-16,2982,Delhi,West,Website,Books,Product49,2,4404,8808,No,7,2
+2,2024-05-26,2216,Mumbai,East,Other,Beauty,Product3,3,4821,14463,No,2,3
+3,2024-08-23,1488,Delhi,South,Website,Electronics,Product97,3,4532,13596,No,3,3
+4,2024-04-28,2681,Hyderabad,NE,Mobile App,Books,Product28,1,3748,3748,No,7,3
+5,2024-07-11,1114,Pune,West,Website,Books,Product83,3,244,732,No,6,2
+6,2024-07-08,2593,Bengaluru,NE,Website,Books,Product52,1,295,295,No,7,5
+7,2024-01-09,2213,Bengaluru,North,Social,Books,Product90,4,4798,19192,No,6,1
+8,2024-06-18,2968,Bengaluru,West,Website,Fashion,Product31,1,414,414,No,2,4
+9,2024-07-10,1646,Hyderabad,North,Other,Fashion,Product49,1,4695,4695,No,5,4
+10,2024-03-01,1956,Pune,North,Website,Fashion,Product76,3,1283,3849,Yes,2,4
+11,2024-11-17,2597,Hyderabad,East,Other,Fashion,Product33,3,4081,12243,No,3,3
+12,2024-05-10,1251,Delhi,West,Other,Sports,Product67,4,4993,19972,No,4,4
+13,2024-11-26,1676,Mumbai,East,Website,Books,Product72,2,3272,6544,No,3,2
+14,2024-02-10,2054,Pune,South,Other,Electronics,Product17,4,2650,10600,No,5,4
+15,2024-10-08,2732,Hyderabad,NE,Social,Books,Product70,3,2272,6816,No,5,1
+16,2024-08-04,2562,Kolkata,West,Website,Fashion,Product96,1,842,842,No,1,4
+17,2024-03-09,1896,Kolkata,North,Social,Sports,Product41,4,1798,7192,No,6,2
+18,2024-12-10,1241,Pune,South,Website,Beauty,Product52,3,380,1140,No,3,3
+19,2024-04-03,2178,Delhi,NE,Other,Sports,Product61,4,1293,5172,No,7,1
+20,2024-03-18,1639,Pune,NE,Website,Electronics,Product74,3,4229,12687,No,5,2
+21,2024-08-08,1880,Bengaluru,East,Other,Books,Product80,1,4491,4491,No,1,1
+22,2024-05-16,2714,Bengaluru,East,Mobile App,Sports,Product67,2,3134,6268,No,3,5
+23,2024-05-04,2675,Kolkata,East,Mobile App,Sports,Product42,4,1843,7372,No,6,2
+24,2024-02-20,1215,Delhi,South,Other,Books,Product75,4,2890,11560,No,7,5
+25,2024-11-10,1484,Pune,West,Social,Beauty,Product41,3,1452,4356,No,6,4
+26,2024-04-08,2589,Delhi,West,Website,Beauty,Product78,5,849,4245,No,3,5
+27,2024-10-01,2764,Delhi,East,Other,Fashion,Product35,1,277,277,No,4,4
+28,2024-01-03,1333,Mumbai,West,Mobile App,Beauty,Product75,2,1060,2120,No,3,3
+29,2024-05-01,1474,Bengaluru,West,Mobile App,Books,Product5,1,2236,2236,No,6,2
+30,2024-02-15,2761,Hyderabad,South,Other,Electronics,Product90,5,1659,8295,No,7,1
+31,2024-01-18,2135,Hyderabad,North,Mobile App,Home,Product84,4,1518,6072,No,5,2
+32,2024-02-12,1055,Delhi,South,Website,Books,Product96,4,2815,11260,No,6,2
+33,2024-03-02,1226,Pune,South,Mobile App,Home,Product37,4,4482,17928,No,1,4
+34,2024-05-07,2122,Mumbai,East,Other,Home,Product11,5,3737,18685,No,7,5
+35,2024-01-14,1564,Mumbai,NE,Other,Books,Product29,1,2443,2443,No,6,2
+36,2024-01-20,1748,Hyderabad,East,Other,Home,Product61,5,3518,17590,Yes,2,1
+37,2024-03-26,2293,Kolkata,West,Other,Sports,Product62,5,4876,24380,No,4,1
+38,2024-01-02,2078,Bengaluru,East,Website,Electronics,Product20,3,2000,6000,No,4,5
+39,2024-06-10,2206,Pune,East,Other,Beauty,Product41,5,3167,15835,Yes,7,2
+40,2024-04-27,1961,Kolkata,South,Mobile App,Beauty,Product97,1,1128,1128,No,5,1
+41,2024-07-05,2618,Bengaluru,NE,Website,Sports,Product1,5,979,4895,No,5,2
+42,2024-05-22,1405,Pune,West,Website,Beauty,Product17,5,819,4095,Yes,2,4
+43,2024-01-04,2630,Mumbai,West,Other,Home,Product96,4,467,1868,No,5,4
+44,2024-11-08,1736,Pune,NE,Social,Fashion,Product8,1,442,442,No,1,2
+45,2024-08-18,1092,Delhi,South,Other,Beauty,Product39,5,2519,12595,No,1,5
+46,2024-07-24,2288,Delhi,North,Other,Beauty,Product69,1,224,224,No,3,1
+47,2024-05-22,1327,Mumbai,North,Social,Fashion,Product70,2,3029,6058,No,1,2
+48,2024-02-02,2782,Pune,NE,Website,Electronics,Product77,2,3994,7988,No,5,4
+49,2024-11-26,2101,Delhi,North,Website,Home,Product10,4,3472,13888,No,3,1
+50,2024-07-03,1177,Bengaluru,East,Social,Home,Product89,4,464,1856,Yes,7,4
+51,2024-05-01,1349,Kolkata,North,Website,Home,Product65,2,1068,2136,No,2,2
+52,2024-10-09,2250,Pune,North,Other,Fashion,Product86,4,329,1316,No,2,2
+53,2024-04-05,2383,Bengaluru,South,Other,Sports,Product78,4,2746,10984,No,7,3
+54,2024-08-15,1301,Kolkata,North,Website,Beauty,Product97,5,1812,9060,No,2,2
+55,2024-12-25,1555,Pune,South,Website,Electronics,Product60,5,3817,19085,No,6,3
+56,2024-10-06,1728,Pune,South,Social,Electronics,Product51,2,3388,6776,No,2,2
+57,2024-08-06,2063,Pune,North,Website,Sports,Product29,4,304,1216,Yes,1,3
+58,2024-01-07,2436,Kolkata,South,Mobile App,Sports,Product77,5,4522,22610,No,7,5
+59,2024-03-24,1862,Hyderabad,West,Other,Sports,Product29,3,2235,6705,No,6,2
+60,2024-02-08,2366,Hyderabad,NE,Mobile App,Home,Product67,4,4684,18736,No,4,1
+61,2024-12-27,2277,Bengaluru,East,Other,Beauty,Product98,2,738,1476,No,4,1
+62,2024-06-26,1852,Delhi,NE,Mobile App,Beauty,Product6,3,545,1635,No,2,4
+63,2024-06-12,1532,Kolkata,South,Website,Sports,Product77,3,4644,13932,No,3,5
+64,2024-05-18,2280,Kolkata,East,Social,Beauty,Product43,5,918,4590,No,1,4
+65,2024-04-08,2908,Kolkata,East,Social,Electronics,Product8,5,4326,21630,No,4,2
+66,2024-12-03,1810,Pune,North,Other,Electronics,Product16,1,3028,3028,No,6,3
+67,2024-10-27,1309,Mumbai,South,Other,Books,Product29,2,2377,4754,No,7,4
+68,2024-07-18,1294,Pune,South,Other,Beauty,Product79,3,4662,13986,No,7,1
+69,2024-04-23,1315,Delhi,West,Mobile App,Electronics,Product67,4,1131,4524,No,5,3
+70,2024-09-02,2590,Kolkata,NE,Other,Electronics,Product2,4,3588,14352,No,3,2
+71,2024-01-02,1939,Pune,East,Website,Home,Product52,1,4405,4405,No,3,2
+72,2024-08-19,2140,Delhi,West,Mobile App,Books,Product78,2,264,528,No,4,1
+73,2024-03-10,1600,Bengaluru,NE,Mobile App,Books,Product15,2,714,1428,No,3,4
+74,2024-08-06,1161,Hyderabad,South,Social,Fashion,Product87,1,342,342,No,3,5
+75,2024-09-21,2466,Hyderabad,South,Social,Home,Product87,5,1520,7600,No,2,5
+76,2024-09-02,1776,Mumbai,South,Other,Fashion,Product91,3,2790,8370,No,5,2
+77,2024-01-01,2553,Bengaluru,East,Other,Electronics,Product2,5,3823,19115,Yes,7,5
+78,2024-04-21,1333,Hyderabad,South,Website,Fashion,Product39,2,550,1100,No,3,5
+79,2024-10-28,1892,Hyderabad,South,Website,Beauty,Product54,3,4966,14898,No,4,3
+80,2024-10-28,2394,Pune,North,Other,Fashion,Product15,3,1912,5736,No,4,3
+81,2024-05-01,2727,Kolkata,West,Mobile App,Home,Product82,1,645,645,No,1,2
+82,2024-06-07,2253,Mumbai,North,Website,Home,Product82,3,811,2433,No,5,4
+83,2024-03-20,1774,Bengaluru,NE,Website,Books,Product62,4,1084,4336,No,4,3
+84,2024-08-22,1005,Mumbai,East,Other,Sports,Product80,2,1271,2542,No,5,5
+85,2024-02-04,2827,Bengaluru,North,Mobile App,Sports,Product56,5,2437,12185,No,2,4
+86,2024-01-08,1712,Bengaluru,NE,Social,Sports,Product92,5,3497,17485,Yes,7,3
+87,2024-09-10,1160,Hyderabad,East,Other,Books,Product62,5,1435,7175,No,3,4
+88,2024-06-07,1373,Hyderabad,South,Other,Books,Product44,4,3336,13344,No,3,1
+89,2024-10-09,2380,Bengaluru,North,Mobile App,Home,Product37,4,4304,17216,No,7,3
+90,2024-07-25,2480,Pune,East,Mobile App,Beauty,Product59,3,3533,10599,No,1,2
+91,2024-03-04,1006,Bengaluru,South,Website,Fashion,Product25,2,1919,3838,Yes,2,5
+92,2024-12-03,1931,Mumbai,North,Social,Home,Product8,5,1360,6800,No,2,5
+93,2024-10-01,1342,Kolkata,East,Other,Fashion,Product94,4,1377,5508,No,3,2
+94,2024-09-17,1073,Kolkata,East,Mobile App,Sports,Product8,3,2856,8568,No,2,2
+95,2024-08-13,2910,Bengaluru,North,Other,Electronics,Product99,2,3592,7184,No,4,1
+96,2024-08-13,2286,Delhi,West,Mobile App,Fashion,Product4,5,1308,6540,No,1,3
+97,2024-04-22,1904,Kolkata,NE,Social,Sports,Product41,2,3129,6258,No,6,1
+98,2024-11-02,2012,Hyderabad,West,Social,Electronics,Product6,2,2350,4700,Yes,3,5
+99,2024-11-16,2837,Delhi,NE,Other,Electronics,Product63,5,3159,15795,No,5,3
+100,2024-06-24,1000,Pune,East,Other,Beauty,Product72,5,1578,7890,No,5,3
+101,2024-06-14,1206,Kolkata,East,Website,Beauty,Product8,2,2111,4222,No,1,5
+102,2024-02-05,1024,Hyderabad,NE,Other,Beauty,Product36,3,307,921,Yes,4,5
+103,2024-01-09,2842,Bengaluru,East,Website,Electronics,Product77,4,1479,5916,No,7,5
+104,2024-05-14,1577,Bengaluru,NE,Mobile App,Fashion,Product29,2,1668,3336,Yes,4,5
+105,2024-07-08,1347,Bengaluru,North,Website,Electronics,Product12,5,1113,5565,No,1,4
+106,2024-11-03,2147,Kolkata,North,Website,Home,Product97,4,993,3972,Yes,7,5
+107,2024-09-15,1499,Pune,North,Other,Beauty,Product6,3,2375,7125,No,6,2
+108,2024-09-25,1810,Hyderabad,South,Other,Fashion,Product97,5,1117,5585,No,3,2
+109,2024-04-27,2897,Kolkata,South,Social,Fashion,Product24,3,3665,10995,No,1,3
+110,2024-01-27,1759,Hyderabad,East,Website,Home,Product47,2,601,1202,No,3,5
+111,2024-08-04,1673,Bengaluru,West,Other,Fashion,Product89,1,1088,1088,Yes,7,1
+112,2024-04-10,1426,Hyderabad,East,Website,Electronics,Product59,5,3205,16025,No,6,3
+113,2024-08-12,1228,Hyderabad,East,Website,Books,Product76,5,1986,9930,No,3,3
+114,2024-10-24,2838,Kolkata,West,Other,Fashion,Product6,3,1640,4920,No,7,3
+115,2024-04-05,2941,Hyderabad,West,Website,Books,Product38,5,3263,16315,Yes,6,5
+116,2024-05-23,2681,Hyderabad,East,Other,Electronics,Product21,3,1212,3636,No,1,3
+117,2024-11-23,2513,Pune,South,Mobile App,Sports,Product25,4,868,3472,No,6,1
+118,2024-06-15,1256,Bengaluru,South,Website,Fashion,Product6,2,1551,3102,No,6,2
+119,2024-06-03,1690,Pune,South,Website,Electronics,Product67,4,696,2784,No,3,3
+120,2024-11-16,2778,Bengaluru,North,Mobile App,Sports,Product4,3,722,2166,No,2,5
+121,2024-08-24,2476,Hyderabad,NE,Social,Electronics,Product22,1,595,595,No,1,2
+122,2024-12-14,1961,Kolkata,West,Social,Electronics,Product95,5,3547,17735,No,6,1
+123,2024-01-09,1838,Delhi,West,Mobile App,Books,Product47,4,1473,5892,No,3,5
+124,2024-11-03,1404,Delhi,NE,Website,Books,Product76,3,2758,8274,No,4,3
+125,2024-08-05,2135,Delhi,East,Website,Books,Product6,4,2243,8972,No,6,3
+126,2024-11-11,2852,Pune,East,Website,Sports,Product22,2,2592,5184,No,6,2
+127,2024-03-07,2258,Mumbai,East,Other,Sports,Product17,3,2583,7749,No,1,3
+128,2024-04-17,1000,Bengaluru,West,Mobile App,Books,Product29,1,2474,2474,No,3,4
+129,2024-04-28,1364,Delhi,NE,Website,Books,Product8,1,2642,2642,No,6,3
+130,2024-06-27,2809,Mumbai,NE,Other,Beauty,Product84,3,4140,12420,No,7,1
+131,2024-07-17,2893,Mumbai,NE,Mobile App,Electronics,Product87,4,2788,11152,No,4,2
+132,2024-04-23,1207,Delhi,NE,Mobile App,Home,Product25,5,2943,14715,No,1,5
+133,2024-02-24,1891,Bengaluru,East,Website,Books,Product97,1,309,309,No,2,4
+134,2024-01-20,2802,Kolkata,West,Mobile App,Home,Product49,3,4109,12327,No,4,2
+135,2024-04-11,2904,Mumbai,South,Website,Electronics,Product92,4,4079,16316,No,5,3
+136,2024-10-06,1144,Mumbai,West,Social,Electronics,Product44,3,2860,8580,No,4,2
+137,2024-02-26,1711,Hyderabad,North,Website,Electronics,Product80,3,4792,14376,No,5,1
+138,2024-01-23,2532,Bengaluru,South,Mobile App,Beauty,Product100,1,2477,2477,No,2,5
+139,2024-04-16,1542,Hyderabad,East,Other,Sports,Product3,5,4426,22130,No,4,3
+140,2024-06-09,1436,Bengaluru,West,Mobile App,Sports,Product61,4,3459,13836,No,3,4
+141,2024-01-10,2045,Bengaluru,West,Mobile App,Books,Product90,2,1803,3606,Yes,3,1
+142,2024-06-06,1744,Kolkata,West,Website,Fashion,Product10,1,1265,1265,No,1,3
+143,2024-09-04,1895,Pune,East,Other,Home,Product4,1,1724,1724,No,7,4
+144,2024-08-06,2917,Delhi,East,Website,Electronics,Product89,3,1302,3906,No,2,1
+145,2024-02-13,1479,Kolkata,West,Mobile App,Home,Product8,1,3164,3164,No,2,2
+146,2024-10-03,1921,Pune,NE,Social,Home,Product36,4,4754,19016,No,1,1
+147,2024-06-12,2835,Mumbai,North,Mobile App,Home,Product10,1,2567,2567,No,4,5
+148,2024-11-18,1493,Bengaluru,West,Mobile App,Beauty,Product13,3,3881,11643,Yes,2,2
+149,2024-11-17,1938,Pune,West,Social,Electronics,Product100,4,4072,16288,No,1,2
+150,2024-08-23,1749,Kolkata,South,Social,Home,Product42,5,2513,12565,No,6,5
+151,2024-08-23,2571,Hyderabad,North,Other,Books,Product62,3,511,1533,No,2,1
+152,2024-03-26,2111,Pune,West,Other,Beauty,Product19,3,4585,13755,No,5,2
+153,2024-05-16,2119,Hyderabad,East,Social,Sports,Product73,2,2019,4038,Yes,6,3
+154,2024-11-12,1829,Kolkata,North,Social,Sports,Product65,3,1111,3333,No,5,2
+155,2024-10-11,1838,Kolkata,North,Social,Sports,Product85,5,3583,17915,No,6,1
+156,2024-09-28,2076,Mumbai,North,Other,Books,Product74,4,1413,5652,No,3,5
+157,2024-01-08,1126,Delhi,South,Website,Sports,Product48,3,1736,5208,No,2,1
+158,2024-12-12,1805,Kolkata,South,Mobile App,Beauty,Product14,3,966,2898,No,3,3
+159,2024-04-18,1643,Hyderabad,South,Other,Electronics,Product87,4,4141,16564,No,5,2
+160,2024-10-18,1780,Mumbai,East,Social,Home,Product86,2,1025,2050,Yes,4,1
+161,2024-06-18,1313,Mumbai,West,Social,Electronics,Product49,1,2620,2620,No,4,3
+162,2024-10-16,1154,Mumbai,NE,Mobile App,Electronics,Product26,5,817,4085,Yes,6,1
+163,2024-09-21,1790,Kolkata,West,Other,Home,Product70,3,4588,13764,No,4,1
+164,2024-11-01,2523,Pune,NE,Other,Fashion,Product99,3,3251,9753,No,7,4
+165,2024-01-07,1320,Delhi,NE,Website,Electronics,Product24,1,976,976,Yes,3,2
+166,2024-02-22,2215,Bengaluru,North,Mobile App,Beauty,Product20,1,4491,4491,No,6,2
+167,2024-03-17,1914,Mumbai,North,Social,Books,Product63,1,1016,1016,No,4,5
+168,2024-01-01,1165,Hyderabad,East,Mobile App,Books,Product80,5,3377,16885,No,2,2
+169,2024-12-10,1354,Bengaluru,East,Mobile App,Sports,Product88,2,2307,4614,No,4,3
+170,2024-09-10,1721,Mumbai,East,Other,Home,Product90,3,845,2535,No,1,3
+171,2024-02-19,2334,Hyderabad,West,Social,Fashion,Product31,3,4828,14484,No,3,1
+172,2024-10-18,2148,Hyderabad,North,Social,Beauty,Product13,1,3561,3561,No,6,5
+173,2024-04-21,1181,Mumbai,NE,Social,Fashion,Product95,5,4497,22485,No,5,4
+174,2024-09-12,2699,Pune,West,Website,Home,Product29,3,441,1323,No,2,4
+175,2024-01-10,2751,Bengaluru,North,Mobile App,Sports,Product42,1,3247,3247,Yes,3,3
+176,2024-08-09,2229,Mumbai,NE,Social,Electronics,Product64,2,4506,9012,No,2,3
+177,2024-02-19,2450,Hyderabad,North,Other,Electronics,Product43,3,2783,8349,No,7,3
+178,2024-09-13,2082,Bengaluru,North,Social,Sports,Product67,2,2924,5848,No,7,2
+179,2024-02-14,1051,Delhi,South,Mobile App,Sports,Product10,2,3339,6678,No,6,2
+180,2024-07-13,2666,Mumbai,North,Mobile App,Home,Product16,4,2225,8900,No,4,2
+181,2024-10-23,1411,Bengaluru,South,Mobile App,Electronics,Product54,3,3210,9630,No,5,5
+182,2024-02-14,1064,Pune,South,Other,Electronics,Product85,1,3827,3827,No,3,3
+183,2024-12-19,1414,Bengaluru,West,Social,Home,Product73,4,889,3556,No,1,2
+184,2024-09-01,1712,Hyderabad,North,Website,Sports,Product58,2,2358,4716,No,4,5
+185,2024-04-24,2322,Kolkata,West,Other,Electronics,Product1,2,1581,3162,No,5,4
+186,2024-01-12,1125,Pune,South,Mobile App,Electronics,Product18,4,2877,11508,No,4,1
+187,2024-02-05,2089,Hyderabad,North,Other,Sports,Product99,3,3510,10530,No,1,4
+188,2024-03-07,2232,Bengaluru,South,Social,Electronics,Product65,3,3937,11811,No,2,2
+189,2024-07-08,1919,Bengaluru,South,Website,Sports,Product70,5,4354,21770,No,6,5
+190,2024-09-09,2797,Bengaluru,South,Website,Sports,Product33,3,2997,8991,No,1,3
+191,2024-01-21,1254,Mumbai,South,Mobile App,Books,Product21,2,4740,9480,No,7,4
+192,2024-10-26,2169,Bengaluru,North,Mobile App,Sports,Product72,2,1106,2212,No,1,3
+193,2024-04-25,1821,Delhi,South,Other,Sports,Product45,5,3028,15140,No,7,5
+194,2024-02-08,1264,Bengaluru,NE,Other,Electronics,Product69,4,3972,15888,No,3,5
+195,2024-09-27,1568,Bengaluru,East,Social,Sports,Product51,1,1262,1262,No,5,1
+196,2024-08-24,2638,Kolkata,East,Mobile App,Books,Product50,2,3106,6212,No,5,3
+197,2024-09-16,1439,Kolkata,West,Mobile App,Sports,Product15,2,869,1738,No,6,4
+198,2024-03-26,1186,Hyderabad,North,Other,Electronics,Product75,4,2393,9572,No,2,4
+199,2024-08-20,1062,Delhi,NE,Other,Beauty,Product12,4,4656,18624,No,3,1
+200,2024-12-22,2220,Mumbai,East,Mobile App,Fashion,Product91,1,2376,2376,Yes,2,4
+201,2024-04-08,1999,Delhi,NE,Social,Home,Product71,3,1590,4770,No,3,1
+202,2024-06-13,2233,Hyderabad,North,Website,Sports,Product77,4,2976,11904,Yes,5,2
+203,2024-05-04,1097,Mumbai,North,Other,Electronics,Product32,5,1790,8950,No,6,5
+204,2024-12-28,2780,Kolkata,West,Social,Sports,Product52,5,1045,5225,Yes,2,3
+205,2024-05-25,2520,Mumbai,South,Social,Home,Product21,4,2088,8352,No,6,2
+206,2024-12-16,1504,Bengaluru,South,Other,Fashion,Product88,3,363,1089,No,2,1
+207,2024-09-01,1782,Bengaluru,North,Other,Electronics,Product84,3,3789,11367,No,1,5
+208,2024-05-25,1720,Pune,NE,Mobile App,Books,Product17,2,3441,6882,No,3,5
+209,2024-08-25,2402,Hyderabad,NE,Social,Sports,Product4,2,928,1856,No,7,3
+210,2024-11-02,1243,Mumbai,South,Mobile App,Electronics,Product37,5,3218,16090,No,1,2
+211,2024-06-03,1080,Mumbai,South,Social,Beauty,Product5,3,2548,7644,No,4,2
+212,2024-11-25,1087,Kolkata,South,Social,Fashion,Product91,5,2197,10985,No,3,3
+213,2024-11-25,2909,Mumbai,West,Website,Sports,Product77,3,1620,4860,No,1,5
+214,2024-05-14,1341,Pune,NE,Social,Beauty,Product64,1,1628,1628,No,2,2
+215,2024-11-13,1030,Pune,South,Social,Sports,Product22,2,3655,7310,No,1,3
+216,2024-01-06,1845,Bengaluru,North,Other,Electronics,Product6,5,2724,13620,Yes,2,1
+217,2024-01-17,1445,Hyderabad,West,Other,Sports,Product86,4,2878,11512,No,6,4
+218,2024-11-17,2014,Delhi,North,Mobile App,Sports,Product94,4,4654,18616,No,2,4
+219,2024-02-22,2124,Mumbai,NE,Website,Home,Product60,4,3133,12532,No,6,3
+220,2024-11-01,1846,Kolkata,West,Social,Sports,Product21,3,4514,13542,Yes,1,4
+221,2024-09-19,2497,Bengaluru,South,Mobile App,Fashion,Product20,5,1005,5025,No,4,5
+222,2024-11-20,2394,Bengaluru,NE,Other,Fashion,Product82,4,3504,14016,Yes,6,2
+223,2024-08-27,2928,Bengaluru,North,Social,Home,Product63,3,2809,8427,No,4,5
+224,2024-12-12,2061,Pune,East,Mobile App,Sports,Product50,4,3844,15376,No,2,3
+225,2024-01-06,2060,Hyderabad,NE,Social,Sports,Product54,5,3079,15395,No,4,2
+226,2024-10-28,2987,Delhi,North,Other,Home,Product50,4,3688,14752,No,4,4
+227,2024-09-25,1134,Pune,North,Mobile App,Fashion,Product31,5,3774,18870,No,3,3
+228,2024-10-28,1703,Pune,South,Social,Books,Product15,5,1634,8170,No,4,1
+229,2024-04-14,1199,Bengaluru,South,Website,Books,Product80,5,2547,12735,No,6,1
+230,2024-07-28,1549,Mumbai,North,Website,Books,Product14,5,4841,24205,No,3,3
+231,2024-11-28,1303,Mumbai,North,Website,Home,Product65,4,4345,17380,No,4,4
+232,2024-04-15,2324,Kolkata,North,Website,Books,Product73,3,2741,8223,No,7,3
+233,2024-09-22,2108,Hyderabad,North,Website,Beauty,Product7,1,3652,3652,Yes,7,5
+234,2024-07-09,2870,Pune,East,Other,Home,Product8,3,859,2577,No,3,3
+235,2024-06-26,2453,Mumbai,South,Social,Sports,Product12,3,1588,4764,No,7,5
+236,2024-12-22,1342,Kolkata,West,Mobile App,Home,Product96,4,3339,13356,No,2,1
+237,2024-10-23,2232,Pune,East,Mobile App,Books,Product24,1,3954,3954,No,7,3
+238,2024-05-11,2833,Kolkata,NE,Website,Sports,Product76,2,3879,7758,No,6,4
+239,2024-02-08,1227,Delhi,West,Social,Home,Product30,3,2842,8526,No,7,2
+240,2024-05-14,1057,Delhi,East,Other,Books,Product52,1,3616,3616,No,5,5
+241,2024-11-09,2939,Mumbai,NE,Other,Sports,Product40,5,4461,22305,No,6,3
+242,2024-12-08,2000,Kolkata,North,Mobile App,Electronics,Product21,1,2212,2212,Yes,4,4
+243,2024-03-09,1026,Bengaluru,South,Social,Sports,Product15,5,3049,15245,No,5,1
+244,2024-06-19,2090,Hyderabad,North,Social,Electronics,Product83,2,3650,7300,No,7,2
+245,2024-02-07,3000,Mumbai,NE,Social,Sports,Product80,4,745,2980,No,5,2
+246,2024-11-08,2585,Kolkata,West,Other,Home,Product32,3,4496,13488,No,5,1
+247,2024-09-14,2089,Kolkata,NE,Social,Beauty,Product11,4,2270,9080,No,3,5
+248,2024-01-01,1809,Hyderabad,North,Website,Books,Product67,5,2200,11000,No,6,4
+249,2024-09-21,1157,Hyderabad,West,Website,Home,Product22,3,4871,14613,No,2,4
+250,2024-07-15,2728,Hyderabad,West,Social,Beauty,Product97,3,898,2694,No,3,2
+251,2024-10-12,1627,Hyderabad,South,Website,Home,Product100,4,305,1220,Yes,3,4
+252,2024-02-08,2676,Pune,South,Social,Sports,Product16,4,3653,14612,No,4,1
+253,2024-08-21,2610,Pune,West,Website,Home,Product47,2,2012,4024,No,4,3
+254,2024-12-24,2366,Kolkata,West,Social,Electronics,Product55,5,2332,11660,No,6,4
+255,2024-11-13,2492,Mumbai,West,Website,Beauty,Product93,1,4116,4116,No,4,1
+256,2024-08-04,2521,Mumbai,East,Mobile App,Electronics,Product89,3,3806,11418,No,1,2
+257,2024-03-13,2902,Kolkata,South,Other,Sports,Product72,5,1464,7320,No,4,4
+258,2024-10-23,1816,Pune,East,Social,Fashion,Product55,4,4393,17572,Yes,5,5
+259,2024-03-10,2508,Delhi,South,Mobile App,Sports,Product55,5,2633,13165,No,6,4
+260,2024-09-16,2322,Mumbai,West,Mobile App,Electronics,Product74,1,230,230,No,1,4
+261,2024-11-14,2150,Bengaluru,South,Other,Sports,Product80,1,1926,1926,No,7,5
+262,2024-03-20,1657,Pune,North,Website,Electronics,Product36,4,2101,8404,No,7,1
+263,2024-07-22,2631,Delhi,South,Social,Sports,Product87,1,2608,2608,No,7,4
+264,2024-07-21,1942,Kolkata,West,Mobile App,Electronics,Product35,3,3664,10992,No,3,3
+265,2024-01-25,1384,Kolkata,East,Website,Electronics,Product24,4,4677,18708,No,4,3
+266,2024-05-17,2229,Hyderabad,North,Website,Books,Product87,5,4900,24500,No,1,3
+267,2024-09-01,1903,Delhi,East,Website,Electronics,Product63,2,2443,4886,No,4,4
+268,2024-06-15,1087,Bengaluru,North,Mobile App,Fashion,Product30,5,3867,19335,No,4,1
+269,2024-08-13,2302,Kolkata,NE,Mobile App,Fashion,Product35,3,4115,12345,No,1,4
+270,2024-01-15,2976,Hyderabad,East,Mobile App,Home,Product23,4,4357,17428,No,3,2
+271,2024-11-10,2761,Bengaluru,East,Mobile App,Beauty,Product52,5,4022,20110,No,1,3
+272,2024-08-07,2242,Mumbai,NE,Mobile App,Electronics,Product72,5,233,1165,No,6,2
+273,2024-07-25,1412,Delhi,South,Other,Beauty,Product19,3,4039,12117,No,3,2
+274,2024-05-28,2533,Mumbai,North,Website,Electronics,Product9,2,4101,8202,No,4,5
+275,2024-03-26,2892,Hyderabad,West,Mobile App,Sports,Product65,1,1164,1164,No,5,2
+276,2024-05-12,2647,Mumbai,West,Social,Sports,Product84,3,3850,11550,No,2,2
+277,2024-02-20,1739,Kolkata,West,Website,Home,Product69,5,2084,10420,Yes,7,5
+278,2024-07-05,2479,Kolkata,NE,Website,Beauty,Product69,4,4680,18720,No,1,5
+279,2024-04-20,1311,Mumbai,South,Other,Home,Product33,1,3582,3582,No,7,3
+280,2024-05-20,1217,Delhi,NE,Mobile App,Fashion,Product51,1,3406,3406,No,5,3
+281,2024-03-02,1298,Hyderabad,East,Social,Sports,Product27,2,2580,5160,No,5,2
+282,2024-02-26,2588,Bengaluru,South,Social,Sports,Product12,3,3348,10044,No,4,1
+283,2024-05-09,1989,Delhi,North,Other,Books,Product31,5,3975,19875,No,6,1
+284,2024-06-27,1634,Mumbai,East,Website,Sports,Product12,3,4454,13362,No,1,4
+285,2024-09-12,1833,Kolkata,East,Website,Electronics,Product96,3,4326,12978,No,3,1
+286,2024-10-09,2810,Kolkata,East,Social,Electronics,Product43,3,2166,6498,No,1,3
+287,2024-10-10,1311,Pune,East,Other,Books,Product10,1,3820,3820,No,6,1
+288,2024-05-19,2474,Hyderabad,East,Mobile App,Electronics,Product18,1,4461,4461,No,5,1
+289,2024-09-05,1501,Mumbai,NE,Mobile App,Books,Product82,5,3616,18080,Yes,4,5
+290,2024-06-15,1199,Hyderabad,West,Social,Fashion,Product20,5,2405,12025,No,3,4
+291,2024-09-05,1302,Hyderabad,South,Other,Fashion,Product16,3,4485,13455,No,6,3
+292,2024-10-19,2981,Kolkata,North,Social,Sports,Product54,5,4202,21010,No,6,4
+293,2024-02-19,1885,Kolkata,East,Website,Electronics,Product76,4,3486,13944,No,1,5
+294,2024-06-05,2565,Hyderabad,North,Other,Sports,Product71,4,3463,13852,No,7,3
+295,2024-09-22,2641,Bengaluru,North,Website,Electronics,Product83,5,3492,17460,No,2,5
+296,2024-08-10,1465,Hyderabad,NE,Mobile App,Books,Product74,4,550,2200,No,4,4
+297,2024-11-19,1857,Hyderabad,South,Other,Beauty,Product61,4,2994,11976,No,4,5
+298,2024-11-23,2484,Pune,NE,Website,Home,Product27,5,2974,14870,No,4,4
+299,2024-10-06,2928,Kolkata,East,Mobile App,Home,Product69,2,3952,7904,No,4,3
+300,2024-03-07,2882,Pune,South,Other,Sports,Product51,5,4753,23765,No,2,3
+301,2024-07-26,2123,Hyderabad,East,Other,Electronics,Product94,1,3389,3389,No,2,1
+302,2024-06-14,2587,Bengaluru,NE,Website,Beauty,Product44,2,2484,4968,Yes,7,5
+303,2024-01-14,2564,Bengaluru,NE,Website,Fashion,Product59,5,4814,24070,No,6,3
+304,2024-05-09,1491,Hyderabad,North,Social,Sports,Product24,3,638,1914,No,7,4
+305,2024-04-03,1987,Kolkata,NE,Mobile App,Beauty,Product62,2,2861,5722,No,4,2
+306,2024-10-08,2220,Mumbai,NE,Mobile App,Sports,Product70,1,4290,4290,No,4,2
+307,2024-04-21,2634,Delhi,East,Other,Books,Product60,2,3561,7122,No,5,3
+308,2024-07-20,1106,Delhi,West,Mobile App,Fashion,Product39,3,3034,9102,Yes,7,1
+309,2024-01-15,2768,Delhi,West,Other,Beauty,Product5,2,2322,4644,No,6,3
+310,2024-05-23,2753,Delhi,NE,Social,Fashion,Product29,5,1554,7770,No,1,5
+311,2024-02-24,2290,Kolkata,North,Other,Beauty,Product81,1,405,405,No,5,1
+312,2024-02-24,2601,Bengaluru,North,Social,Fashion,Product71,5,732,3660,No,6,5
+313,2024-01-24,2411,Delhi,North,Website,Home,Product79,4,1463,5852,No,4,2
+314,2024-01-19,2081,Delhi,NE,Mobile App,Fashion,Product59,2,3827,7654,No,6,2
+315,2024-09-08,1071,Bengaluru,East,Social,Beauty,Product22,5,2013,10065,No,2,3
+316,2024-05-13,1868,Delhi,West,Social,Beauty,Product17,4,3788,15152,No,1,5
+317,2024-03-28,1055,Mumbai,South,Social,Fashion,Product66,2,2373,4746,No,5,4
+318,2024-06-21,2935,Hyderabad,South,Social,Fashion,Product66,2,2301,4602,No,2,3
+319,2024-05-08,1928,Delhi,NE,Website,Electronics,Product20,3,2075,6225,No,1,2
+320,2024-04-09,2449,Pune,NE,Other,Fashion,Product92,3,530,1590,No,2,1
+321,2024-04-06,1616,Mumbai,NE,Website,Books,Product74,3,4282,12846,No,6,5
+322,2024-09-18,1007,Hyderabad,North,Other,Beauty,Product10,3,4178,12534,No,6,4
+323,2024-10-11,2820,Bengaluru,North,Mobile App,Sports,Product70,5,4860,24300,No,5,1
+324,2024-05-27,2510,Pune,West,Social,Home,Product84,4,2807,11228,No,5,3
+325,2024-04-28,2415,Mumbai,East,Mobile App,Electronics,Product8,1,3615,3615,No,6,5
+326,2024-01-14,2648,Mumbai,NE,Social,Books,Product65,3,3832,11496,No,5,1
+327,2024-10-17,1471,Mumbai,South,Mobile App,Beauty,Product91,3,3968,11904,No,5,5
+328,2024-10-04,1885,Delhi,West,Social,Beauty,Product67,1,1269,1269,No,1,1
+329,2024-12-15,1360,Delhi,NE,Social,Home,Product21,5,4010,20050,No,2,3
+330,2024-12-03,2582,Delhi,NE,Mobile App,Beauty,Product93,1,1320,1320,No,7,1
+331,2024-08-09,2221,Bengaluru,NE,Mobile App,Fashion,Product55,5,3060,15300,No,3,1
+332,2024-11-17,2248,Kolkata,South,Mobile App,Books,Product86,5,1200,6000,No,6,5
+333,2024-03-16,1661,Bengaluru,South,Mobile App,Beauty,Product76,5,1094,5470,No,4,1
+334,2024-08-02,1225,Pune,East,Website,Sports,Product74,2,699,1398,Yes,7,4
+335,2024-09-16,2012,Bengaluru,West,Mobile App,Sports,Product73,3,2803,8409,No,4,2
+336,2024-06-06,1903,Mumbai,NE,Other,Electronics,Product17,2,4937,9874,No,7,1
+337,2024-02-05,1952,Hyderabad,West,Other,Beauty,Product9,2,1870,3740,No,7,2
+338,2024-08-08,2540,Kolkata,East,Other,Sports,Product98,1,1965,1965,No,1,1
+339,2024-08-05,1106,Delhi,East,Website,Fashion,Product11,5,1225,6125,No,2,3
+340,2024-06-23,1026,Mumbai,South,Other,Books,Product29,2,3866,7732,No,3,2
+341,2024-06-14,2912,Bengaluru,South,Social,Books,Product31,2,2984,5968,No,5,1
+342,2024-01-20,2924,Hyderabad,West,Website,Beauty,Product10,1,4022,4022,No,5,2
+343,2024-12-27,1831,Pune,NE,Website,Electronics,Product91,2,207,414,No,1,2
+344,2024-11-04,1322,Kolkata,East,Mobile App,Beauty,Product41,3,4015,12045,No,4,5
+345,2024-04-23,1162,Bengaluru,NE,Other,Fashion,Product19,1,1257,1257,No,6,2
+346,2024-06-04,2997,Kolkata,NE,Website,Electronics,Product46,2,1880,3760,No,6,4
+347,2024-09-25,2798,Kolkata,West,Other,Beauty,Product79,3,2216,6648,No,3,2
+348,2024-02-22,2624,Delhi,North,Website,Beauty,Product98,4,1030,4120,No,5,2
+349,2024-03-28,1517,Pune,West,Other,Electronics,Product29,3,4148,12444,No,3,3
+350,2024-07-23,2107,Bengaluru,NE,Other,Fashion,Product3,1,4399,4399,Yes,1,5
+351,2024-03-19,1114,Mumbai,South,Mobile App,Home,Product51,1,2210,2210,No,3,2
+352,2024-01-22,1840,Delhi,East,Website,Beauty,Product65,2,1226,2452,No,1,4
+353,2024-04-02,2323,Hyderabad,West,Social,Home,Product63,3,209,627,Yes,6,2
+354,2024-02-23,1506,Delhi,South,Social,Books,Product25,5,1520,7600,No,1,2
+355,2024-07-02,1523,Delhi,South,Social,Fashion,Product20,3,1611,4833,No,5,3
+356,2024-10-15,1553,Mumbai,North,Mobile App,Beauty,Product53,2,1838,3676,No,2,2
+357,2024-04-22,1013,Delhi,NE,Other,Home,Product71,4,1460,5840,No,7,3
+358,2024-03-21,2180,Pune,East,Mobile App,Fashion,Product20,5,3177,15885,No,6,1
+359,2024-05-01,2293,Bengaluru,South,Mobile App,Electronics,Product85,1,3956,3956,No,3,3
+360,2024-05-13,1850,Pune,West,Mobile App,Books,Product34,3,2547,7641,No,6,4
+361,2024-06-20,2964,Bengaluru,North,Social,Electronics,Product74,5,1415,7075,No,1,4
+362,2024-09-21,1989,Hyderabad,North,Website,Sports,Product78,1,3156,3156,No,3,3
+363,2024-12-01,1851,Hyderabad,West,Mobile App,Sports,Product92,4,1939,7756,No,5,2
+364,2024-11-26,1927,Delhi,South,Website,Beauty,Product34,1,1046,1046,No,3,1
+365,2024-08-27,2476,Bengaluru,South,Other,Electronics,Product88,2,4216,8432,No,4,2
+366,2024-09-16,1984,Hyderabad,North,Social,Home,Product72,3,2677,8031,No,7,4
+367,2024-10-08,2421,Bengaluru,NE,Website,Home,Product66,1,764,764,No,7,5
+368,2024-09-23,2981,Pune,NE,Website,Electronics,Product49,5,3324,16620,No,1,2
+369,2024-11-02,1993,Hyderabad,South,Social,Books,Product44,4,4907,19628,No,5,1
+370,2024-01-28,2535,Mumbai,West,Mobile App,Fashion,Product48,4,4166,16664,No,2,3
+371,2024-09-20,2645,Mumbai,NE,Mobile App,Home,Product52,2,2213,4426,No,2,2
+372,2024-04-21,2045,Delhi,South,Social,Home,Product63,2,4401,8802,No,5,2
+373,2024-09-05,1084,Kolkata,East,Other,Books,Product31,2,1176,2352,No,6,1
+374,2024-10-12,1065,Delhi,East,Mobile App,Sports,Product86,2,1283,2566,No,4,3
+375,2024-10-08,1460,Kolkata,NE,Mobile App,Home,Product11,1,2458,2458,Yes,1,4
+376,2024-10-12,1180,Delhi,South,Social,Fashion,Product80,1,3522,3522,No,2,5
+377,2024-10-12,1286,Pune,North,Website,Electronics,Product91,3,4475,13425,No,2,5
+378,2024-01-04,2189,Mumbai,East,Website,Sports,Product55,5,455,2275,No,4,1
+379,2024-02-24,2104,Pune,West,Mobile App,Fashion,Product17,5,3744,18720,No,2,5
+380,2024-05-22,1174,Bengaluru,North,Mobile App,Fashion,Product85,4,2038,8152,No,6,5
+381,2024-06-06,2563,Pune,South,Website,Fashion,Product92,4,2480,9920,No,5,5
+382,2024-02-28,1954,Pune,North,Website,Beauty,Product79,3,3205,9615,No,6,2
+383,2024-07-24,1874,Delhi,South,Social,Beauty,Product76,3,1689,5067,No,5,1
+384,2024-01-15,2524,Bengaluru,East,Mobile App,Sports,Product97,2,4493,8986,No,7,4
+385,2024-08-19,1522,Pune,NE,Social,Fashion,Product27,1,662,662,No,7,4
+386,2024-06-05,1397,Bengaluru,East,Social,Sports,Product70,2,2683,5366,No,1,3
+387,2024-10-25,1448,Delhi,West,Mobile App,Books,Product8,1,4900,4900,Yes,5,4
+388,2024-06-20,2688,Mumbai,NE,Social,Books,Product58,5,2629,13145,No,4,1
+389,2024-02-02,1552,Kolkata,NE,Mobile App,Books,Product52,5,3978,19890,No,3,4
+390,2024-01-10,1665,Hyderabad,South,Other,Home,Product85,5,2358,11790,No,4,2
+391,2024-04-19,2062,Delhi,NE,Social,Books,Product84,1,2984,2984,No,6,4
+392,2024-09-11,1505,Kolkata,North,Website,Electronics,Product13,3,4316,12948,No,1,5
+393,2024-04-03,2655,Bengaluru,East,Other,Beauty,Product74,4,2478,9912,No,6,1
+394,2024-09-26,2873,Mumbai,North,Mobile App,Electronics,Product85,1,2583,2583,No,6,1
+395,2024-07-14,2650,Delhi,West,Website,Beauty,Product50,1,4026,4026,No,4,5
+396,2024-09-23,1614,Mumbai,North,Website,Sports,Product16,5,4652,23260,No,1,2
+397,2024-10-08,1846,Pune,North,Mobile App,Electronics,Product90,3,2785,8355,No,2,2
+398,2024-01-18,1880,Mumbai,North,Mobile App,Books,Product78,1,3538,3538,No,4,1
+399,2024-12-05,2255,Hyderabad,NE,Website,Home,Product73,5,4559,22795,No,3,2
+400,2024-05-02,2540,Pune,East,Social,Beauty,Product61,5,479,2395,No,3,5
+401,2024-08-06,1806,Hyderabad,NE,Social,Home,Product33,3,2847,8541,No,3,5
+402,2024-02-23,1423,Kolkata,NE,Website,Books,Product44,2,609,1218,No,6,2
+403,2024-07-14,1007,Hyderabad,North,Other,Home,Product14,2,4259,8518,No,7,3
+404,2024-03-28,2477,Delhi,West,Other,Home,Product59,4,3199,12796,Yes,3,5
+405,2024-01-19,1106,Mumbai,East,Social,Books,Product14,3,1204,3612,No,5,5
+406,2024-06-23,2969,Delhi,North,Social,Beauty,Product24,4,2603,10412,No,7,3
+407,2024-09-19,2951,Pune,North,Website,Sports,Product68,5,1139,5695,No,6,5
+408,2024-02-01,2864,Delhi,South,Other,Fashion,Product13,1,2145,2145,No,4,4
+409,2024-02-12,2393,Hyderabad,West,Website,Fashion,Product23,2,255,510,Yes,6,4
+410,2024-05-14,2532,Bengaluru,South,Mobile App,Beauty,Product20,2,1964,3928,No,1,4
+411,2024-02-19,1562,Mumbai,South,Mobile App,Beauty,Product39,3,3854,11562,No,1,2
+412,2024-02-15,1011,Delhi,West,Social,Books,Product12,4,748,2992,No,5,2
+413,2024-11-14,2536,Pune,NE,Website,Fashion,Product23,5,3979,19895,No,4,5
+414,2024-12-13,2429,Kolkata,NE,Other,Sports,Product33,5,1960,9800,No,2,1
+415,2024-07-18,1076,Pune,East,Social,Fashion,Product77,5,4974,24870,No,5,4
+416,2024-10-02,2513,Bengaluru,South,Other,Fashion,Product21,3,1177,3531,No,3,4
+417,2024-01-27,1117,Kolkata,South,Mobile App,Fashion,Product53,5,1268,6340,No,7,4
+418,2024-09-07,1590,Mumbai,North,Website,Fashion,Product46,5,2826,14130,Yes,6,5
+419,2024-01-28,1180,Delhi,NE,Mobile App,Beauty,Product88,4,2026,8104,No,3,1
+420,2024-06-28,1416,Bengaluru,West,Other,Books,Product54,5,1630,8150,No,1,5
+421,2024-11-15,1311,Pune,NE,Social,Sports,Product14,4,4092,16368,No,6,5
+422,2024-11-08,2396,Bengaluru,East,Other,Home,Product79,1,2891,2891,No,3,4
+423,2024-11-04,1612,Mumbai,South,Mobile App,Electronics,Product97,2,1880,3760,No,2,5
+424,2024-05-18,1159,Pune,East,Mobile App,Sports,Product61,1,679,679,No,3,1
+425,2024-12-25,2176,Bengaluru,NE,Other,Beauty,Product18,2,3305,6610,Yes,4,2
+426,2024-02-24,2892,Pune,South,Website,Books,Product36,3,845,2535,No,1,1
+427,2024-03-10,2739,Kolkata,East,Website,Fashion,Product27,4,1074,4296,Yes,1,1
+428,2024-08-01,2346,Hyderabad,NE,Mobile App,Electronics,Product34,4,1751,7004,No,6,2
+429,2024-02-06,2054,Bengaluru,NE,Other,Sports,Product93,5,4963,24815,No,4,2
+430,2024-02-25,2781,Bengaluru,South,Website,Beauty,Product23,3,3788,11364,Yes,7,3
+431,2024-07-26,1709,Delhi,West,Other,Home,Product34,1,4855,4855,No,1,1
+432,2024-12-08,2200,Pune,NE,Mobile App,Electronics,Product63,2,4955,9910,No,2,4
+433,2024-10-22,2609,Kolkata,West,Mobile App,Books,Product16,1,4253,4253,No,6,2
+434,2024-08-26,2107,Bengaluru,South,Social,Beauty,Product48,3,1503,4509,No,5,5
+435,2024-06-04,1791,Hyderabad,North,Social,Books,Product95,2,1270,2540,No,3,5
+436,2024-10-15,1016,Pune,West,Social,Beauty,Product47,3,1418,4254,Yes,2,2
+437,2024-12-22,2928,Delhi,NE,Mobile App,Beauty,Product93,5,1702,8510,No,2,3
+438,2024-07-27,1915,Bengaluru,NE,Website,Home,Product57,3,994,2982,No,1,3
+439,2024-03-26,2317,Delhi,South,Social,Beauty,Product68,1,4927,4927,No,5,1
+440,2024-02-18,2790,Mumbai,South,Website,Books,Product46,3,4197,12591,No,1,5
+441,2024-12-05,2832,Pune,North,Other,Electronics,Product9,1,2623,2623,No,5,4
+442,2024-03-03,2563,Mumbai,South,Website,Electronics,Product32,2,4507,9014,No,4,1
+443,2024-04-15,1496,Kolkata,North,Mobile App,Books,Product45,5,1728,8640,Yes,7,4
+444,2024-06-12,1468,Mumbai,West,Social,Electronics,Product45,5,2162,10810,No,1,4
+445,2024-09-26,1308,Mumbai,West,Other,Beauty,Product90,3,2958,8874,Yes,1,4
+446,2024-12-25,1850,Kolkata,South,Mobile App,Home,Product5,2,2034,4068,No,1,3
+447,2024-11-11,2865,Bengaluru,West,Website,Home,Product21,1,4530,4530,No,1,4
+448,2024-08-19,1118,Kolkata,East,Social,Home,Product19,4,2809,11236,No,7,5
+449,2024-10-08,1900,Hyderabad,NE,Website,Electronics,Product23,1,565,565,Yes,1,2
+450,2024-07-25,2945,Bengaluru,South,Website,Sports,Product74,3,934,2802,Yes,2,2
+451,2024-02-21,2500,Delhi,North,Mobile App,Home,Product48,4,2392,9568,Yes,1,2
+452,2024-08-14,2913,Kolkata,NE,Mobile App,Fashion,Product19,3,4581,13743,No,3,1
+453,2024-02-19,2181,Kolkata,West,Social,Fashion,Product24,3,1743,5229,No,6,3
+454,2024-02-18,1286,Bengaluru,NE,Other,Beauty,Product37,1,4238,4238,Yes,4,1
+455,2024-07-01,2944,Mumbai,North,Other,Books,Product18,2,1300,2600,No,2,1
+456,2024-09-23,1369,Pune,West,Social,Beauty,Product2,1,4749,4749,Yes,3,1
+457,2024-04-02,1076,Kolkata,West,Website,Sports,Product39,5,3285,16425,No,3,2
+458,2024-03-07,2218,Pune,East,Mobile App,Beauty,Product9,3,4049,12147,No,2,4
+459,2024-10-18,1800,Kolkata,South,Mobile App,Home,Product24,1,2075,2075,No,6,3
+460,2024-02-19,2325,Hyderabad,East,Social,Electronics,Product47,5,299,1495,Yes,6,1
+461,2024-01-04,1048,Mumbai,East,Other,Books,Product20,4,1194,4776,No,2,2
+462,2024-10-19,2320,Hyderabad,South,Mobile App,Beauty,Product70,5,2443,12215,No,4,1
+463,2024-01-12,2175,Mumbai,South,Website,Sports,Product84,5,4015,20075,No,3,5
+464,2024-06-19,2119,Bengaluru,NE,Social,Books,Product14,3,2362,7086,No,6,1
+465,2024-11-21,1466,Delhi,East,Website,Beauty,Product63,3,1838,5514,No,6,4
+466,2024-10-08,1689,Kolkata,NE,Website,Sports,Product15,1,3865,3865,No,2,2
+467,2024-10-08,1580,Kolkata,South,Mobile App,Beauty,Product79,4,2583,10332,No,6,2
+468,2024-09-25,1581,Mumbai,NE,Other,Sports,Product65,4,1839,7356,No,6,1
+469,2024-09-09,2201,Mumbai,East,Mobile App,Electronics,Product53,5,1616,8080,No,6,4
+470,2024-07-13,1148,Hyderabad,West,Other,Electronics,Product83,4,4147,16588,Yes,5,3
+471,2024-06-28,1683,Bengaluru,North,Website,Fashion,Product46,3,3839,11517,No,2,3
+472,2024-02-22,1821,Kolkata,West,Social,Electronics,Product79,1,3144,3144,No,7,3
+473,2024-08-04,1420,Bengaluru,East,Other,Sports,Product13,1,477,477,No,5,2
+474,2024-04-26,2371,Bengaluru,North,Website,Home,Product78,3,4259,12777,No,1,4
+475,2024-06-04,1913,Hyderabad,NE,Social,Books,Product89,1,4836,4836,No,3,5
+476,2024-11-09,2950,Pune,NE,Other,Electronics,Product83,4,3765,15060,Yes,4,4
+477,2024-01-28,2046,Mumbai,NE,Website,Books,Product86,1,4742,4742,No,4,1
+478,2024-09-11,1049,Mumbai,NE,Mobile App,Electronics,Product35,4,2051,8204,No,1,5
+479,2024-04-13,1190,Pune,West,Social,Electronics,Product33,5,394,1970,No,3,4
+480,2024-08-04,2323,Bengaluru,North,Other,Fashion,Product60,4,1498,5992,No,1,3
+481,2024-03-02,2799,Kolkata,West,Social,Beauty,Product50,4,1526,6104,Yes,4,5
+482,2024-07-11,1728,Delhi,West,Social,Books,Product95,4,1478,5912,No,4,3
+483,2024-02-16,1652,Bengaluru,West,Website,Books,Product67,2,3296,6592,No,7,1
+484,2024-07-24,1135,Pune,West,Social,Beauty,Product99,2,276,552,No,6,2
+485,2024-05-21,2166,Bengaluru,East,Other,Fashion,Product61,3,4421,13263,No,7,2
+486,2024-10-22,1413,Hyderabad,NE,Mobile App,Home,Product30,3,3233,9699,No,1,5
+487,2024-09-09,2328,Delhi,West,Mobile App,Fashion,Product15,4,3428,13712,No,7,3
+488,2024-04-08,2131,Pune,East,Other,Home,Product68,1,3278,3278,No,4,1
+489,2024-03-27,1279,Delhi,South,Social,Home,Product53,3,4957,14871,No,2,2
+490,2024-11-15,1849,Hyderabad,NE,Website,Sports,Product56,4,3072,12288,Yes,4,4
+491,2024-06-02,1128,Pune,West,Other,Beauty,Product81,5,2815,14075,No,3,3
+492,2024-05-13,1101,Pune,South,Social,Home,Product96,1,2736,2736,No,6,2
+493,2024-01-27,2973,Delhi,NE,Social,Fashion,Product50,5,4179,20895,No,2,5
+494,2024-09-14,1363,Delhi,South,Website,Electronics,Product71,4,2455,9820,Yes,7,3
+495,2024-08-17,2543,Delhi,West,Social,Books,Product36,1,4388,4388,No,4,2
+496,2024-03-06,2217,Mumbai,South,Other,Books,Product86,3,247,741,No,2,3
+497,2024-10-11,2953,Mumbai,North,Mobile App,Sports,Product38,4,2620,10480,No,7,1
+498,2024-02-19,1349,Pune,North,Website,Fashion,Product65,4,1907,7628,No,3,1
+499,2024-06-23,1011,Delhi,NE,Mobile App,Home,Product23,3,1873,5619,No,3,3
+500,2024-02-20,1555,Hyderabad,West,Other,Fashion,Product8,1,4478,4478,No,2,3
+501,2024-06-21,2733,Pune,North,Social,Sports,Product49,3,4542,13626,No,2,3
+502,2024-07-25,2833,Pune,South,Mobile App,Books,Product54,2,1614,3228,No,6,2
+503,2024-11-13,2062,Hyderabad,West,Mobile App,Fashion,Product62,3,2660,7980,No,6,2
+504,2024-04-05,1941,Kolkata,North,Social,Beauty,Product91,4,4059,16236,No,3,5
+505,2024-01-02,1360,Pune,East,Social,Sports,Product52,5,4785,23925,No,1,2
+506,2024-08-21,1264,Hyderabad,NE,Social,Sports,Product20,1,1393,1393,No,1,3
+507,2024-12-24,2752,Delhi,West,Mobile App,Home,Product35,1,2273,2273,No,3,4
+508,2024-06-24,2116,Pune,NE,Social,Electronics,Product63,2,4746,9492,No,2,4
+509,2024-12-26,2637,Pune,East,Social,Electronics,Product47,2,2847,5694,No,2,2
+510,2024-05-17,2204,Hyderabad,West,Social,Electronics,Product18,4,4382,17528,No,7,4
+511,2024-08-26,2327,Delhi,West,Website,Books,Product96,2,4384,8768,No,6,5
+512,2024-08-14,2910,Pune,NE,Website,Electronics,Product5,1,2150,2150,No,5,2
+513,2024-11-04,2379,Kolkata,West,Social,Sports,Product88,2,335,670,No,6,4
+514,2024-04-21,1647,Delhi,East,Social,Sports,Product41,3,4480,13440,No,4,2
+515,2024-07-04,1525,Mumbai,West,Mobile App,Fashion,Product18,5,1978,9890,No,4,4
+516,2024-11-14,2712,Delhi,West,Other,Fashion,Product21,4,4892,19568,No,6,3
+517,2024-04-17,2253,Pune,North,Mobile App,Books,Product19,5,502,2510,No,5,4
+518,2024-08-27,2182,Kolkata,South,Other,Books,Product75,2,1416,2832,No,6,4
+519,2024-06-08,1133,Hyderabad,NE,Social,Sports,Product91,3,2824,8472,No,4,3
+520,2024-07-20,1813,Mumbai,South,Social,Fashion,Product76,5,2379,11895,No,4,1
+521,2024-07-09,2028,Mumbai,East,Social,Home,Product40,4,3963,15852,No,2,4
+522,2024-03-03,2463,Pune,NE,Social,Books,Product53,3,3606,10818,Yes,4,2
+523,2024-10-07,2653,Mumbai,South,Mobile App,Home,Product10,4,1731,6924,No,1,4
+524,2024-06-01,2270,Kolkata,North,Other,Books,Product95,2,660,1320,No,5,4
+525,2024-04-06,1364,Mumbai,East,Website,Fashion,Product88,2,3843,7686,No,2,5
+526,2024-08-23,2380,Bengaluru,North,Mobile App,Electronics,Product37,2,1859,3718,No,5,1
+527,2024-10-16,1173,Kolkata,NE,Other,Beauty,Product74,3,1786,5358,No,1,3
+528,2024-02-23,2999,Mumbai,North,Other,Electronics,Product52,3,4491,13473,No,6,3
+529,2024-11-13,2104,Mumbai,South,Social,Fashion,Product29,3,1649,4947,Yes,1,1
+530,2024-08-27,2067,Bengaluru,NE,Social,Electronics,Product72,1,3181,3181,No,5,1
+531,2024-07-08,2825,Hyderabad,South,Other,Home,Product73,2,3802,7604,No,2,3
+532,2024-08-07,2903,Mumbai,West,Mobile App,Electronics,Product96,2,2478,4956,No,7,3
+533,2024-06-05,2257,Pune,North,Social,Electronics,Product19,3,2666,7998,No,5,3
+534,2024-10-21,2654,Mumbai,NE,Website,Home,Product24,1,473,473,No,1,4
+535,2024-11-24,2790,Bengaluru,NE,Other,Books,Product51,2,749,1498,No,2,2
+536,2024-12-07,1050,Bengaluru,South,Other,Books,Product17,4,4514,18056,No,4,5
+537,2024-12-26,1793,Bengaluru,North,Social,Home,Product84,5,2196,10980,No,5,1
+538,2024-05-02,1010,Mumbai,East,Other,Home,Product96,2,3248,6496,Yes,3,5
+539,2024-11-04,2380,Pune,NE,Mobile App,Electronics,Product5,5,4896,24480,No,6,5
+540,2024-06-27,1067,Bengaluru,NE,Social,Sports,Product28,1,1822,1822,No,4,3
+541,2024-07-27,1480,Mumbai,North,Other,Beauty,Product52,2,625,1250,No,2,2
+542,2024-03-12,1515,Delhi,West,Mobile App,Beauty,Product62,3,4527,13581,No,5,3
+543,2024-01-03,1332,Delhi,East,Website,Books,Product66,1,772,772,No,1,5
+544,2024-07-04,2255,Bengaluru,East,Website,Beauty,Product70,2,4922,9844,No,4,1
+545,2024-04-01,2202,Delhi,West,Social,Electronics,Product49,4,3457,13828,No,5,4
+546,2024-03-20,2180,Delhi,West,Mobile App,Books,Product55,2,3861,7722,No,5,1
+547,2024-05-15,1089,Hyderabad,North,Website,Electronics,Product38,3,2454,7362,No,1,4
+548,2024-06-19,2939,Delhi,North,Other,Sports,Product83,5,1394,6970,No,5,3
+549,2024-02-21,2183,Kolkata,NE,Mobile App,Beauty,Product36,3,4194,12582,No,7,2
+550,2024-11-14,1865,Hyderabad,NE,Other,Electronics,Product52,4,3636,14544,No,7,1
+551,2024-05-22,1106,Mumbai,NE,Social,Beauty,Product60,1,3033,3033,No,7,1
+552,2024-05-04,2558,Pune,North,Other,Fashion,Product13,3,1491,4473,No,5,2
+553,2024-11-22,2747,Bengaluru,North,Social,Beauty,Product60,4,3510,14040,No,2,1
+554,2024-10-26,2793,Mumbai,South,Website,Fashion,Product81,2,893,1786,No,4,1
+555,2024-09-07,2854,Pune,South,Other,Electronics,Product72,4,2987,11948,No,6,2
+556,2024-03-16,2854,Bengaluru,East,Other,Sports,Product33,3,504,1512,No,1,1
+557,2024-04-18,2218,Mumbai,NE,Social,Books,Product65,5,3440,17200,No,7,1
+558,2024-03-22,2851,Delhi,East,Mobile App,Books,Product54,2,2240,4480,No,1,3
+559,2024-09-06,1384,Hyderabad,NE,Social,Electronics,Product22,3,4201,12603,No,6,2
+560,2024-09-14,2695,Mumbai,NE,Website,Books,Product70,2,2328,4656,No,7,4
+561,2024-04-21,2650,Kolkata,North,Other,Electronics,Product93,4,2313,9252,No,4,1
+562,2024-06-14,1903,Kolkata,West,Other,Sports,Product88,5,4724,23620,No,7,4
+563,2024-11-04,1434,Delhi,NE,Other,Fashion,Product11,1,3548,3548,No,5,1
+564,2024-02-09,1414,Mumbai,NE,Social,Sports,Product22,2,4389,8778,No,1,2
+565,2024-01-27,2555,Bengaluru,North,Social,Fashion,Product51,4,3172,12688,No,5,2
+566,2024-08-22,2354,Hyderabad,South,Other,Beauty,Product35,2,3866,7732,Yes,7,2
+567,2024-03-01,2180,Kolkata,East,Social,Beauty,Product15,3,4461,13383,Yes,6,2
+568,2024-04-17,1039,Pune,North,Website,Sports,Product25,1,3226,3226,Yes,6,2
+569,2024-09-05,2828,Hyderabad,NE,Social,Beauty,Product34,3,2448,7344,No,4,4
+570,2024-06-10,2587,Delhi,NE,Website,Home,Product32,1,4970,4970,No,5,3
+571,2024-08-04,1489,Pune,South,Website,Sports,Product13,2,4994,9988,No,5,4
+572,2024-12-16,1441,Pune,North,Other,Home,Product96,4,3704,14816,No,5,1
+573,2024-05-09,2422,Kolkata,North,Other,Home,Product60,4,1606,6424,Yes,1,1
+574,2024-08-10,1384,Delhi,West,Mobile App,Electronics,Product2,5,3017,15085,Yes,3,5
+575,2024-10-24,2599,Delhi,South,Website,Sports,Product83,4,4003,16012,No,5,2
+576,2024-08-21,2036,Kolkata,South,Other,Beauty,Product57,5,4381,21905,No,5,1
+577,2024-04-11,1415,Mumbai,East,Website,Fashion,Product31,5,2388,11940,No,1,5
+578,2024-04-27,2459,Bengaluru,East,Other,Beauty,Product36,2,3788,7576,No,5,5
+579,2024-09-19,1447,Pune,West,Other,Beauty,Product68,4,384,1536,No,6,3
+580,2024-04-17,2271,Delhi,West,Website,Home,Product30,1,4135,4135,No,7,1
+581,2024-01-05,2616,Bengaluru,NE,Website,Electronics,Product4,3,2356,7068,No,6,5
+582,2024-10-20,1487,Mumbai,North,Mobile App,Home,Product11,3,957,2871,No,5,1
+583,2024-10-17,2732,Delhi,South,Social,Electronics,Product6,4,1216,4864,No,6,1
+584,2024-12-14,1738,Pune,NE,Other,Beauty,Product98,2,2420,4840,No,1,5
+585,2024-06-10,1889,Delhi,NE,Mobile App,Books,Product57,4,1834,7336,No,7,4
+586,2024-08-04,1230,Mumbai,NE,Mobile App,Home,Product52,3,813,2439,No,4,3
+587,2024-12-21,2196,Bengaluru,NE,Website,Books,Product90,4,1209,4836,No,5,1
+588,2024-08-11,2545,Pune,East,Website,Sports,Product29,3,2215,6645,Yes,6,3
+589,2024-07-15,2001,Mumbai,South,Mobile App,Fashion,Product80,2,1668,3336,No,2,5
+590,2024-09-13,1061,Hyderabad,South,Mobile App,Sports,Product96,5,898,4490,No,5,5
+591,2024-02-23,2929,Pune,North,Other,Home,Product75,4,744,2976,No,4,1
+592,2024-07-22,1847,Delhi,NE,Other,Beauty,Product75,4,4852,19408,No,2,2
+593,2024-10-18,1007,Mumbai,NE,Other,Books,Product86,3,3185,9555,No,2,3
+594,2024-01-26,1638,Pune,NE,Mobile App,Fashion,Product37,1,3821,3821,No,2,4
+595,2024-09-14,2506,Mumbai,North,Mobile App,Fashion,Product7,5,3319,16595,No,1,2
+596,2024-10-01,1611,Delhi,West,Other,Fashion,Product47,3,4169,12507,Yes,3,5
+597,2024-01-01,1555,Kolkata,East,Website,Books,Product100,1,2311,2311,No,5,2
+598,2024-06-11,2263,Hyderabad,NE,Website,Books,Product77,5,1703,8515,No,3,1
+599,2024-06-03,1470,Delhi,North,Website,Fashion,Product82,5,588,2940,No,2,2
+600,2024-02-24,2333,Delhi,North,Social,Books,Product85,2,3253,6506,No,4,5
+601,2024-02-17,2592,Mumbai,East,Website,Sports,Product75,5,2006,10030,No,1,1
+602,2024-05-08,2273,Pune,South,Website,Electronics,Product48,1,642,642,No,3,2
+603,2024-07-15,2446,Delhi,East,Website,Fashion,Product66,2,4049,8098,No,3,3
+604,2024-05-04,1644,Bengaluru,West,Website,Sports,Product20,5,2750,13750,No,6,1
+605,2024-05-24,2707,Delhi,North,Mobile App,Electronics,Product21,2,4774,9548,No,7,1
+606,2024-05-06,2896,Mumbai,NE,Other,Home,Product16,4,254,1016,No,3,4
+607,2024-07-13,2633,Bengaluru,South,Website,Books,Product93,1,791,791,No,6,3
+608,2024-08-11,1904,Mumbai,East,Website,Beauty,Product96,1,3187,3187,No,7,4
+609,2024-02-20,2913,Mumbai,East,Social,Electronics,Product59,5,4539,22695,No,3,4
+610,2024-02-20,2167,Kolkata,South,Other,Sports,Product62,1,3145,3145,No,3,4
+611,2024-07-21,2086,Kolkata,South,Website,Books,Product61,1,215,215,No,7,1
+612,2024-06-06,1994,Bengaluru,South,Social,Sports,Product81,5,1140,5700,No,1,4
+613,2024-05-10,2429,Kolkata,East,Mobile App,Beauty,Product52,4,4398,17592,No,3,3
+614,2024-02-15,2647,Kolkata,North,Website,Electronics,Product29,4,2762,11048,No,7,3
+615,2024-04-24,1166,Delhi,South,Website,Beauty,Product64,5,1212,6060,No,5,5
+616,2024-12-06,1535,Bengaluru,West,Mobile App,Fashion,Product34,1,1211,1211,No,2,5
+617,2024-05-06,1130,Pune,NE,Mobile App,Electronics,Product19,4,1211,4844,No,3,1
+618,2024-03-10,1740,Bengaluru,West,Social,Fashion,Product38,3,3644,10932,No,7,3
+619,2024-04-05,1453,Pune,NE,Website,Fashion,Product58,5,936,4680,Yes,4,2
+620,2024-12-15,1207,Hyderabad,East,Mobile App,Books,Product100,1,455,455,No,1,2
+621,2024-06-11,2073,Mumbai,North,Mobile App,Home,Product61,5,2068,10340,No,6,4
+622,2024-01-02,1271,Bengaluru,NE,Social,Books,Product70,5,4052,20260,No,6,4
+623,2024-02-20,1336,Delhi,West,Other,Fashion,Product31,2,846,1692,No,5,3
+624,2024-06-11,1732,Delhi,East,Other,Sports,Product28,3,3867,11601,No,7,3
+625,2024-12-12,1236,Kolkata,East,Other,Sports,Product19,2,3774,7548,No,4,1
+626,2024-01-17,2236,Delhi,North,Other,Beauty,Product77,2,2229,4458,Yes,5,4
+627,2024-12-08,1697,Pune,East,Mobile App,Fashion,Product52,4,211,844,No,2,2
+628,2024-06-21,2689,Delhi,East,Social,Fashion,Product18,2,2486,4972,Yes,3,4
+629,2024-01-24,2940,Hyderabad,South,Website,Books,Product57,2,2663,5326,Yes,1,5
+630,2024-08-04,2916,Pune,West,Mobile App,Electronics,Product20,3,1206,3618,No,4,5
+631,2024-09-28,2054,Delhi,West,Social,Fashion,Product57,4,1986,7944,No,6,1
+632,2024-09-19,1088,Hyderabad,North,Website,Electronics,Product28,1,2420,2420,No,7,1
+633,2024-05-07,2328,Pune,NE,Mobile App,Books,Product17,2,4525,9050,No,4,3
+634,2024-09-25,2395,Mumbai,NE,Mobile App,Fashion,Product54,3,616,1848,No,1,3
+635,2024-10-28,2039,Hyderabad,NE,Website,Beauty,Product17,3,1281,3843,No,1,1
+636,2024-05-19,2176,Bengaluru,East,Website,Beauty,Product83,1,1490,1490,No,2,3
+637,2024-09-15,1957,Bengaluru,North,Mobile App,Fashion,Product13,1,2732,2732,No,7,2
+638,2024-11-17,2657,Pune,West,Social,Home,Product81,2,2037,4074,No,2,2
+639,2024-04-24,2939,Delhi,South,Social,Fashion,Product33,2,648,1296,No,2,2
+640,2024-12-04,1370,Hyderabad,South,Social,Beauty,Product59,4,2241,8964,No,3,3
+641,2024-04-01,2655,Kolkata,East,Website,Fashion,Product33,1,944,944,No,1,1
+642,2024-02-24,1456,Kolkata,NE,Website,Sports,Product53,3,894,2682,No,1,4
+643,2024-01-16,2095,Hyderabad,NE,Social,Electronics,Product2,1,688,688,No,3,5
+644,2024-11-24,1554,Bengaluru,South,Social,Home,Product14,1,3454,3454,No,7,4
+645,2024-09-16,2596,Mumbai,North,Social,Books,Product52,1,1680,1680,No,4,4
+646,2024-07-13,1276,Kolkata,North,Social,Home,Product61,5,1576,7880,No,3,3
+647,2024-09-15,1354,Kolkata,North,Social,Fashion,Product89,3,3583,10749,No,7,4
+648,2024-04-05,2155,Kolkata,South,Other,Fashion,Product15,1,4242,4242,No,5,5
+649,2024-10-09,2199,Kolkata,NE,Other,Electronics,Product13,3,1388,4164,No,5,3
+650,2024-05-14,2726,Pune,West,Other,Beauty,Product80,5,2180,10900,No,4,2
+651,2024-06-16,2809,Kolkata,East,Other,Fashion,Product80,2,2784,5568,No,6,2
+652,2024-07-18,1994,Kolkata,East,Social,Fashion,Product11,3,3025,9075,No,6,3
+653,2024-09-06,1153,Delhi,West,Other,Home,Product46,5,1384,6920,No,4,4
+654,2024-07-13,2894,Delhi,South,Other,Sports,Product62,3,1035,3105,No,3,2
+655,2024-08-18,2869,Hyderabad,East,Website,Sports,Product42,2,4166,8332,No,6,1
+656,2024-07-02,2287,Mumbai,East,Mobile App,Beauty,Product22,2,598,1196,No,5,2
+657,2024-12-09,1702,Pune,NE,Other,Fashion,Product28,1,3354,3354,No,1,2
+658,2024-04-15,2246,Bengaluru,NE,Website,Home,Product1,1,4230,4230,No,6,5
+659,2024-04-03,1985,Hyderabad,North,Website,Beauty,Product72,3,4748,14244,Yes,6,2
+660,2024-07-18,1144,Bengaluru,West,Social,Beauty,Product63,1,2603,2603,No,4,2
+661,2024-06-15,2425,Mumbai,North,Website,Books,Product14,2,3807,7614,Yes,7,5
+662,2024-03-18,2650,Mumbai,East,Social,Books,Product52,1,2867,2867,No,6,1
+663,2024-05-17,1779,Hyderabad,North,Other,Home,Product15,2,649,1298,No,5,4
+664,2024-12-08,2357,Bengaluru,South,Website,Sports,Product24,2,4173,8346,No,5,4
+665,2024-09-24,1402,Hyderabad,North,Other,Books,Product80,3,4007,12021,No,7,4
+666,2024-03-12,2026,Kolkata,North,Mobile App,Fashion,Product84,4,4925,19700,No,2,2
+667,2024-03-05,2094,Mumbai,South,Website,Books,Product18,5,2374,11870,No,1,2
+668,2024-10-17,2527,Mumbai,East,Other,Electronics,Product73,3,1705,5115,No,6,3
+669,2024-08-25,2464,Kolkata,South,Website,Fashion,Product86,1,4839,4839,No,2,3
+670,2024-07-22,2498,Mumbai,East,Mobile App,Home,Product54,2,4360,8720,No,3,2
+671,2024-04-22,1113,Pune,NE,Mobile App,Beauty,Product53,3,457,1371,No,5,1
+672,2024-08-28,1260,Kolkata,East,Other,Books,Product90,4,600,2400,Yes,6,2
+673,2024-05-21,2407,Mumbai,NE,Other,Sports,Product44,1,3835,3835,No,7,1
+674,2024-02-02,1008,Bengaluru,North,Mobile App,Sports,Product90,2,3588,7176,No,4,1
+675,2024-02-05,2750,Mumbai,South,Website,Home,Product10,5,749,3745,No,6,4
+676,2024-03-25,1717,Bengaluru,West,Website,Fashion,Product81,3,218,654,No,4,2
+677,2024-10-08,1381,Delhi,West,Website,Electronics,Product34,5,3136,15680,No,7,4
+678,2024-05-02,1097,Kolkata,West,Other,Home,Product17,3,1767,5301,No,2,1
+679,2024-12-15,1728,Pune,South,Website,Home,Product74,1,4491,4491,No,6,4
+680,2024-04-06,1784,Mumbai,NE,Other,Beauty,Product30,2,895,1790,No,5,3
+681,2024-03-21,2251,Mumbai,North,Other,Sports,Product96,3,2393,7179,No,1,4
+682,2024-06-07,1038,Bengaluru,North,Social,Home,Product8,2,1926,3852,No,4,5
+683,2024-07-16,2143,Mumbai,East,Website,Books,Product2,1,2898,2898,No,6,2
+684,2024-10-21,2137,Hyderabad,NE,Website,Books,Product47,1,1750,1750,No,5,1
+685,2024-04-10,1701,Kolkata,NE,Other,Home,Product3,3,2762,8286,No,2,4
+686,2024-01-22,2096,Kolkata,West,Website,Beauty,Product5,2,1179,2358,No,6,2
+687,2024-01-11,1276,Delhi,East,Mobile App,Home,Product96,5,4430,22150,No,1,5
+688,2024-07-10,1703,Hyderabad,North,Other,Home,Product5,4,3788,15152,Yes,3,1
+689,2024-10-20,2717,Hyderabad,East,Mobile App,Home,Product74,3,3616,10848,No,4,2
+690,2024-03-21,2150,Mumbai,East,Social,Beauty,Product45,1,4668,4668,No,3,5
+691,2024-07-28,1321,Pune,North,Website,Electronics,Product96,2,588,1176,No,1,4
+692,2024-10-14,1451,Pune,North,Mobile App,Sports,Product46,1,2257,2257,No,1,1
+693,2024-01-03,1708,Hyderabad,East,Website,Books,Product20,2,3025,6050,No,7,1
+694,2024-10-19,2194,Bengaluru,East,Website,Home,Product63,4,2008,8032,No,2,5
+695,2024-08-20,1582,Mumbai,West,Website,Electronics,Product56,2,2088,4176,Yes,5,3
+696,2024-03-08,1892,Kolkata,West,Social,Books,Product29,1,3308,3308,No,6,1
+697,2024-02-02,2731,Delhi,South,Other,Books,Product72,4,3074,12296,No,3,5
+698,2024-07-04,2775,Kolkata,West,Website,Books,Product48,4,4261,17044,No,6,4
+699,2024-08-15,1641,Mumbai,NE,Other,Beauty,Product72,4,2590,10360,No,4,1
+700,2024-02-01,2470,Mumbai,East,Mobile App,Home,Product46,4,4876,19504,No,6,1
+701,2024-02-25,1183,Kolkata,South,Website,Beauty,Product59,4,1959,7836,No,3,5
+702,2024-02-08,2396,Bengaluru,East,Website,Beauty,Product65,2,3412,6824,No,1,1
+703,2024-01-16,2943,Mumbai,West,Website,Electronics,Product35,5,4560,22800,No,6,1
+704,2024-04-05,1569,Kolkata,West,Mobile App,Electronics,Product1,4,2960,11840,No,7,1
+705,2024-08-26,2953,Delhi,East,Social,Home,Product3,2,1315,2630,No,4,5
+706,2024-09-17,1250,Kolkata,North,Other,Fashion,Product31,3,1644,4932,No,7,5
+707,2024-12-10,2444,Pune,East,Social,Electronics,Product49,1,4974,4974,No,3,3
+708,2024-09-05,1193,Bengaluru,East,Social,Fashion,Product39,4,3158,12632,No,3,3
+709,2024-09-24,2946,Mumbai,NE,Other,Beauty,Product31,4,2660,10640,No,7,3
+710,2024-04-11,2042,Bengaluru,NE,Other,Home,Product42,4,3489,13956,No,4,5
+711,2024-03-16,1155,Kolkata,South,Website,Books,Product37,5,2697,13485,No,2,4
+712,2024-04-23,2232,Kolkata,South,Website,Sports,Product19,4,1584,6336,No,1,4
+713,2024-06-17,1140,Mumbai,East,Other,Sports,Product96,2,1935,3870,No,4,2
+714,2024-12-28,2689,Pune,South,Website,Home,Product32,2,245,490,Yes,6,4
+715,2024-09-10,1431,Bengaluru,East,Mobile App,Home,Product60,1,290,290,Yes,3,5
+716,2024-07-03,1828,Mumbai,West,Website,Home,Product7,1,4068,4068,No,2,4
+717,2024-09-17,1127,Hyderabad,East,Mobile App,Home,Product50,3,2748,8244,No,5,3
+718,2024-03-17,2656,Pune,NE,Website,Fashion,Product88,3,4651,13953,No,3,4
+719,2024-12-16,2646,Delhi,West,Social,Home,Product68,1,4118,4118,No,5,1
+720,2024-12-17,2886,Mumbai,North,Mobile App,Fashion,Product23,2,1868,3736,No,7,2
+721,2024-02-06,2377,Kolkata,South,Social,Home,Product91,4,1354,5416,Yes,1,5
+722,2024-11-01,1527,Delhi,NE,Other,Books,Product29,4,317,1268,No,5,3
+723,2024-08-06,1566,Hyderabad,North,Website,Electronics,Product37,4,4996,19984,No,4,3
+724,2024-11-20,2622,Kolkata,NE,Social,Home,Product21,1,4213,4213,No,2,5
+725,2024-07-18,1660,Mumbai,South,Social,Home,Product5,2,4105,8210,No,1,3
+726,2024-07-14,2550,Bengaluru,East,Other,Beauty,Product93,4,412,1648,No,6,2
+727,2024-09-23,2133,Kolkata,South,Other,Home,Product52,1,3292,3292,No,4,1
+728,2024-05-24,1026,Mumbai,NE,Website,Home,Product3,4,2805,11220,No,3,3
+729,2024-12-23,1166,Bengaluru,North,Website,Home,Product16,2,1549,3098,No,1,1
+730,2024-08-23,1739,Delhi,East,Mobile App,Books,Product24,3,1023,3069,Yes,6,4
+731,2024-07-02,2297,Hyderabad,West,Mobile App,Sports,Product96,3,4996,14988,No,2,2
+732,2024-02-10,2509,Hyderabad,North,Website,Electronics,Product48,3,3603,10809,No,4,2
+733,2024-03-07,1550,Hyderabad,West,Other,Books,Product53,5,3463,17315,No,6,5
+734,2024-02-05,1842,Pune,West,Social,Books,Product95,4,704,2816,No,3,5
+735,2024-07-18,1854,Bengaluru,NE,Mobile App,Sports,Product18,4,2786,11144,No,3,1
+736,2024-08-16,1981,Pune,NE,Other,Electronics,Product67,4,2201,8804,No,6,1
+737,2024-04-21,1066,Delhi,South,Website,Electronics,Product68,1,1126,1126,Yes,5,4
+738,2024-12-15,2309,Hyderabad,South,Social,Sports,Product15,3,4961,14883,No,2,5
+739,2024-06-20,1683,Mumbai,East,Website,Books,Product58,4,459,1836,No,5,2
+740,2024-02-16,1838,Bengaluru,NE,Website,Home,Product21,1,4434,4434,No,4,4
+741,2024-06-08,1298,Mumbai,West,Social,Fashion,Product25,2,577,1154,No,7,3
+742,2024-12-13,2913,Delhi,West,Social,Fashion,Product1,5,483,2415,No,1,1
+743,2024-03-25,2468,Hyderabad,North,Mobile App,Sports,Product88,4,4966,19864,No,3,4
+744,2024-03-22,2214,Delhi,NE,Mobile App,Fashion,Product35,3,4553,13659,No,2,1
+745,2024-09-05,1799,Hyderabad,East,Mobile App,Fashion,Product95,3,1589,4767,No,7,5
+746,2024-09-02,2515,Mumbai,North,Other,Sports,Product69,4,1620,6480,Yes,4,3
+747,2024-07-14,1004,Kolkata,West,Other,Fashion,Product13,3,3922,11766,No,1,3
+748,2024-12-08,2723,Delhi,West,Website,Electronics,Product69,5,4587,22935,No,4,2
+749,2024-11-01,2406,Delhi,NE,Other,Beauty,Product10,1,4237,4237,Yes,6,2
+750,2024-08-19,1048,Bengaluru,NE,Mobile App,Sports,Product53,3,343,1029,No,6,2
+751,2024-04-16,2574,Kolkata,NE,Other,Electronics,Product78,2,2228,4456,No,2,5
+752,2024-10-05,1610,Bengaluru,North,Social,Books,Product30,3,931,2793,No,6,5
+753,2024-02-17,1683,Pune,NE,Mobile App,Beauty,Product73,1,1665,1665,No,4,1
+754,2024-01-15,2452,Bengaluru,East,Other,Beauty,Product50,3,1334,4002,No,5,3
+755,2024-06-19,2291,Kolkata,North,Other,Fashion,Product17,5,3954,19770,No,6,5
+756,2024-01-05,2592,Mumbai,West,Other,Beauty,Product73,4,4787,19148,Yes,5,5
+757,2024-01-03,1743,Hyderabad,NE,Mobile App,Books,Product85,2,3914,7828,No,5,3
+758,2024-05-07,1831,Bengaluru,West,Mobile App,Home,Product69,1,3517,3517,No,5,2
+759,2024-10-02,1702,Hyderabad,East,Mobile App,Home,Product89,1,1999,1999,No,6,5
+760,2024-04-27,1042,Bengaluru,North,Social,Sports,Product23,1,569,569,No,6,1
+761,2024-08-24,2200,Hyderabad,East,Mobile App,Home,Product50,3,498,1494,No,2,1
+762,2024-12-18,2028,Bengaluru,West,Social,Books,Product37,5,4036,20180,No,3,2
+763,2024-09-24,2930,Kolkata,South,Mobile App,Books,Product69,3,1173,3519,No,7,3
+764,2024-11-15,1304,Pune,NE,Mobile App,Beauty,Product94,5,2019,10095,No,6,2
+765,2024-06-21,1583,Hyderabad,South,Other,Books,Product28,1,245,245,No,6,5
+766,2024-04-02,1412,Hyderabad,East,Website,Sports,Product19,5,1207,6035,No,1,3
+767,2024-06-23,1192,Mumbai,North,Social,Beauty,Product46,1,1401,1401,Yes,1,2
+768,2024-08-23,1313,Delhi,NE,Mobile App,Home,Product88,4,2924,11696,No,1,5
+769,2024-08-18,1239,Pune,North,Social,Fashion,Product51,2,1780,3560,Yes,2,5
+770,2024-11-25,2543,Delhi,South,Social,Home,Product2,4,2098,8392,No,2,1
+771,2024-02-02,2477,Kolkata,North,Website,Electronics,Product30,3,2937,8811,Yes,1,4
+772,2024-04-17,1909,Kolkata,West,Mobile App,Beauty,Product28,5,3315,16575,No,7,5
+773,2024-01-06,2337,Bengaluru,South,Other,Fashion,Product40,2,280,560,No,4,3
+774,2024-02-02,1707,Delhi,North,Other,Home,Product12,3,1307,3921,No,5,3
+775,2024-03-01,1402,Hyderabad,West,Mobile App,Sports,Product52,4,3209,12836,No,7,4
+776,2024-06-27,2273,Mumbai,NE,Mobile App,Fashion,Product92,5,1103,5515,No,4,2
+777,2024-05-18,1707,Mumbai,West,Other,Beauty,Product56,5,3192,15960,No,2,1
+778,2024-11-22,1134,Bengaluru,North,Other,Books,Product76,3,3588,10764,No,5,3
+779,2024-11-22,2509,Hyderabad,North,Website,Books,Product14,4,1588,6352,No,1,3
+780,2024-07-24,2076,Pune,South,Social,Books,Product13,1,1928,1928,No,6,1
+781,2024-08-13,2453,Hyderabad,NE,Website,Sports,Product45,1,1863,1863,Yes,6,3
+782,2024-02-07,2313,Delhi,North,Mobile App,Sports,Product99,5,3711,18555,Yes,2,4
+783,2024-01-01,2341,Kolkata,East,Website,Sports,Product39,3,2760,8280,Yes,2,3
+784,2024-06-28,2634,Pune,West,Website,Sports,Product38,2,4281,8562,No,7,1
+785,2024-03-12,1705,Pune,North,Mobile App,Sports,Product30,2,4119,8238,Yes,7,5
+786,2024-01-18,1260,Delhi,NE,Mobile App,Sports,Product84,1,1886,1886,Yes,3,2
+787,2024-01-27,2415,Hyderabad,East,Mobile App,Electronics,Product62,4,3574,14296,No,1,2
+788,2024-06-02,2161,Delhi,North,Other,Beauty,Product56,2,524,1048,No,1,4
+789,2024-06-16,1959,Delhi,North,Website,Home,Product68,5,3192,15960,No,7,4
+790,2024-09-26,2746,Hyderabad,South,Mobile App,Beauty,Product3,5,376,1880,No,3,3
+791,2024-01-19,2069,Mumbai,South,Mobile App,Electronics,Product30,5,4653,23265,No,4,5
+792,2024-02-14,1082,Mumbai,South,Other,Fashion,Product43,4,4206,16824,No,5,3
+793,2024-06-02,1111,Hyderabad,West,Website,Fashion,Product73,5,1127,5635,No,6,1
+794,2024-09-26,1184,Pune,NE,Website,Beauty,Product80,4,1692,6768,No,7,3
+795,2024-06-05,2640,Kolkata,North,Social,Books,Product85,2,774,1548,No,1,1
+796,2024-02-10,2656,Pune,South,Social,Home,Product21,1,2463,2463,No,7,3
+797,2024-02-19,1543,Pune,North,Other,Electronics,Product94,5,615,3075,No,2,2
+798,2024-10-07,2436,Mumbai,East,Mobile App,Beauty,Product10,4,1833,7332,No,6,1
+799,2024-02-17,1880,Hyderabad,East,Mobile App,Home,Product83,4,4090,16360,No,7,3
+800,2024-06-28,1331,Hyderabad,South,Social,Home,Product77,3,2219,6657,Yes,1,2
+801,2024-08-06,1247,Kolkata,NE,Social,Fashion,Product7,1,2045,2045,No,1,4
+802,2024-02-11,2538,Mumbai,East,Mobile App,Electronics,Product91,5,2774,13870,No,5,5
+803,2024-11-25,1407,Delhi,South,Other,Electronics,Product3,5,1628,8140,No,6,5
+804,2024-01-07,1880,Kolkata,NE,Other,Fashion,Product29,1,2870,2870,No,6,3
+805,2024-04-26,1897,Delhi,North,Mobile App,Books,Product57,2,4668,9336,No,5,4
+806,2024-09-06,1351,Hyderabad,West,Mobile App,Fashion,Product96,2,2596,5192,No,1,4
+807,2024-09-01,1342,Delhi,North,Other,Fashion,Product56,1,2881,2881,No,3,5
+808,2024-07-06,1950,Pune,South,Mobile App,Home,Product38,1,4025,4025,No,1,3
+809,2024-10-28,2859,Pune,East,Other,Sports,Product55,3,3475,10425,Yes,6,4
+810,2024-04-13,2759,Pune,West,Social,Home,Product49,2,3052,6104,No,5,4
+811,2024-03-12,2895,Kolkata,East,Mobile App,Beauty,Product97,4,2785,11140,No,2,4
+812,2024-12-19,1961,Pune,South,Other,Sports,Product39,2,3409,6818,No,4,5
+813,2024-07-12,1941,Delhi,South,Social,Home,Product69,3,1881,5643,No,5,3
+814,2024-03-08,2371,Bengaluru,West,Other,Sports,Product67,3,863,2589,No,3,3
+815,2024-10-12,1135,Delhi,NE,Social,Fashion,Product35,3,2484,7452,No,7,3
+816,2024-06-14,2821,Delhi,NE,Mobile App,Fashion,Product20,1,3315,3315,No,5,3
+817,2024-11-10,2062,Bengaluru,East,Mobile App,Beauty,Product64,2,1386,2772,No,3,3
+818,2024-07-01,1396,Delhi,South,Social,Beauty,Product60,4,4837,19348,No,2,5
+819,2024-08-21,2991,Mumbai,North,Mobile App,Sports,Product55,3,2455,7365,No,7,3
+820,2024-02-02,1553,Mumbai,NE,Website,Home,Product51,5,1975,9875,Yes,7,4
+821,2024-07-26,1498,Hyderabad,North,Other,Electronics,Product11,4,2983,11932,No,3,5
+822,2024-03-12,1401,Mumbai,South,Other,Fashion,Product81,1,1125,1125,No,6,1
+823,2024-09-05,2558,Hyderabad,North,Website,Home,Product29,3,4380,13140,No,2,2
+824,2024-03-08,2322,Kolkata,North,Website,Electronics,Product19,4,2979,11916,No,7,5
+825,2024-12-08,2510,Kolkata,South,Website,Books,Product14,3,2332,6996,Yes,5,4
+826,2024-02-18,1314,Delhi,West,Social,Books,Product8,1,866,866,No,4,2
+827,2024-12-05,2520,Delhi,South,Website,Fashion,Product47,3,3293,9879,No,5,1
+828,2024-12-08,2492,Mumbai,NE,Mobile App,Electronics,Product19,1,3044,3044,Yes,1,1
+829,2024-09-10,1479,Delhi,South,Website,Fashion,Product52,5,1904,9520,No,4,3
+830,2024-07-21,1541,Pune,West,Other,Fashion,Product13,3,775,2325,No,1,1
+831,2024-08-13,2842,Bengaluru,South,Other,Home,Product98,4,2027,8108,No,4,2
+832,2024-03-28,2307,Hyderabad,South,Website,Books,Product55,3,1827,5481,No,2,2
+833,2024-02-15,2429,Hyderabad,NE,Mobile App,Sports,Product15,3,1636,4908,No,2,3
+834,2024-08-04,1619,Mumbai,East,Website,Electronics,Product100,3,4256,12768,No,7,1
+835,2024-02-25,1397,Hyderabad,South,Mobile App,Fashion,Product98,3,1846,5538,No,7,4
+836,2024-06-17,2137,Delhi,South,Social,Electronics,Product54,2,635,1270,No,3,3
+837,2024-12-15,2736,Kolkata,South,Website,Electronics,Product82,2,673,1346,No,6,5
+838,2024-09-12,1469,Bengaluru,South,Social,Electronics,Product74,2,2033,4066,No,1,5
+839,2024-09-15,1586,Hyderabad,NE,Other,Sports,Product42,1,1049,1049,No,4,2
+840,2024-10-20,2581,Pune,North,Social,Sports,Product84,5,1112,5560,No,6,2
+841,2024-02-18,2082,Pune,South,Social,Sports,Product39,1,3780,3780,No,2,1
+842,2024-08-28,2063,Bengaluru,East,Mobile App,Books,Product27,2,4104,8208,No,2,4
+843,2024-12-11,2136,Pune,West,Other,Sports,Product28,1,2889,2889,Yes,2,4
+844,2024-01-01,1429,Mumbai,West,Website,Fashion,Product65,3,924,2772,Yes,7,3
+845,2024-09-08,2100,Pune,East,Social,Books,Product74,5,3547,17735,No,1,5
+846,2024-12-23,1962,Bengaluru,North,Social,Home,Product23,1,4316,4316,No,4,4
+847,2024-08-13,1101,Mumbai,East,Other,Electronics,Product24,2,599,1198,No,7,2
+848,2024-10-27,1293,Mumbai,North,Website,Sports,Product84,2,2870,5740,No,3,1
+849,2024-04-05,2447,Mumbai,South,Social,Fashion,Product14,1,4352,4352,No,7,2
+850,2024-01-07,1042,Pune,West,Mobile App,Home,Product71,4,1782,7128,No,1,1
+851,2024-04-08,1602,Bengaluru,West,Website,Fashion,Product24,5,4914,24570,Yes,4,4
+852,2024-11-20,2440,Pune,East,Other,Books,Product42,2,4642,9284,No,5,2
+853,2024-05-04,1703,Delhi,South,Social,Fashion,Product2,5,3392,16960,No,3,4
+854,2024-06-27,2390,Delhi,South,Mobile App,Sports,Product65,1,1427,1427,No,2,3
+855,2024-10-04,1613,Pune,NE,Social,Home,Product73,4,2242,8968,No,2,5
+856,2024-12-26,1182,Delhi,East,Mobile App,Beauty,Product61,2,1133,2266,No,2,4
+857,2024-07-08,2323,Mumbai,North,Website,Home,Product68,5,2111,10555,Yes,1,3
+858,2024-09-27,1290,Mumbai,South,Other,Books,Product5,3,1901,5703,No,1,4
+859,2024-11-28,2337,Hyderabad,North,Website,Beauty,Product90,5,1972,9860,No,5,3
+860,2024-03-23,1011,Mumbai,NE,Mobile App,Books,Product95,5,2930,14650,No,4,3
+861,2024-09-19,2133,Pune,North,Mobile App,Beauty,Product71,2,633,1266,No,2,3
+862,2024-05-24,2561,Bengaluru,East,Other,Home,Product65,1,2211,2211,No,6,4
+863,2024-12-06,1589,Mumbai,North,Social,Electronics,Product18,1,958,958,Yes,7,5
+864,2024-09-15,2339,Kolkata,East,Mobile App,Sports,Product36,5,2982,14910,No,5,4
+865,2024-12-14,1439,Kolkata,South,Other,Home,Product13,2,794,1588,Yes,1,3
+866,2024-01-05,1911,Bengaluru,South,Social,Books,Product89,3,1599,4797,Yes,4,1
+867,2024-05-08,2999,Pune,East,Social,Beauty,Product35,3,3163,9489,Yes,4,2
+868,2024-04-11,2648,Pune,East,Mobile App,Home,Product72,2,1316,2632,No,6,1
+869,2024-11-27,1810,Bengaluru,East,Website,Sports,Product5,4,2274,9096,No,6,1
+870,2024-06-22,1393,Pune,NE,Mobile App,Sports,Product12,3,4296,12888,No,1,5
+871,2024-04-16,2556,Mumbai,East,Other,Home,Product15,4,3373,13492,No,3,1
+872,2024-12-25,1226,Bengaluru,NE,Other,Beauty,Product27,3,4125,12375,No,1,3
+873,2024-11-08,2064,Delhi,North,Social,Fashion,Product82,3,2327,6981,No,5,4
+874,2024-08-25,1591,Delhi,North,Website,Home,Product15,3,2540,7620,No,1,1
+875,2024-08-11,2909,Delhi,West,Mobile App,Electronics,Product13,4,2783,11132,No,5,4
+876,2024-06-15,1917,Mumbai,NE,Mobile App,Fashion,Product22,4,2595,10380,No,5,3
+877,2024-11-27,1632,Delhi,East,Other,Fashion,Product46,5,2124,10620,No,5,3
+878,2024-10-07,2861,Hyderabad,West,Mobile App,Electronics,Product1,2,4672,9344,No,6,2
+879,2024-10-04,1725,Delhi,North,Other,Home,Product68,1,650,650,Yes,7,2
+880,2024-10-01,2907,Bengaluru,South,Social,Fashion,Product1,2,4106,8212,No,1,3
+881,2024-10-20,2595,Bengaluru,NE,Other,Home,Product38,3,4644,13932,No,5,3
+882,2024-10-23,2317,Delhi,East,Mobile App,Sports,Product56,3,3006,9018,No,3,1
+883,2024-09-17,2386,Pune,North,Other,Books,Product33,3,3437,10311,No,5,2
+884,2024-07-15,2935,Bengaluru,NE,Mobile App,Books,Product78,2,2425,4850,No,2,2
+885,2024-08-05,1396,Pune,NE,Other,Beauty,Product34,4,1442,5768,No,5,4
+886,2024-03-06,1413,Kolkata,West,Website,Beauty,Product56,3,1004,3012,No,6,1
+887,2024-01-19,2660,Kolkata,NE,Social,Home,Product71,4,774,3096,No,2,1
+888,2024-12-15,2612,Hyderabad,NE,Website,Fashion,Product94,5,1587,7935,No,4,5
+889,2024-03-03,2091,Pune,South,Other,Books,Product47,2,3428,6856,No,7,4
+890,2024-04-03,2783,Delhi,West,Social,Home,Product100,1,4605,4605,No,3,4
+891,2024-05-08,2120,Kolkata,South,Other,Books,Product86,2,1854,3708,No,2,5
+892,2024-11-28,2847,Kolkata,West,Other,Beauty,Product95,3,2847,8541,No,4,1
+893,2024-04-18,2622,Kolkata,East,Website,Books,Product37,3,4400,13200,No,2,2
+894,2024-09-25,1000,Pune,West,Website,Electronics,Product3,3,2250,6750,Yes,1,2
+895,2024-10-23,2180,Mumbai,South,Social,Electronics,Product25,2,2739,5478,No,1,2
+896,2024-10-12,1577,Mumbai,North,Mobile App,Home,Product26,1,3418,3418,No,6,4
+897,2024-02-06,2163,Bengaluru,South,Social,Fashion,Product82,5,239,1195,No,7,1
+898,2024-10-09,1083,Bengaluru,South,Social,Fashion,Product57,2,4027,8054,No,5,4
+899,2024-10-07,2392,Mumbai,South,Other,Electronics,Product91,2,2530,5060,No,5,2
+900,2024-09-22,1649,Kolkata,NE,Social,Fashion,Product8,5,2269,11345,No,7,1
+901,2024-01-17,2127,Delhi,NE,Website,Books,Product85,3,1958,5874,No,5,5
+902,2024-11-21,2907,Delhi,North,Other,Sports,Product10,5,2329,11645,Yes,4,2
+903,2024-06-18,1460,Delhi,West,Social,Home,Product21,3,262,786,No,4,4
+904,2024-05-07,1105,Hyderabad,North,Social,Home,Product57,1,3584,3584,Yes,4,2
+905,2024-10-15,2383,Hyderabad,West,Other,Books,Product34,5,212,1060,No,6,2
+906,2024-11-06,1569,Delhi,East,Social,Home,Product54,3,3441,10323,No,4,3
+907,2024-10-28,2578,Bengaluru,West,Social,Beauty,Product97,2,4507,9014,No,3,5
+908,2024-03-02,1665,Kolkata,South,Mobile App,Fashion,Product96,5,713,3565,No,2,1
+909,2024-05-14,1377,Mumbai,South,Website,Home,Product46,3,4681,14043,No,6,5
+910,2024-11-15,1813,Bengaluru,NE,Other,Beauty,Product43,1,3723,3723,No,6,5
+911,2024-09-02,1025,Delhi,North,Other,Beauty,Product91,5,3796,18980,No,1,5
+912,2024-08-05,2297,Bengaluru,NE,Mobile App,Books,Product13,1,500,500,No,7,3
+913,2024-05-12,2965,Kolkata,North,Website,Sports,Product75,1,878,878,No,7,5
+914,2024-01-01,2369,Bengaluru,NE,Social,Home,Product72,5,2854,14270,No,2,2
+915,2024-10-13,2742,Kolkata,East,Mobile App,Beauty,Product81,4,3796,15184,No,3,2
+916,2024-10-03,2344,Hyderabad,South,Website,Beauty,Product70,4,3158,12632,No,4,2
+917,2024-07-20,1484,Delhi,West,Other,Books,Product32,3,1282,3846,No,5,5
+918,2024-12-21,2420,Mumbai,East,Social,Sports,Product50,5,2665,13325,No,5,5
+919,2024-11-26,1382,Pune,NE,Mobile App,Beauty,Product4,3,2235,6705,No,3,3
+920,2024-04-13,2890,Pune,West,Mobile App,Sports,Product18,4,4922,19688,No,5,5
+921,2024-03-12,1801,Delhi,North,Other,Sports,Product88,2,3977,7954,No,6,1
+922,2024-12-11,1192,Delhi,West,Website,Fashion,Product86,2,3559,7118,No,6,2
+923,2024-10-12,1304,Bengaluru,North,Website,Fashion,Product26,2,4624,9248,No,1,3
+924,2024-07-18,2839,Mumbai,South,Mobile App,Beauty,Product99,1,344,344,No,1,4
+925,2024-03-27,2071,Hyderabad,NE,Other,Fashion,Product76,3,318,954,No,7,5
+926,2024-03-08,1793,Bengaluru,South,Social,Electronics,Product64,2,1332,2664,Yes,4,2
+927,2024-11-23,2148,Mumbai,NE,Mobile App,Electronics,Product72,1,3976,3976,No,1,5
+928,2024-02-12,2986,Mumbai,South,Other,Beauty,Product77,1,2751,2751,No,4,1
+929,2024-09-20,2326,Pune,South,Other,Fashion,Product83,3,1264,3792,Yes,4,3
+930,2024-03-20,1254,Mumbai,North,Other,Sports,Product99,1,4527,4527,No,1,1
+931,2024-06-20,1751,Mumbai,East,Website,Books,Product26,3,4636,13908,No,7,5
+932,2024-02-10,2207,Hyderabad,South,Other,Sports,Product71,5,4358,21790,No,4,2
+933,2024-08-04,1981,Mumbai,West,Mobile App,Home,Product12,1,1058,1058,No,3,2
+934,2024-10-04,2230,Bengaluru,North,Other,Home,Product55,1,1188,1188,No,5,5
+935,2024-01-14,1892,Mumbai,East,Other,Home,Product26,1,1507,1507,No,2,4
+936,2024-05-27,1200,Kolkata,North,Other,Books,Product40,2,4706,9412,No,1,5
+937,2024-02-21,2170,Delhi,South,Other,Sports,Product75,4,2215,8860,No,6,1
+938,2024-09-01,1173,Mumbai,West,Website,Beauty,Product35,3,4834,14502,No,1,3
+939,2024-09-05,2852,Bengaluru,East,Website,Beauty,Product73,2,3738,7476,No,6,1
+940,2024-01-21,1888,Hyderabad,North,Social,Electronics,Product95,4,2263,9052,Yes,1,3
+941,2024-12-24,2871,Kolkata,West,Other,Beauty,Product52,1,1493,1493,No,5,1
+942,2024-09-19,2726,Bengaluru,North,Social,Books,Product68,1,1933,1933,Yes,1,3
+943,2024-09-08,1924,Bengaluru,West,Social,Electronics,Product56,3,565,1695,No,6,3
+944,2024-01-28,2231,Kolkata,East,Social,Home,Product64,4,4352,17408,No,4,2
+945,2024-11-12,2349,Kolkata,East,Website,Sports,Product23,1,2178,2178,No,2,3
+946,2024-07-06,1806,Hyderabad,South,Website,Home,Product59,5,3374,16870,No,5,5
+947,2024-11-18,1422,Mumbai,East,Website,Books,Product67,1,4530,4530,No,7,5
+948,2024-05-13,1878,Delhi,South,Social,Beauty,Product71,5,1640,8200,No,4,4
+949,2024-03-21,2851,Delhi,East,Mobile App,Sports,Product83,3,2729,8187,No,6,4
+950,2024-02-03,1868,Mumbai,NE,Website,Electronics,Product21,1,1728,1728,Yes,7,5
+951,2024-11-25,1957,Bengaluru,West,Social,Books,Product60,1,2793,2793,No,1,2
+952,2024-07-17,1701,Hyderabad,West,Website,Home,Product87,5,3593,17965,No,1,1
+953,2024-02-25,1938,Hyderabad,North,Other,Fashion,Product87,3,4790,14370,No,4,4
+954,2024-11-09,2480,Pune,East,Website,Electronics,Product80,2,791,1582,No,2,1
+955,2024-06-06,1595,Kolkata,West,Other,Beauty,Product3,3,4404,13212,No,7,4
+956,2024-06-03,1848,Delhi,South,Mobile App,Home,Product56,2,4918,9836,No,2,3
+957,2024-12-15,1787,Bengaluru,South,Mobile App,Fashion,Product53,4,4207,16828,No,6,3
+958,2024-03-08,1656,Delhi,West,Other,Books,Product3,2,987,1974,No,5,5
+959,2024-03-09,1429,Pune,East,Other,Fashion,Product84,4,4728,18912,No,5,2
+960,2024-01-03,2486,Kolkata,East,Other,Home,Product33,5,609,3045,No,2,5
+961,2024-11-13,2090,Delhi,North,Mobile App,Fashion,Product51,4,4928,19712,No,4,5
+962,2024-12-16,2218,Kolkata,South,Other,Beauty,Product11,3,4442,13326,No,6,2
+963,2024-02-18,1715,Mumbai,South,Social,Beauty,Product82,5,1102,5510,No,1,5
+964,2024-05-06,2599,Bengaluru,NE,Mobile App,Home,Product95,5,4502,22510,Yes,1,2
+965,2024-08-24,1730,Mumbai,West,Mobile App,Books,Product52,5,1819,9095,No,2,5
+966,2024-09-28,1593,Pune,North,Mobile App,Electronics,Product46,4,3853,15412,No,1,2
+967,2024-05-05,2832,Delhi,NE,Website,Beauty,Product91,4,3506,14024,No,7,1
+968,2024-12-08,1805,Kolkata,North,Other,Sports,Product23,1,4461,4461,Yes,3,3
+969,2024-11-17,1904,Delhi,South,Website,Beauty,Product48,1,3419,3419,No,7,2
+970,2024-10-27,1007,Pune,East,Website,Sports,Product82,4,822,3288,No,3,5
+971,2024-03-05,2404,Pune,West,Social,Home,Product87,4,3729,14916,No,7,3
+972,2024-09-20,1778,Kolkata,NE,Mobile App,Home,Product78,3,4360,13080,No,3,1
+973,2024-10-07,2130,Hyderabad,North,Other,Beauty,Product86,2,1657,3314,No,1,2
+974,2024-05-07,2861,Pune,West,Mobile App,Fashion,Product89,1,1705,1705,No,7,1
+975,2024-03-19,2775,Hyderabad,West,Social,Books,Product5,1,4054,4054,Yes,6,3
+976,2024-08-14,1164,Pune,NE,Social,Books,Product63,5,3267,16335,No,2,2
+977,2024-03-23,1126,Mumbai,West,Mobile App,Fashion,Product34,3,4771,14313,Yes,7,1
+978,2024-07-14,2962,Delhi,NE,Mobile App,Books,Product1,4,3567,14268,No,6,5
+979,2024-05-21,1369,Hyderabad,West,Other,Books,Product9,4,1923,7692,No,5,4
+980,2024-03-04,1081,Delhi,North,Other,Electronics,Product85,1,4852,4852,No,6,3
+981,2024-03-26,2414,Mumbai,West,Social,Fashion,Product90,3,1276,3828,No,1,4
+982,2024-08-12,1900,Delhi,West,Mobile App,Books,Product17,2,222,444,Yes,6,1
+983,2024-05-11,2289,Mumbai,South,Mobile App,Books,Product25,5,4811,24055,No,2,2
+984,2024-05-18,1583,Hyderabad,West,Mobile App,Sports,Product91,4,1853,7412,No,1,3
+985,2024-11-28,1505,Bengaluru,West,Other,Sports,Product22,4,3848,15392,No,2,5
+986,2024-06-07,2358,Kolkata,West,Social,Books,Product81,1,2607,2607,Yes,2,3
+987,2024-06-14,1752,Bengaluru,North,Mobile App,Home,Product58,1,4573,4573,No,3,5
+988,2024-11-21,2098,Bengaluru,North,Mobile App,Fashion,Product51,3,1251,3753,No,3,4
+989,2024-01-19,2872,Bengaluru,North,Social,Home,Product9,5,1299,6495,Yes,6,2
+990,2024-11-01,1453,Mumbai,East,Website,Beauty,Product55,1,4495,4495,No,7,4
+991,2024-10-15,1688,Pune,North,Other,Fashion,Product78,2,4560,9120,Yes,7,4
+992,2024-04-09,1109,Pune,East,Mobile App,Fashion,Product27,3,693,2079,No,4,4
+993,2024-08-08,2088,Kolkata,NE,Website,Books,Product25,4,2804,11216,Yes,1,1
+994,2024-07-14,1801,Pune,South,Mobile App,Beauty,Product18,5,4405,22025,No,5,3
+995,2024-10-16,2420,Bengaluru,South,Other,Fashion,Product47,1,1581,1581,No,7,5
+996,2024-03-15,2333,Kolkata,North,Other,Home,Product58,4,913,3652,No,6,1
+997,2024-03-09,2405,Hyderabad,East,Website,Sports,Product38,1,4611,4611,No,7,3
+998,2024-05-19,2411,Delhi,East,Mobile App,Books,Product58,1,2195,2195,No,1,3
+999,2024-12-14,2535,Pune,East,Mobile App,Sports,Product27,1,1381,1381,No,5,1
+1000,2024-12-16,2468,Delhi,NE,Other,Electronics,Product51,1,3785,3785,No,5,5
+1001,2024-05-02,1166,Delhi,South,Mobile App,Fashion,Product75,3,4952,14856,No,6,1
+1002,2024-09-16,2106,Delhi,NE,Website,Home,Product43,2,3481,6962,No,7,2
+1003,2024-12-28,2782,Mumbai,East,Other,Sports,Product78,4,2593,10372,No,1,3
+1004,2024-04-15,2885,Pune,North,Other,Books,Product14,5,880,4400,No,6,1
+1005,2024-08-08,1513,Hyderabad,West,Mobile App,Sports,Product78,4,1941,7764,No,7,2
+1006,2024-11-20,1727,Hyderabad,West,Website,Sports,Product14,4,4665,18660,No,7,4
+1007,2024-03-23,1331,Mumbai,NE,Website,Electronics,Product44,5,736,3680,No,5,3
+1008,2024-04-25,2023,Kolkata,North,Mobile App,Beauty,Product51,2,1573,3146,No,3,3
+1009,2024-06-24,1659,Mumbai,NE,Other,Beauty,Product33,2,955,1910,No,5,3
+1010,2024-08-25,1148,Delhi,South,Website,Beauty,Product84,5,809,4045,No,1,3
+1011,2024-08-06,2028,Hyderabad,NE,Other,Home,Product76,3,1741,5223,No,7,2
+1012,2024-04-11,2531,Pune,South,Website,Sports,Product34,1,4738,4738,No,4,2
+1013,2024-07-21,2605,Hyderabad,East,Other,Sports,Product77,4,3310,13240,No,3,1
+1014,2024-11-16,2208,Pune,West,Website,Electronics,Product4,1,2468,2468,No,1,2
+1015,2024-03-06,1413,Kolkata,West,Other,Beauty,Product98,1,4763,4763,No,7,2
+1016,2024-07-17,2474,Mumbai,West,Other,Books,Product29,1,4748,4748,No,6,5
+1017,2024-06-05,1096,Hyderabad,East,Website,Books,Product20,3,3480,10440,No,4,1
+1018,2024-07-18,2748,Mumbai,NE,Other,Sports,Product22,2,4040,8080,No,4,2
+1019,2024-04-02,1746,Hyderabad,East,Social,Electronics,Product61,5,3037,15185,No,3,3
+1020,2024-05-23,2327,Delhi,East,Mobile App,Electronics,Product67,1,517,517,No,6,2
+1021,2024-11-15,2269,Mumbai,East,Mobile App,Fashion,Product90,3,3004,9012,No,5,5
+1022,2024-09-16,2754,Hyderabad,NE,Website,Fashion,Product89,4,2247,8988,No,2,3
+1023,2024-11-25,1156,Kolkata,NE,Website,Home,Product27,2,3906,7812,No,5,3
+1024,2024-01-06,2979,Mumbai,North,Mobile App,Home,Product7,1,4153,4153,No,2,4
+1025,2024-02-16,2907,Hyderabad,North,Mobile App,Books,Product32,4,2512,10048,No,2,4
+1026,2024-08-10,1040,Kolkata,North,Other,Fashion,Product12,3,4505,13515,No,2,2
+1027,2024-07-21,2850,Bengaluru,North,Website,Home,Product93,2,3910,7820,No,6,2
+1028,2024-04-09,1576,Bengaluru,West,Website,Sports,Product29,3,282,846,No,7,2
+1029,2024-11-03,1622,Pune,East,Social,Beauty,Product95,3,4432,13296,No,2,2
+1030,2024-07-17,2522,Delhi,NE,Website,Books,Product37,1,1054,1054,Yes,3,3
+1031,2024-05-19,1505,Kolkata,NE,Mobile App,Books,Product88,3,1480,4440,No,3,2
+1032,2024-10-07,2639,Pune,South,Other,Home,Product18,5,2881,14405,No,7,5
+1033,2024-02-11,2973,Delhi,South,Social,Sports,Product66,2,1028,2056,No,7,1
+1034,2024-08-15,2092,Delhi,East,Social,Beauty,Product52,2,2485,4970,No,2,5
+1035,2024-07-11,1348,Bengaluru,West,Other,Beauty,Product11,3,2402,7206,No,6,1
+1036,2024-04-15,1729,Pune,South,Social,Home,Product66,4,3084,12336,No,4,1
+1037,2024-01-05,1571,Delhi,East,Other,Home,Product99,4,4442,17768,No,1,3
+1038,2024-11-18,2326,Pune,NE,Social,Electronics,Product10,5,4211,21055,No,7,5
+1039,2024-01-20,2394,Delhi,South,Other,Home,Product96,5,2943,14715,No,1,4
+1040,2024-07-06,2677,Hyderabad,South,Website,Books,Product27,1,2691,2691,No,4,2
+1041,2024-03-21,2943,Delhi,West,Mobile App,Electronics,Product26,3,1472,4416,No,7,3
+1042,2024-11-06,2122,Hyderabad,North,Social,Sports,Product4,4,2649,10596,No,6,5
+1043,2024-08-09,1821,Kolkata,NE,Website,Beauty,Product18,1,4861,4861,No,7,5
+1044,2024-08-07,1690,Pune,NE,Other,Electronics,Product27,4,2932,11728,No,1,1
+1045,2024-02-22,1789,Kolkata,North,Mobile App,Sports,Product62,5,4405,22025,No,6,3
+1046,2024-09-06,1446,Hyderabad,West,Website,Home,Product40,2,2833,5666,No,3,4
+1047,2024-04-11,2561,Kolkata,East,Other,Electronics,Product67,2,3451,6902,No,5,3
+1048,2024-02-25,2482,Mumbai,NE,Social,Beauty,Product55,5,2016,10080,No,3,4
+1049,2024-05-16,2987,Delhi,East,Mobile App,Sports,Product25,1,2820,2820,Yes,7,3
+1050,2024-10-23,1651,Pune,East,Mobile App,Fashion,Product44,3,2680,8040,No,5,2
+1051,2024-05-11,2843,Pune,East,Website,Fashion,Product61,3,4325,12975,No,2,5
+1052,2024-07-06,2030,Hyderabad,NE,Website,Fashion,Product28,1,1531,1531,No,1,5
+1053,2024-09-04,1532,Pune,North,Other,Books,Product41,5,4387,21935,No,2,5
+1054,2024-03-16,2915,Kolkata,NE,Website,Books,Product33,2,4392,8784,No,1,3
+1055,2024-05-15,2736,Hyderabad,South,Website,Sports,Product59,3,2065,6195,Yes,5,3
+1056,2024-04-01,1597,Bengaluru,West,Website,Home,Product36,2,4238,8476,No,4,2
+1057,2024-03-05,2202,Hyderabad,NE,Website,Electronics,Product65,3,1392,4176,No,6,3
+1058,2024-10-23,2146,Hyderabad,East,Social,Home,Product66,1,1774,1774,No,4,1
+1059,2024-11-13,1184,Pune,North,Mobile App,Beauty,Product24,1,643,643,Yes,6,3
+1060,2024-06-07,2513,Mumbai,North,Social,Home,Product90,3,2561,7683,No,6,1
+1061,2024-01-09,2152,Hyderabad,South,Mobile App,Electronics,Product5,1,4498,4498,No,6,4
+1062,2024-07-01,1517,Delhi,West,Mobile App,Fashion,Product93,1,415,415,No,7,3
+1063,2024-06-17,2662,Mumbai,North,Website,Fashion,Product25,5,904,4520,No,4,4
+1064,2024-01-15,2766,Kolkata,North,Other,Home,Product74,3,4237,12711,No,6,4
+1065,2024-12-26,1293,Mumbai,NE,Website,Beauty,Product87,3,1261,3783,No,7,1
+1066,2024-09-12,2874,Delhi,South,Mobile App,Books,Product57,3,1686,5058,No,3,2
+1067,2024-07-15,2939,Bengaluru,South,Social,Electronics,Product91,2,1012,2024,No,7,3
+1068,2024-11-20,2953,Bengaluru,West,Mobile App,Home,Product76,3,214,642,No,1,2
+1069,2024-01-15,1528,Delhi,North,Mobile App,Beauty,Product9,3,1247,3741,No,2,2
+1070,2024-03-15,1831,Pune,NE,Other,Books,Product22,5,437,2185,Yes,5,5
+1071,2024-04-22,2320,Bengaluru,South,Mobile App,Home,Product5,4,2910,11640,Yes,7,1
+1072,2024-10-03,2373,Mumbai,North,Website,Books,Product26,3,2810,8430,No,1,1
+1073,2024-12-15,2607,Mumbai,North,Other,Electronics,Product57,4,3916,15664,No,1,3
+1074,2024-11-08,2885,Pune,East,Social,Books,Product39,4,2258,9032,No,7,3
+1075,2024-03-12,2474,Mumbai,North,Website,Home,Product15,4,303,1212,No,3,4
+1076,2024-11-16,1541,Hyderabad,NE,Website,Fashion,Product71,4,1554,6216,No,7,2
+1077,2024-10-03,1526,Bengaluru,East,Mobile App,Fashion,Product24,4,3244,12976,No,4,1
+1078,2024-05-18,1728,Pune,North,Other,Electronics,Product84,4,1234,4936,No,1,2
+1079,2024-10-06,2101,Hyderabad,North,Social,Books,Product4,1,1181,1181,No,2,5
+1080,2024-05-14,1535,Pune,NE,Mobile App,Beauty,Product43,4,4143,16572,No,7,4
+1081,2024-02-05,1929,Delhi,North,Social,Books,Product6,2,1983,3966,No,7,2
+1082,2024-04-23,1172,Bengaluru,South,Mobile App,Sports,Product31,2,1354,2708,No,4,3
+1083,2024-11-27,1804,Kolkata,East,Website,Sports,Product96,5,3514,17570,No,4,5
+1084,2024-12-17,2896,Hyderabad,West,Social,Electronics,Product95,3,1184,3552,No,3,3
+1085,2024-01-04,2795,Mumbai,West,Other,Books,Product64,1,2242,2242,No,1,3
+1086,2024-03-21,1843,Delhi,South,Social,Electronics,Product48,1,1998,1998,No,3,1
+1087,2024-11-24,2400,Mumbai,East,Other,Fashion,Product57,1,360,360,Yes,6,4
+1088,2024-11-13,2330,Kolkata,East,Social,Home,Product48,5,208,1040,No,4,5
+1089,2024-05-11,2942,Pune,South,Social,Fashion,Product37,1,2162,2162,No,5,4
+1090,2024-04-14,1181,Kolkata,East,Social,Books,Product82,3,1273,3819,No,2,1
+1091,2024-12-01,1146,Bengaluru,East,Website,Fashion,Product51,5,3611,18055,No,6,4
+1092,2024-02-06,1140,Bengaluru,South,Website,Beauty,Product35,4,1862,7448,No,4,1
+1093,2024-10-02,2829,Kolkata,North,Website,Books,Product55,5,1387,6935,No,7,4
+1094,2024-02-07,2141,Pune,West,Social,Sports,Product37,4,2619,10476,No,7,4
+1095,2024-08-15,1309,Bengaluru,East,Other,Sports,Product71,1,1221,1221,No,6,5
+1096,2024-09-22,2945,Delhi,North,Website,Books,Product12,2,4512,9024,No,6,1
+1097,2024-05-28,2284,Delhi,North,Mobile App,Beauty,Product37,4,541,2164,No,5,4
+1098,2024-05-25,2517,Delhi,South,Other,Home,Product79,3,4044,12132,No,4,1
+1099,2024-01-19,2731,Delhi,West,Mobile App,Electronics,Product2,3,2456,7368,No,7,1
+1100,2024-07-28,1232,Mumbai,South,Mobile App,Fashion,Product58,2,3190,6380,No,5,3
+1101,2024-12-18,2574,Kolkata,West,Social,Electronics,Product95,5,4759,23795,No,3,3
+1102,2024-08-12,1573,Kolkata,South,Website,Home,Product49,4,4293,17172,No,6,1
+1103,2024-06-10,1638,Hyderabad,South,Mobile App,Home,Product57,5,4507,22535,No,2,2
+1104,2024-03-09,1127,Mumbai,East,Mobile App,Beauty,Product92,5,1759,8795,No,4,2
+1105,2024-09-05,1534,Delhi,North,Website,Fashion,Product99,5,4757,23785,No,6,3
+1106,2024-04-18,2359,Bengaluru,North,Social,Fashion,Product30,4,4314,17256,No,6,5
+1107,2024-09-04,2037,Hyderabad,NE,Website,Books,Product99,4,2392,9568,No,2,5
+1108,2024-02-27,2786,Delhi,North,Social,Fashion,Product50,4,4112,16448,Yes,5,4
+1109,2024-11-06,2849,Pune,East,Social,Home,Product72,3,1222,3666,No,4,4
+1110,2024-05-21,1791,Pune,West,Other,Fashion,Product56,1,3006,3006,No,5,1
+1111,2024-08-11,2041,Kolkata,NE,Website,Sports,Product100,3,4141,12423,No,6,2
+1112,2024-05-15,2054,Kolkata,North,Social,Home,Product92,4,2888,11552,No,7,2
+1113,2024-12-25,1059,Mumbai,East,Mobile App,Books,Product93,1,1254,1254,No,1,5
+1114,2024-08-14,2468,Delhi,South,Other,Electronics,Product60,1,770,770,No,7,5
+1115,2024-02-25,2325,Pune,West,Website,Beauty,Product9,1,4708,4708,No,6,3
+1116,2024-03-21,1541,Hyderabad,South,Other,Beauty,Product78,3,859,2577,No,2,4
+1117,2024-11-11,1988,Hyderabad,North,Mobile App,Electronics,Product7,4,492,1968,No,2,5
+1118,2024-07-08,1008,Kolkata,South,Mobile App,Home,Product81,3,4370,13110,No,4,1
+1119,2024-03-26,2539,Hyderabad,North,Mobile App,Sports,Product75,5,2967,14835,No,4,2
+1120,2024-09-02,2160,Mumbai,NE,Website,Fashion,Product4,5,1644,8220,No,7,3
+1121,2024-03-24,1006,Pune,South,Other,Electronics,Product10,4,4164,16656,No,4,2
+1122,2024-10-04,2959,Mumbai,North,Other,Sports,Product2,3,4870,14610,No,3,4
+1123,2024-11-05,2104,Bengaluru,North,Other,Electronics,Product67,1,1480,1480,No,2,1
+1124,2024-12-14,2731,Hyderabad,East,Mobile App,Books,Product82,1,1436,1436,No,5,4
+1125,2024-04-03,1114,Bengaluru,East,Mobile App,Home,Product93,1,2515,2515,No,1,4
+1126,2024-06-25,1228,Delhi,West,Mobile App,Home,Product32,5,753,3765,No,7,5
+1127,2024-06-17,1616,Pune,North,Mobile App,Beauty,Product66,1,2139,2139,No,3,2
+1128,2024-02-04,1276,Pune,South,Website,Sports,Product77,4,1482,5928,No,3,4
+1129,2024-12-11,2404,Bengaluru,NE,Other,Home,Product36,2,2779,5558,No,4,4
+1130,2024-06-03,2630,Hyderabad,NE,Other,Beauty,Product6,4,458,1832,Yes,2,4
+1131,2024-04-22,2488,Delhi,North,Other,Fashion,Product99,3,2103,6309,No,6,2
+1132,2024-04-13,1892,Bengaluru,North,Social,Books,Product8,2,1690,3380,Yes,7,3
+1133,2024-05-27,1373,Hyderabad,East,Mobile App,Electronics,Product66,3,4458,13374,Yes,6,5
+1134,2024-01-11,2571,Bengaluru,NE,Website,Beauty,Product63,3,1109,3327,No,6,3
+1135,2024-10-15,2037,Hyderabad,South,Website,Home,Product83,2,798,1596,No,7,3
+1136,2024-08-01,2256,Pune,West,Social,Sports,Product84,4,3490,13960,No,4,4
+1137,2024-06-20,1591,Pune,East,Website,Home,Product68,2,3727,7454,No,3,3
+1138,2024-11-14,1502,Delhi,North,Social,Books,Product78,2,4577,9154,Yes,1,5
+1139,2024-02-21,1962,Kolkata,South,Mobile App,Home,Product32,1,3795,3795,No,5,5
+1140,2024-03-06,2712,Bengaluru,North,Social,Fashion,Product38,5,3518,17590,No,4,3
+1141,2024-05-12,1451,Bengaluru,East,Mobile App,Sports,Product7,5,3270,16350,No,7,3
+1142,2024-02-15,1194,Kolkata,West,Other,Fashion,Product34,2,2495,4990,No,3,5
+1143,2024-10-03,1216,Mumbai,West,Website,Books,Product89,5,4784,23920,No,5,1
+1144,2024-11-17,2875,Delhi,NE,Mobile App,Beauty,Product59,2,1264,2528,No,5,3
+1145,2024-01-11,1517,Kolkata,NE,Social,Sports,Product90,2,3741,7482,No,4,5
+1146,2024-11-24,1856,Bengaluru,North,Website,Sports,Product50,3,646,1938,Yes,3,4
+1147,2024-05-14,1297,Mumbai,East,Website,Beauty,Product91,5,2826,14130,No,1,2
+1148,2024-09-11,2291,Hyderabad,West,Mobile App,Books,Product19,4,4220,16880,No,1,3
+1149,2024-09-18,2253,Pune,East,Other,Home,Product43,4,2057,8228,No,2,5
+1150,2024-07-25,2110,Delhi,East,Website,Books,Product56,3,3814,11442,No,5,1
+1151,2024-10-06,1994,Bengaluru,North,Social,Sports,Product21,4,3368,13472,No,3,3
+1152,2024-01-08,2325,Kolkata,South,Other,Home,Product44,3,534,1602,No,4,4
+1153,2024-12-18,1930,Bengaluru,NE,Mobile App,Fashion,Product5,5,2120,10600,No,6,4
+1154,2024-11-20,2675,Delhi,East,Other,Electronics,Product43,4,4695,18780,No,1,3
+1155,2024-10-19,2893,Hyderabad,East,Other,Electronics,Product81,1,4535,4535,Yes,1,5
+1156,2024-07-13,2891,Mumbai,South,Social,Electronics,Product9,4,594,2376,No,7,1
+1157,2024-07-26,1331,Kolkata,South,Mobile App,Books,Product91,2,4430,8860,No,5,5
+1158,2024-04-11,1788,Kolkata,East,Social,Books,Product36,3,4554,13662,No,4,5
+1159,2024-07-16,2609,Pune,NE,Social,Home,Product83,5,1770,8850,Yes,4,1
+1160,2024-06-24,1273,Delhi,East,Social,Home,Product86,2,1629,3258,No,2,2
+1161,2024-01-16,2403,Pune,East,Mobile App,Books,Product35,2,1446,2892,Yes,4,4
+1162,2024-10-08,1899,Mumbai,East,Website,Sports,Product40,5,2818,14090,No,3,5
+1163,2024-03-11,1224,Hyderabad,South,Mobile App,Sports,Product10,2,3749,7498,No,3,5
+1164,2024-06-13,1368,Hyderabad,NE,Website,Electronics,Product77,5,1467,7335,No,6,3
+1165,2024-07-18,2698,Mumbai,West,Social,Books,Product5,4,3686,14744,No,5,3
+1166,2024-08-08,2336,Bengaluru,East,Social,Books,Product75,4,3862,15448,No,5,4
+1167,2024-03-11,2971,Pune,East,Other,Books,Product60,2,1689,3378,No,1,2
+1168,2024-11-04,2811,Hyderabad,South,Other,Sports,Product75,4,1531,6124,No,4,4
+1169,2024-05-07,2154,Mumbai,South,Website,Electronics,Product82,2,2975,5950,Yes,1,3
+1170,2024-11-17,2901,Pune,South,Website,Electronics,Product54,4,2207,8828,Yes,5,4
+1171,2024-03-11,1772,Bengaluru,North,Social,Home,Product75,2,3150,6300,No,4,3
+1172,2024-12-15,1201,Bengaluru,South,Social,Beauty,Product51,3,415,1245,No,6,5
+1173,2024-05-18,1709,Mumbai,East,Website,Home,Product62,4,548,2192,No,7,3
+1174,2024-08-26,1803,Hyderabad,East,Website,Books,Product74,5,386,1930,No,2,3
+1175,2024-11-14,1958,Delhi,NE,Social,Beauty,Product79,2,631,1262,No,4,4
+1176,2024-10-24,2184,Kolkata,South,Website,Electronics,Product73,3,307,921,No,3,3
+1177,2024-07-16,2063,Pune,North,Other,Home,Product3,5,3152,15760,No,5,4
+1178,2024-05-12,2084,Bengaluru,West,Other,Home,Product58,2,2817,5634,No,3,4
+1179,2024-08-08,2763,Pune,North,Social,Sports,Product21,2,3564,7128,No,6,3
+1180,2024-03-26,2274,Delhi,South,Other,Home,Product64,2,4432,8864,No,4,3
+1181,2024-05-12,1367,Bengaluru,NE,Website,Sports,Product93,4,4525,18100,No,3,1
+1182,2024-09-12,1326,Delhi,East,Website,Electronics,Product86,4,3384,13536,No,7,4
+1183,2024-11-27,2209,Mumbai,East,Other,Books,Product59,1,1584,1584,No,6,5
+1184,2024-08-21,1487,Bengaluru,South,Mobile App,Sports,Product76,1,3518,3518,No,3,4
+1185,2024-09-19,1272,Hyderabad,West,Social,Electronics,Product44,2,2561,5122,No,5,3
+1186,2024-05-15,2300,Bengaluru,West,Website,Fashion,Product34,1,3174,3174,No,6,4
+1187,2024-06-08,2280,Delhi,West,Mobile App,Beauty,Product29,4,2016,8064,No,1,3
+1188,2024-12-10,2229,Bengaluru,East,Mobile App,Sports,Product47,1,1357,1357,No,4,2
+1189,2024-11-09,2811,Bengaluru,North,Social,Fashion,Product100,5,2280,11400,No,1,3
+1190,2024-05-14,2968,Mumbai,West,Other,Fashion,Product41,1,4631,4631,No,6,5
+1191,2024-01-06,2316,Bengaluru,NE,Social,Fashion,Product26,3,4802,14406,No,5,2
+1192,2024-04-04,2172,Hyderabad,East,Website,Electronics,Product91,4,3166,12664,Yes,4,4
+1193,2024-02-14,1876,Delhi,North,Mobile App,Fashion,Product29,5,553,2765,No,5,4
+1194,2024-09-20,2583,Delhi,East,Other,Books,Product98,5,1966,9830,No,3,4
+1195,2024-05-16,1099,Kolkata,South,Social,Books,Product70,4,1217,4868,No,5,4
+1196,2024-10-19,1700,Pune,NE,Mobile App,Home,Product32,3,1442,4326,No,2,2
+1197,2024-07-19,2418,Delhi,NE,Other,Fashion,Product82,5,2573,12865,No,3,4
+1198,2024-11-28,1658,Bengaluru,East,Other,Books,Product31,2,3437,6874,No,4,3
+1199,2024-11-09,1572,Kolkata,NE,Website,Fashion,Product33,4,1033,4132,No,1,1
+1200,2024-10-23,1081,Bengaluru,East,Social,Fashion,Product72,2,3342,6684,No,4,3
+1201,2024-11-03,1621,Hyderabad,West,Social,Home,Product28,4,2165,8660,No,6,1
+1202,2024-04-07,1581,Mumbai,North,Other,Sports,Product2,1,547,547,No,1,5
+1203,2024-05-17,1370,Pune,South,Mobile App,Books,Product88,5,3708,18540,No,1,1
+1204,2024-12-05,2367,Hyderabad,South,Social,Fashion,Product58,4,2846,11384,No,7,5
+1205,2024-06-01,2058,Mumbai,NE,Mobile App,Electronics,Product82,2,4726,9452,No,5,3
+1206,2024-09-24,2029,Bengaluru,South,Social,Home,Product12,1,1758,1758,Yes,1,4
+1207,2024-06-07,1110,Delhi,North,Mobile App,Books,Product17,3,3490,10470,Yes,4,1
+1208,2024-10-14,1888,Kolkata,North,Social,Sports,Product34,4,1759,7036,No,2,1
+1209,2024-07-24,1573,Pune,South,Social,Sports,Product94,5,1806,9030,No,3,1
+1210,2024-04-21,2211,Kolkata,NE,Mobile App,Beauty,Product27,5,4804,24020,No,7,3
+1211,2024-07-25,1298,Delhi,South,Mobile App,Sports,Product58,5,2862,14310,No,2,1
+1212,2024-01-19,2441,Hyderabad,South,Website,Sports,Product33,4,1933,7732,No,2,5
+1213,2024-10-23,1628,Delhi,East,Mobile App,Books,Product14,4,1227,4908,No,5,4
+1214,2024-06-07,2829,Pune,East,Other,Books,Product87,1,4546,4546,No,3,2
+1215,2024-03-27,1648,Delhi,South,Website,Sports,Product65,1,3780,3780,No,4,3
+1216,2024-01-23,1932,Delhi,East,Other,Electronics,Product1,2,3655,7310,No,1,5
+1217,2024-07-13,2133,Hyderabad,North,Mobile App,Beauty,Product39,4,1867,7468,No,7,4
+1218,2024-05-27,2869,Delhi,West,Mobile App,Beauty,Product57,2,2499,4998,No,4,3
+1219,2024-01-24,2291,Mumbai,South,Website,Sports,Product54,4,1777,7108,No,4,5
+1220,2024-12-14,2193,Mumbai,West,Mobile App,Beauty,Product78,2,861,1722,No,3,1
+1221,2024-01-14,1116,Hyderabad,East,Mobile App,Books,Product52,2,2471,4942,No,5,4
+1222,2024-03-28,1741,Pune,North,Other,Sports,Product66,5,3605,18025,No,7,2
+1223,2024-12-25,1674,Pune,NE,Social,Sports,Product78,2,1150,2300,No,5,3
+1224,2024-01-28,1399,Pune,South,Website,Electronics,Product60,4,4272,17088,No,3,1
+1225,2024-08-20,2030,Delhi,East,Social,Sports,Product42,5,502,2510,No,3,2
+1226,2024-01-26,2556,Mumbai,West,Other,Home,Product59,3,3272,9816,No,6,1
+1227,2024-11-25,2323,Hyderabad,North,Website,Books,Product34,3,3163,9489,No,1,5
+1228,2024-07-05,2133,Hyderabad,East,Social,Electronics,Product93,5,2127,10635,No,4,5
+1229,2024-01-08,1091,Kolkata,West,Other,Home,Product59,3,3764,11292,No,3,4
+1230,2024-11-04,2422,Pune,East,Website,Fashion,Product9,1,3460,3460,No,6,5
+1231,2024-08-16,2756,Hyderabad,North,Mobile App,Home,Product15,1,1512,1512,Yes,7,1
+1232,2024-07-22,2631,Mumbai,West,Mobile App,Beauty,Product44,5,4494,22470,Yes,7,5
+1233,2024-05-28,2093,Pune,South,Other,Beauty,Product65,3,1210,3630,No,2,4
+1234,2024-07-05,2703,Kolkata,East,Website,Fashion,Product97,3,2830,8490,No,2,5
+1235,2024-02-19,2966,Kolkata,East,Social,Books,Product94,5,2118,10590,No,3,2
+1236,2024-06-05,1407,Kolkata,North,Website,Sports,Product48,5,2832,14160,No,1,5
+1237,2024-10-23,2250,Mumbai,West,Other,Beauty,Product43,4,2035,8140,No,2,3
+1238,2024-09-03,1226,Mumbai,South,Social,Books,Product52,2,305,610,No,7,1
+1239,2024-05-06,2910,Pune,North,Social,Fashion,Product13,2,1884,3768,No,2,1
+1240,2024-08-23,2003,Hyderabad,NE,Mobile App,Electronics,Product30,1,466,466,No,4,1
+1241,2024-05-15,2517,Bengaluru,NE,Website,Fashion,Product86,1,4935,4935,No,5,1
+1242,2024-08-07,2831,Hyderabad,North,Other,Home,Product54,4,5000,20000,Yes,1,1
+1243,2024-09-19,2081,Hyderabad,North,Mobile App,Beauty,Product57,4,2300,9200,No,6,3
+1244,2024-03-10,2995,Mumbai,West,Social,Home,Product23,2,1777,3554,No,2,5
+1245,2024-12-13,2800,Mumbai,North,Mobile App,Sports,Product9,3,2393,7179,No,3,5
+1246,2024-09-22,1409,Kolkata,NE,Other,Beauty,Product27,1,4695,4695,No,4,4
+1247,2024-09-19,2088,Kolkata,South,Social,Beauty,Product66,1,542,542,No,7,3
+1248,2024-07-06,2783,Hyderabad,East,Website,Home,Product21,4,1301,5204,No,4,4
+1249,2024-08-10,2574,Hyderabad,South,Mobile App,Beauty,Product88,1,996,996,No,4,1
+1250,2024-07-08,1234,Pune,North,Website,Home,Product54,2,2763,5526,No,1,3
+1251,2024-06-15,2424,Kolkata,East,Social,Home,Product98,1,2063,2063,No,1,1
+1252,2024-02-04,1098,Hyderabad,East,Website,Beauty,Product47,4,2845,11380,No,6,3
+1253,2024-02-07,1614,Hyderabad,West,Social,Beauty,Product19,1,2752,2752,Yes,2,5
+1254,2024-11-20,1074,Bengaluru,North,Mobile App,Beauty,Product52,2,2440,4880,No,6,5
+1255,2024-07-20,1444,Delhi,NE,Mobile App,Home,Product62,4,3245,12980,No,1,5
+1256,2024-07-11,2000,Bengaluru,South,Other,Beauty,Product70,5,2262,11310,No,6,1
+1257,2024-02-04,1854,Hyderabad,West,Social,Home,Product40,3,3980,11940,Yes,2,3
+1258,2024-04-07,2695,Hyderabad,North,Other,Fashion,Product55,2,4293,8586,No,6,2
+1259,2024-10-09,2234,Kolkata,NE,Website,Books,Product12,3,595,1785,No,3,3
+1260,2024-01-22,2164,Mumbai,North,Website,Fashion,Product69,1,4980,4980,No,5,1
+1261,2024-11-07,1675,Hyderabad,East,Mobile App,Books,Product28,3,651,1953,No,1,2
+1262,2024-07-06,2823,Delhi,NE,Other,Beauty,Product97,2,1738,3476,No,2,1
+1263,2024-11-14,2263,Pune,North,Website,Books,Product15,4,4479,17916,No,4,5
+1264,2024-06-05,2550,Hyderabad,South,Mobile App,Home,Product2,5,2333,11665,No,6,5
+1265,2024-06-18,1709,Mumbai,South,Mobile App,Fashion,Product74,3,2734,8202,No,7,3
+1266,2024-03-24,1243,Hyderabad,South,Other,Home,Product43,3,4421,13263,Yes,2,1
+1267,2024-08-05,2968,Pune,West,Other,Books,Product91,5,4357,21785,No,5,4
+1268,2024-05-09,1945,Hyderabad,East,Website,Electronics,Product11,1,4644,4644,No,3,2
+1269,2024-10-15,1432,Kolkata,South,Other,Electronics,Product1,4,2697,10788,No,3,3
+1270,2024-08-15,2304,Kolkata,South,Website,Beauty,Product78,1,2137,2137,No,3,2
+1271,2024-08-28,2277,Delhi,East,Website,Sports,Product68,5,2378,11890,Yes,4,4
+1272,2024-07-20,2632,Kolkata,West,Social,Electronics,Product28,1,246,246,No,7,5
+1273,2024-12-16,2816,Hyderabad,East,Website,Electronics,Product32,2,3957,7914,No,7,4
+1274,2024-08-20,2049,Bengaluru,NE,Mobile App,Sports,Product33,3,2149,6447,No,6,4
+1275,2024-12-01,1791,Hyderabad,East,Social,Home,Product70,4,1790,7160,No,2,2
+1276,2024-04-27,2763,Delhi,South,Website,Beauty,Product40,3,1088,3264,No,3,1
+1277,2024-02-08,1948,Hyderabad,West,Social,Sports,Product21,2,3913,7826,No,1,2
+1278,2024-11-05,1509,Delhi,NE,Mobile App,Beauty,Product17,1,918,918,No,2,4
+1279,2024-07-13,2239,Delhi,NE,Other,Books,Product63,3,2022,6066,No,1,2
+1280,2024-06-05,2489,Bengaluru,North,Social,Home,Product95,5,1566,7830,No,2,3
+1281,2024-05-26,2277,Kolkata,North,Mobile App,Electronics,Product45,1,4332,4332,No,4,4
+1282,2024-01-12,1416,Mumbai,NE,Social,Beauty,Product31,2,2023,4046,No,6,3
+1283,2024-12-10,1493,Kolkata,West,Website,Fashion,Product41,3,569,1707,No,4,2
+1284,2024-07-10,2638,Hyderabad,South,Other,Fashion,Product3,3,1304,3912,No,6,4
+1285,2024-08-28,2184,Mumbai,NE,Website,Home,Product33,5,425,2125,No,3,3
+1286,2024-12-23,2516,Mumbai,NE,Social,Sports,Product3,2,4972,9944,No,3,3
+1287,2024-08-15,2003,Bengaluru,North,Website,Sports,Product7,3,498,1494,No,7,5
+1288,2024-02-16,1879,Kolkata,NE,Social,Sports,Product81,1,3849,3849,No,7,1
+1289,2024-02-09,1528,Hyderabad,South,Social,Beauty,Product32,4,1240,4960,No,1,1
+1290,2024-10-24,1323,Bengaluru,East,Website,Books,Product95,4,1238,4952,No,5,3
+1291,2024-02-03,1028,Bengaluru,NE,Mobile App,Electronics,Product74,1,2387,2387,No,4,5
+1292,2024-02-04,2452,Delhi,NE,Social,Home,Product24,1,3268,3268,No,7,3
+1293,2024-04-19,2339,Pune,North,Website,Beauty,Product47,4,765,3060,No,3,5
+1294,2024-02-08,1837,Hyderabad,South,Social,Electronics,Product61,1,2883,2883,No,3,3
+1295,2024-07-10,1337,Bengaluru,West,Mobile App,Electronics,Product60,1,220,220,No,4,1
+1296,2024-09-09,1854,Hyderabad,North,Other,Sports,Product73,4,2039,8156,No,5,4
+1297,2024-10-13,1320,Pune,East,Mobile App,Sports,Product66,5,1237,6185,No,5,5
+1298,2024-09-18,2669,Hyderabad,North,Website,Electronics,Product38,5,2777,13885,No,5,5
+1299,2024-11-24,2329,Hyderabad,South,Mobile App,Beauty,Product99,4,4752,19008,No,2,2
+1300,2024-05-15,1429,Mumbai,East,Social,Beauty,Product69,4,3540,14160,No,5,1
+1301,2024-08-26,2955,Delhi,West,Social,Sports,Product34,3,755,2265,No,2,5
+1302,2024-09-26,1392,Mumbai,North,Other,Electronics,Product27,3,3910,11730,No,4,4
+1303,2024-01-03,1817,Hyderabad,South,Social,Fashion,Product98,5,257,1285,No,5,2
+1304,2024-06-24,2721,Delhi,East,Social,Electronics,Product74,2,2053,4106,No,7,2
+1305,2024-12-15,1841,Pune,NE,Other,Electronics,Product74,1,4790,4790,No,6,2
+1306,2024-09-28,1135,Bengaluru,NE,Other,Sports,Product57,2,4036,8072,Yes,6,3
+1307,2024-09-04,1215,Kolkata,West,Mobile App,Beauty,Product30,2,3960,7920,Yes,5,1
+1308,2024-05-19,1813,Hyderabad,East,Social,Home,Product61,1,1191,1191,No,5,1
+1309,2024-01-03,1531,Pune,West,Website,Electronics,Product17,3,3138,9414,No,2,3
+1310,2024-08-14,1200,Delhi,NE,Website,Fashion,Product55,5,4152,20760,No,2,4
+1311,2024-01-23,1077,Delhi,East,Social,Beauty,Product86,5,1479,7395,No,3,3
+1312,2024-10-05,2575,Kolkata,North,Website,Electronics,Product92,3,4950,14850,No,3,1
+1313,2024-09-25,1263,Bengaluru,North,Social,Home,Product99,1,1856,1856,No,3,4
+1314,2024-01-09,2946,Hyderabad,South,Social,Home,Product44,5,4561,22805,Yes,4,5
+1315,2024-10-25,1112,Kolkata,East,Website,Home,Product99,1,3265,3265,Yes,7,3
+1316,2024-04-25,2248,Delhi,West,Social,Sports,Product97,3,4530,13590,No,2,3
+1317,2024-04-11,2312,Bengaluru,South,Social,Home,Product5,2,4620,9240,No,7,1
+1318,2024-05-22,1576,Bengaluru,West,Other,Electronics,Product66,2,1451,2902,No,4,5
+1319,2024-06-11,1223,Kolkata,East,Other,Sports,Product78,4,3677,14708,No,1,5
+1320,2024-11-17,2657,Hyderabad,South,Website,Electronics,Product8,5,627,3135,No,4,1
+1321,2024-05-05,1786,Pune,North,Other,Beauty,Product90,1,2609,2609,No,3,2
+1322,2024-02-06,2462,Delhi,North,Social,Beauty,Product48,2,1102,2204,No,4,4
+1323,2024-05-18,2399,Kolkata,NE,Website,Home,Product29,4,3201,12804,Yes,7,1
+1324,2024-05-12,1051,Hyderabad,NE,Social,Beauty,Product89,2,2319,4638,No,3,2
+1325,2024-07-28,2144,Kolkata,South,Other,Electronics,Product85,4,760,3040,No,5,5
+1326,2024-10-19,1777,Delhi,East,Website,Sports,Product58,2,556,1112,No,7,1
+1327,2024-11-28,2636,Delhi,South,Website,Beauty,Product89,2,1891,3782,No,5,3
+1328,2024-02-14,1026,Mumbai,NE,Social,Fashion,Product3,4,3785,15140,No,5,3
+1329,2024-01-03,1431,Kolkata,East,Mobile App,Beauty,Product62,1,4745,4745,No,5,5
+1330,2024-08-18,2641,Mumbai,North,Website,Books,Product18,3,4960,14880,No,3,3
+1331,2024-07-06,1640,Delhi,West,Social,Books,Product24,2,2441,4882,No,5,2
+1332,2024-06-23,2273,Kolkata,West,Mobile App,Books,Product93,3,4516,13548,No,3,5
+1333,2024-06-23,1746,Bengaluru,West,Mobile App,Sports,Product28,5,4545,22725,No,2,3
+1334,2024-10-20,1745,Bengaluru,East,Other,Electronics,Product73,3,1003,3009,No,4,4
+1335,2024-03-08,1652,Bengaluru,West,Other,Sports,Product40,3,1157,3471,No,4,1
+1336,2024-02-27,1600,Hyderabad,South,Other,Electronics,Product42,5,3735,18675,No,5,5
+1337,2024-02-20,2576,Hyderabad,East,Social,Beauty,Product63,1,4944,4944,No,1,5
+1338,2024-11-22,1148,Bengaluru,South,Social,Books,Product94,2,4349,8698,No,5,1
+1339,2024-12-09,1139,Bengaluru,West,Mobile App,Fashion,Product96,4,3376,13504,No,6,5
+1340,2024-02-05,1024,Delhi,West,Mobile App,Home,Product57,2,4487,8974,Yes,7,5
+1341,2024-12-01,1894,Hyderabad,South,Social,Beauty,Product10,4,4546,18184,No,1,2
+1342,2024-07-16,2328,Pune,South,Mobile App,Beauty,Product12,4,1092,4368,Yes,6,1
+1343,2024-01-05,1269,Mumbai,North,Website,Fashion,Product40,2,4257,8514,No,4,1
+1344,2024-09-10,2670,Hyderabad,South,Other,Fashion,Product60,1,3010,3010,No,2,3
+1345,2024-10-12,2611,Delhi,NE,Social,Beauty,Product29,5,3983,19915,No,1,1
+1346,2024-12-24,2436,Mumbai,North,Social,Books,Product69,5,3877,19385,No,4,3
+1347,2024-02-15,2668,Delhi,NE,Social,Sports,Product21,2,4419,8838,No,6,1
+1348,2024-10-14,1341,Mumbai,West,Website,Fashion,Product16,2,2951,5902,No,1,2
+1349,2024-04-11,1019,Bengaluru,North,Website,Home,Product71,3,2819,8457,No,5,4
+1350,2024-01-12,2345,Mumbai,South,Website,Sports,Product7,1,3637,3637,Yes,5,1
+1351,2024-10-26,1805,Delhi,West,Other,Beauty,Product84,1,673,673,No,7,3
+1352,2024-02-23,2074,Kolkata,North,Mobile App,Home,Product38,1,2932,2932,No,3,4
+1353,2024-05-17,1377,Delhi,NE,Mobile App,Fashion,Product79,5,810,4050,No,2,3
+1354,2024-02-25,1559,Mumbai,South,Social,Electronics,Product53,1,1162,1162,No,4,2
+1355,2024-04-03,2512,Hyderabad,South,Other,Home,Product85,3,938,2814,No,6,2
+1356,2024-02-15,1441,Mumbai,South,Other,Electronics,Product68,1,4879,4879,No,1,4
+1357,2024-05-25,2432,Kolkata,South,Other,Beauty,Product48,1,928,928,No,1,4
+1358,2024-11-08,1026,Delhi,NE,Social,Electronics,Product58,1,1960,1960,No,3,3
+1359,2024-03-27,1858,Hyderabad,South,Mobile App,Beauty,Product24,2,892,1784,No,1,2
+1360,2024-08-06,2945,Hyderabad,North,Mobile App,Beauty,Product87,1,4587,4587,No,2,5
+1361,2024-10-05,2526,Bengaluru,West,Social,Sports,Product27,4,4824,19296,No,4,3
+1362,2024-06-16,1632,Kolkata,NE,Social,Home,Product98,1,2271,2271,No,2,1
+1363,2024-09-07,2091,Pune,South,Website,Beauty,Product2,3,1589,4767,No,3,5
+1364,2024-12-12,2428,Bengaluru,NE,Social,Beauty,Product16,5,3560,17800,No,2,2
+1365,2024-02-12,1699,Delhi,East,Other,Home,Product74,1,1137,1137,No,7,3
+1366,2024-01-16,2165,Bengaluru,West,Other,Books,Product14,2,2974,5948,No,4,4
+1367,2024-04-17,1883,Pune,West,Website,Fashion,Product28,3,312,936,No,4,5
+1368,2024-07-15,1091,Delhi,South,Mobile App,Beauty,Product59,1,4230,4230,No,2,4
+1369,2024-02-13,2518,Bengaluru,North,Social,Beauty,Product30,2,2861,5722,No,7,5
+1370,2024-08-25,2659,Delhi,North,Mobile App,Home,Product55,3,4885,14655,No,5,3
+1371,2024-01-13,1952,Bengaluru,East,Social,Books,Product98,2,1568,3136,No,4,4
+1372,2024-12-04,2119,Delhi,North,Mobile App,Sports,Product69,1,841,841,No,3,3
+1373,2024-06-02,2229,Kolkata,North,Other,Fashion,Product24,3,792,2376,No,4,1
+1374,2024-09-18,1144,Pune,NE,Website,Fashion,Product24,3,4787,14361,Yes,1,4
+1375,2024-08-22,2940,Kolkata,NE,Website,Home,Product62,1,4690,4690,No,6,5
+1376,2024-12-12,2075,Hyderabad,NE,Website,Books,Product6,3,3762,11286,No,5,4
+1377,2024-01-15,1478,Hyderabad,West,Website,Fashion,Product22,2,2083,4166,No,7,4
+1378,2024-10-26,2902,Kolkata,East,Other,Sports,Product46,2,3145,6290,No,7,1
+1379,2024-07-20,1506,Kolkata,South,Social,Electronics,Product27,4,691,2764,No,3,1
+1380,2024-03-25,1307,Kolkata,South,Mobile App,Electronics,Product28,2,1036,2072,No,3,1
+1381,2024-02-10,1274,Kolkata,South,Mobile App,Fashion,Product68,4,1104,4416,No,7,3
+1382,2024-10-04,1106,Pune,West,Mobile App,Home,Product62,2,3655,7310,No,5,1
+1383,2024-08-02,2017,Pune,South,Website,Books,Product41,2,679,1358,No,6,2
+1384,2024-11-12,2013,Kolkata,North,Mobile App,Sports,Product54,1,301,301,No,6,4
+1385,2024-02-05,2777,Pune,East,Website,Books,Product57,5,3533,17665,No,6,4
+1386,2024-12-12,1273,Kolkata,NE,Website,Beauty,Product13,5,1536,7680,No,1,5
+1387,2024-10-10,2721,Bengaluru,West,Social,Electronics,Product6,4,1057,4228,No,6,5
+1388,2024-07-20,2588,Bengaluru,NE,Website,Electronics,Product72,1,3618,3618,No,4,5
+1389,2024-01-18,1990,Kolkata,South,Social,Home,Product86,3,4382,13146,No,7,5
+1390,2024-01-02,1983,Mumbai,South,Mobile App,Books,Product41,5,1137,5685,No,1,2
+1391,2024-03-13,2558,Bengaluru,West,Social,Books,Product76,4,3081,12324,No,3,2
+1392,2024-12-18,2052,Hyderabad,West,Website,Books,Product91,4,2354,9416,No,5,3
+1393,2024-05-20,2535,Mumbai,West,Social,Electronics,Product70,5,4545,22725,No,6,2
+1394,2024-08-10,1189,Bengaluru,East,Social,Home,Product16,3,3961,11883,No,3,3
+1395,2024-04-05,1792,Kolkata,South,Social,Beauty,Product98,4,3522,14088,No,4,4
+1396,2024-03-02,1218,Delhi,South,Website,Beauty,Product45,4,4051,16204,Yes,7,1
+1397,2024-10-06,2126,Pune,NE,Other,Fashion,Product11,4,440,1760,No,6,1
+1398,2024-02-19,2216,Delhi,NE,Social,Books,Product9,5,1544,7720,No,3,1
+1399,2024-05-01,1147,Pune,South,Social,Books,Product97,1,2070,2070,No,6,2
+1400,2024-06-02,1427,Delhi,North,Social,Sports,Product51,5,1144,5720,Yes,4,4
+1401,2024-10-22,2305,Bengaluru,West,Social,Beauty,Product29,5,647,3235,No,1,4
+1402,2024-11-02,1088,Bengaluru,South,Mobile App,Fashion,Product43,1,3544,3544,Yes,4,1
+1403,2024-12-09,2517,Kolkata,North,Other,Electronics,Product11,1,1909,1909,No,6,4
+1404,2024-11-17,2392,Kolkata,West,Other,Books,Product20,3,1585,4755,No,1,4
+1405,2024-06-02,1036,Hyderabad,South,Mobile App,Sports,Product100,1,2658,2658,No,2,3
+1406,2024-07-13,1127,Bengaluru,South,Website,Beauty,Product46,2,2976,5952,No,4,3
+1407,2024-06-07,1694,Hyderabad,North,Website,Books,Product59,5,3666,18330,No,7,4
+1408,2024-07-11,1733,Hyderabad,NE,Other,Electronics,Product32,3,2206,6618,No,5,1
+1409,2024-12-22,1717,Bengaluru,North,Social,Beauty,Product33,1,1218,1218,No,1,1
+1410,2024-07-09,1353,Bengaluru,North,Other,Fashion,Product34,4,668,2672,No,1,4
+1411,2024-12-25,2365,Pune,North,Social,Home,Product60,2,974,1948,No,6,5
+1412,2024-11-23,2866,Hyderabad,NE,Website,Home,Product5,4,2813,11252,No,2,3
+1413,2024-04-05,2741,Kolkata,East,Website,Fashion,Product82,1,3869,3869,No,7,3
+1414,2024-11-22,1597,Pune,East,Website,Beauty,Product74,3,4365,13095,No,2,2
+1415,2024-03-22,1825,Pune,North,Other,Beauty,Product31,3,3412,10236,No,2,1
+1416,2024-02-10,1736,Kolkata,NE,Website,Electronics,Product85,5,3066,15330,No,5,5
+1417,2024-11-04,2724,Hyderabad,South,Mobile App,Beauty,Product77,3,3146,9438,No,6,1
+1418,2024-10-19,1863,Bengaluru,West,Mobile App,Books,Product1,5,1519,7595,No,5,1
+1419,2024-05-24,2386,Hyderabad,North,Mobile App,Electronics,Product48,5,682,3410,No,4,2
+1420,2024-09-04,2025,Bengaluru,North,Website,Books,Product48,1,2478,2478,No,3,4
+1421,2024-01-14,1656,Hyderabad,East,Website,Fashion,Product43,2,640,1280,Yes,3,5
+1422,2024-10-02,1677,Mumbai,South,Mobile App,Fashion,Product14,3,839,2517,No,2,4
+1423,2024-11-21,1710,Hyderabad,North,Mobile App,Home,Product78,3,390,1170,Yes,2,2
+1424,2024-11-08,2731,Mumbai,North,Other,Fashion,Product8,5,4707,23535,No,5,3
+1425,2024-12-22,2127,Hyderabad,North,Website,Beauty,Product62,3,2935,8805,Yes,4,3
+1426,2024-06-11,2992,Pune,North,Website,Sports,Product21,4,2263,9052,Yes,5,2
+1427,2024-04-23,2573,Hyderabad,West,Mobile App,Beauty,Product61,5,4117,20585,No,7,4
+1428,2024-01-08,2199,Mumbai,South,Other,Electronics,Product97,2,3033,6066,No,5,1
+1429,2024-10-09,2119,Mumbai,East,Website,Sports,Product40,5,2965,14825,No,3,5
+1430,2024-08-02,1094,Kolkata,West,Social,Sports,Product49,4,489,1956,No,2,1
+1431,2024-12-21,2372,Bengaluru,South,Social,Fashion,Product7,3,2738,8214,Yes,3,2
+1432,2024-06-04,1776,Delhi,West,Mobile App,Fashion,Product79,3,4016,12048,No,2,4
+1433,2024-01-22,1199,Mumbai,West,Social,Fashion,Product53,5,4479,22395,No,3,4
+1434,2024-08-07,2186,Pune,North,Social,Books,Product91,4,4181,16724,No,7,3
+1435,2024-05-27,2923,Mumbai,East,Mobile App,Fashion,Product57,1,1376,1376,Yes,4,3
+1436,2024-11-15,1194,Pune,East,Social,Sports,Product82,4,1966,7864,No,6,4
+1437,2024-09-22,2950,Bengaluru,West,Social,Electronics,Product90,4,1970,7880,No,3,2
+1438,2024-12-11,2738,Kolkata,NE,Social,Beauty,Product27,5,2496,12480,No,6,1
+1439,2024-10-04,2426,Delhi,West,Mobile App,Home,Product84,4,1099,4396,No,5,5
+1440,2024-09-12,2138,Hyderabad,West,Website,Electronics,Product48,4,1889,7556,No,7,4
+1441,2024-07-18,2817,Delhi,South,Social,Electronics,Product7,5,245,1225,No,7,5
+1442,2024-07-12,1066,Mumbai,NE,Other,Electronics,Product73,2,721,1442,No,5,4
+1443,2024-12-07,2156,Kolkata,South,Mobile App,Electronics,Product68,2,4070,8140,No,3,4
+1444,2024-10-07,2735,Mumbai,East,Website,Books,Product34,5,1888,9440,No,3,2
+1445,2024-10-26,1047,Kolkata,NE,Mobile App,Books,Product28,1,4971,4971,No,6,3
+1446,2024-09-13,1748,Kolkata,North,Other,Beauty,Product3,3,2275,6825,Yes,4,1
+1447,2024-11-20,2892,Pune,NE,Other,Electronics,Product28,3,3646,10938,No,7,4
+1448,2024-10-06,2223,Delhi,West,Social,Sports,Product16,1,2389,2389,No,5,4
+1449,2024-09-03,1644,Bengaluru,NE,Social,Books,Product91,4,1753,7012,No,1,3
+1450,2024-03-21,2086,Bengaluru,West,Mobile App,Books,Product8,2,2099,4198,No,5,5
+1451,2024-09-06,1839,Kolkata,NE,Website,Home,Product21,2,3007,6014,No,1,2
+1452,2024-10-11,2119,Bengaluru,South,Website,Electronics,Product43,2,966,1932,No,6,1
+1453,2024-09-09,1945,Delhi,North,Website,Home,Product42,5,4673,23365,No,5,3
+1454,2024-03-20,2872,Mumbai,NE,Mobile App,Home,Product12,3,4320,12960,No,5,1
+1455,2024-08-09,1661,Delhi,NE,Mobile App,Home,Product89,5,1451,7255,No,2,1
+1456,2024-04-23,1688,Hyderabad,South,Other,Electronics,Product37,1,1144,1144,No,4,3
+1457,2024-03-22,1408,Hyderabad,NE,Social,Beauty,Product84,4,4146,16584,No,3,5
+1458,2024-02-16,2655,Hyderabad,North,Website,Sports,Product41,3,2581,7743,No,1,2
+1459,2024-02-28,1621,Bengaluru,East,Website,Books,Product51,3,2425,7275,Yes,7,4
+1460,2024-09-24,1740,Mumbai,North,Other,Fashion,Product8,4,780,3120,No,6,5
+1461,2024-04-04,1806,Mumbai,East,Other,Sports,Product18,3,418,1254,No,5,5
+1462,2024-11-24,1243,Hyderabad,North,Social,Fashion,Product44,1,3254,3254,No,4,1
+1463,2024-08-24,2255,Delhi,West,Website,Fashion,Product25,4,1169,4676,No,7,5
+1464,2024-10-12,2912,Kolkata,East,Social,Fashion,Product79,5,1253,6265,Yes,7,1
+1465,2024-07-25,2792,Mumbai,West,Social,Electronics,Product78,2,1835,3670,No,5,3
+1466,2024-01-03,1271,Bengaluru,North,Website,Home,Product51,5,2213,11065,No,2,1
+1467,2024-04-12,2520,Delhi,South,Other,Beauty,Product43,4,3925,15700,Yes,1,2
+1468,2024-12-05,2930,Delhi,East,Social,Home,Product9,3,560,1680,No,2,1
+1469,2024-05-24,1636,Hyderabad,West,Mobile App,Home,Product19,4,1828,7312,No,5,1
+1470,2024-10-25,1577,Bengaluru,East,Website,Books,Product20,4,379,1516,No,4,1
+1471,2024-06-14,2356,Delhi,South,Social,Books,Product47,1,750,750,Yes,4,2
+1472,2024-03-13,1413,Hyderabad,NE,Mobile App,Fashion,Product99,5,3863,19315,No,3,3
+1473,2024-12-26,1388,Pune,South,Website,Electronics,Product41,1,4921,4921,No,6,5
+1474,2024-09-20,1326,Hyderabad,North,Website,Sports,Product2,3,2024,6072,No,6,2
+1475,2024-06-23,2621,Mumbai,West,Other,Home,Product88,3,1137,3411,No,2,4
+1476,2024-03-15,2761,Bengaluru,North,Website,Home,Product17,2,3715,7430,No,5,5
+1477,2024-08-24,1725,Hyderabad,NE,Website,Electronics,Product32,2,2460,4920,No,4,5
+1478,2024-06-02,1100,Pune,South,Other,Fashion,Product48,4,1017,4068,No,5,1
+1479,2024-03-28,1537,Hyderabad,North,Mobile App,Fashion,Product86,2,2218,4436,Yes,7,5
+1480,2024-11-13,1244,Delhi,NE,Social,Books,Product30,2,676,1352,No,6,3
+1481,2024-07-20,2045,Kolkata,South,Other,Electronics,Product18,2,2553,5106,No,2,1
+1482,2024-08-16,2283,Kolkata,South,Website,Beauty,Product62,2,3013,6026,Yes,4,1
+1483,2024-03-24,2876,Bengaluru,East,Other,Fashion,Product30,4,4552,18208,No,7,4
+1484,2024-09-12,1131,Delhi,South,Other,Beauty,Product56,2,2591,5182,No,2,1
+1485,2024-08-15,2158,Hyderabad,NE,Mobile App,Sports,Product74,1,2487,2487,No,5,2
+1486,2024-05-14,1177,Pune,NE,Other,Sports,Product60,4,4051,16204,Yes,7,4
+1487,2024-09-26,2830,Bengaluru,North,Mobile App,Fashion,Product15,5,775,3875,Yes,7,1
+1488,2024-11-01,2480,Hyderabad,East,Website,Beauty,Product43,1,4291,4291,No,6,3
+1489,2024-12-21,2197,Kolkata,NE,Social,Beauty,Product20,2,4265,8530,Yes,5,5
+1490,2024-10-03,1032,Mumbai,North,Website,Books,Product40,1,1477,1477,No,2,4
+1491,2024-10-22,1703,Bengaluru,NE,Website,Home,Product28,4,916,3664,No,1,3
+1492,2024-06-11,2859,Kolkata,West,Mobile App,Books,Product32,2,574,1148,No,1,3
+1493,2024-09-10,1976,Pune,NE,Mobile App,Home,Product43,4,4551,18204,No,2,2
+1494,2024-11-17,1165,Bengaluru,West,Other,Electronics,Product45,5,1711,8555,No,1,2
+1495,2024-10-22,2498,Mumbai,West,Other,Home,Product6,4,1469,5876,Yes,6,4
+1496,2024-03-04,2861,Kolkata,South,Mobile App,Fashion,Product39,3,2129,6387,No,6,5
+1497,2024-07-02,2054,Delhi,East,Social,Electronics,Product31,4,3795,15180,No,7,4
+1498,2024-02-26,2479,Hyderabad,South,Mobile App,Books,Product94,3,1101,3303,No,4,4
+1499,2024-01-17,2976,Hyderabad,West,Social,Books,Product48,1,3412,3412,No,4,1
+1500,2024-06-09,1177,Hyderabad,NE,Social,Books,Product10,5,2807,14035,No,1,1
+1501,2024-05-26,1024,Delhi,South,Other,Beauty,Product100,1,1070,1070,No,3,4
+1502,2024-05-21,1640,Hyderabad,North,Mobile App,Sports,Product21,5,4178,20890,No,6,3
+1503,2024-07-23,1656,Delhi,South,Mobile App,Electronics,Product76,4,719,2876,Yes,4,5
+1504,2024-10-06,2931,Kolkata,East,Social,Fashion,Product22,2,1442,2884,No,2,2
+1505,2024-09-04,1636,Delhi,South,Website,Home,Product42,4,4676,18704,No,2,3
+1506,2024-07-17,1750,Delhi,North,Social,Fashion,Product32,2,1494,2988,No,1,2
+1507,2024-08-17,1925,Pune,South,Other,Electronics,Product34,4,3166,12664,No,6,5
+1508,2024-07-27,1979,Hyderabad,NE,Mobile App,Home,Product75,5,4061,20305,No,2,5
+1509,2024-03-26,1897,Kolkata,East,Social,Books,Product19,5,1359,6795,No,6,4
+1510,2024-06-08,1481,Delhi,West,Website,Books,Product30,5,1647,8235,No,1,5
+1511,2024-08-07,1115,Delhi,West,Website,Books,Product93,1,710,710,No,2,5
+1512,2024-11-19,1986,Delhi,North,Website,Fashion,Product36,4,1011,4044,No,1,5
+1513,2024-08-11,1843,Delhi,South,Social,Electronics,Product2,4,3567,14268,No,3,5
+1514,2024-11-12,1123,Kolkata,NE,Mobile App,Sports,Product100,4,4079,16316,No,4,3
+1515,2024-02-24,1166,Pune,East,Website,Electronics,Product37,4,2725,10900,No,2,2
+1516,2024-06-13,1659,Hyderabad,South,Website,Home,Product53,1,3332,3332,No,7,2
+1517,2024-09-22,1179,Kolkata,West,Website,Beauty,Product42,3,2899,8697,No,4,1
+1518,2024-04-17,2344,Pune,North,Other,Fashion,Product39,3,3220,9660,No,2,2
+1519,2024-06-15,1832,Delhi,South,Other,Sports,Product42,2,3343,6686,No,2,1
+1520,2024-03-04,1410,Mumbai,North,Social,Books,Product10,2,461,922,No,3,3
+1521,2024-08-01,2253,Hyderabad,South,Mobile App,Electronics,Product72,4,3138,12552,No,2,3
+1522,2024-01-11,1118,Hyderabad,NE,Social,Books,Product78,2,4186,8372,No,4,5
+1523,2024-01-07,2109,Mumbai,West,Website,Sports,Product83,1,1774,1774,No,4,5
+1524,2024-11-23,2004,Hyderabad,West,Mobile App,Fashion,Product71,5,511,2555,No,5,5
+1525,2024-07-06,2110,Delhi,North,Website,Electronics,Product76,3,2388,7164,No,7,4
+1526,2024-12-25,2573,Bengaluru,West,Social,Books,Product1,2,3543,7086,No,7,4
+1527,2024-02-24,2327,Kolkata,South,Mobile App,Home,Product75,2,945,1890,No,6,5
+1528,2024-09-03,2341,Kolkata,South,Website,Electronics,Product7,2,1034,2068,No,1,3
+1529,2024-03-22,1327,Pune,West,Mobile App,Home,Product78,5,4555,22775,No,2,2
+1530,2024-06-08,2845,Mumbai,North,Social,Home,Product57,4,3535,14140,No,3,3
+1531,2024-02-19,2841,Bengaluru,East,Social,Electronics,Product63,2,2809,5618,No,6,2
+1532,2024-09-05,2771,Delhi,North,Social,Books,Product45,3,1146,3438,No,1,2
+1533,2024-05-02,1180,Delhi,South,Mobile App,Books,Product70,3,2538,7614,No,2,2
+1534,2024-06-15,2642,Delhi,West,Mobile App,Beauty,Product13,2,715,1430,No,5,3
+1535,2024-04-18,2769,Delhi,NE,Website,Beauty,Product40,4,435,1740,No,6,1
+1536,2024-11-13,2220,Mumbai,North,Other,Books,Product25,4,4526,18104,No,5,4
+1537,2024-03-10,2157,Delhi,East,Mobile App,Fashion,Product20,1,1625,1625,Yes,1,3
+1538,2024-07-14,1514,Mumbai,North,Social,Home,Product38,4,4722,18888,No,4,4
+1539,2024-04-02,1600,Mumbai,North,Social,Beauty,Product55,4,3960,15840,No,7,5
+1540,2024-10-10,2822,Delhi,East,Other,Books,Product7,1,4426,4426,No,7,3
+1541,2024-10-26,1223,Pune,South,Other,Fashion,Product93,1,4252,4252,No,1,1
+1542,2024-06-20,2985,Hyderabad,West,Mobile App,Fashion,Product31,1,2633,2633,No,1,1
+1543,2024-02-09,2125,Hyderabad,NE,Website,Electronics,Product97,4,744,2976,No,7,3
+1544,2024-07-19,1138,Delhi,NE,Mobile App,Beauty,Product13,4,258,1032,No,2,2
+1545,2024-01-22,2280,Bengaluru,East,Social,Fashion,Product2,5,4537,22685,No,5,1
+1546,2024-03-16,2355,Hyderabad,West,Mobile App,Sports,Product97,2,3695,7390,No,2,1
+1547,2024-08-21,2624,Mumbai,West,Other,Beauty,Product28,5,2616,13080,No,1,3
+1548,2024-06-28,2979,Mumbai,East,Other,Beauty,Product37,2,2588,5176,Yes,4,3
+1549,2024-11-27,2718,Mumbai,NE,Social,Books,Product46,4,2443,9772,No,1,2
+1550,2024-05-01,1118,Pune,North,Other,Beauty,Product91,5,498,2490,No,4,2
+1551,2024-06-10,1171,Bengaluru,West,Website,Electronics,Product88,3,1466,4398,No,6,5
+1552,2024-05-28,1073,Kolkata,NE,Other,Books,Product53,3,4872,14616,No,3,3
+1553,2024-04-22,2137,Bengaluru,South,Website,Beauty,Product60,2,4164,8328,No,1,2
+1554,2024-03-18,1298,Bengaluru,North,Mobile App,Sports,Product100,2,2227,4454,No,4,2
+1555,2024-12-25,1241,Delhi,NE,Social,Sports,Product29,1,988,988,No,4,1
+1556,2024-06-09,2105,Kolkata,West,Other,Sports,Product72,5,2642,13210,No,1,1
+1557,2024-09-11,1403,Pune,West,Social,Books,Product18,3,2594,7782,Yes,7,5
+1558,2024-06-09,1553,Pune,West,Social,Home,Product86,2,1631,3262,No,3,5
+1559,2024-06-19,1315,Mumbai,East,Website,Books,Product60,3,3018,9054,No,4,2
+1560,2024-03-13,2322,Pune,West,Mobile App,Home,Product70,1,2848,2848,No,7,1
+1561,2024-05-15,1797,Pune,South,Other,Beauty,Product21,5,1567,7835,No,4,3
+1562,2024-03-11,1240,Bengaluru,East,Mobile App,Fashion,Product98,3,1924,5772,No,6,5
+1563,2024-03-09,2524,Bengaluru,West,Website,Electronics,Product1,4,677,2708,No,2,3
+1564,2024-07-27,1629,Pune,NE,Other,Home,Product19,3,2465,7395,No,6,2
+1565,2024-09-27,2856,Bengaluru,North,Social,Sports,Product7,4,2637,10548,No,1,3
+1566,2024-11-07,1066,Delhi,East,Website,Books,Product56,1,4408,4408,No,7,5
+1567,2024-09-04,2621,Delhi,East,Social,Sports,Product100,1,1311,1311,Yes,7,2
+1568,2024-02-18,2486,Pune,East,Mobile App,Electronics,Product40,5,4966,24830,No,2,1
+1569,2024-07-23,1715,Bengaluru,West,Other,Beauty,Product93,3,394,1182,No,5,2
+1570,2024-01-18,1329,Bengaluru,NE,Mobile App,Beauty,Product98,4,4440,17760,No,6,5
+1571,2024-08-05,2887,Pune,South,Mobile App,Books,Product83,1,1868,1868,No,6,3
+1572,2024-09-22,1521,Bengaluru,South,Mobile App,Electronics,Product41,5,3290,16450,No,7,1
+1573,2024-08-27,1605,Pune,West,Mobile App,Fashion,Product85,5,4678,23390,No,6,3
+1574,2024-11-15,1698,Bengaluru,North,Mobile App,Fashion,Product95,3,3074,9222,No,6,5
+1575,2024-12-01,2994,Delhi,South,Social,Fashion,Product49,2,3583,7166,No,1,5
+1576,2024-07-24,1857,Delhi,South,Other,Electronics,Product79,4,2516,10064,No,3,1
+1577,2024-08-03,1148,Delhi,South,Other,Beauty,Product88,1,3969,3969,No,3,1
+1578,2024-01-12,1009,Mumbai,North,Mobile App,Electronics,Product23,2,3634,7268,No,2,3
+1579,2024-06-09,1977,Kolkata,East,Mobile App,Home,Product40,4,1172,4688,No,3,3
+1580,2024-06-19,2535,Delhi,East,Other,Beauty,Product72,3,4882,14646,Yes,3,2
+1581,2024-05-16,2639,Hyderabad,North,Social,Books,Product32,4,4939,19756,No,5,3
+1582,2024-07-24,1604,Delhi,West,Website,Home,Product78,4,3364,13456,No,2,1
+1583,2024-10-02,1685,Kolkata,North,Social,Fashion,Product27,4,2000,8000,No,6,4
+1584,2024-12-10,1830,Bengaluru,South,Website,Beauty,Product26,1,3475,3475,Yes,7,4
+1585,2024-01-01,2747,Hyderabad,East,Other,Sports,Product72,5,4843,24215,No,7,5
+1586,2024-10-28,2541,Pune,NE,Mobile App,Sports,Product61,1,3659,3659,No,1,3
+1587,2024-11-27,2035,Mumbai,NE,Social,Home,Product17,3,3735,11205,No,4,5
+1588,2024-12-23,2418,Pune,East,Mobile App,Beauty,Product46,2,1639,3278,No,1,1
+1589,2024-05-06,2671,Pune,South,Social,Books,Product75,5,4486,22430,No,4,5
+1590,2024-09-05,2490,Kolkata,East,Other,Beauty,Product19,3,4309,12927,No,5,4
+1591,2024-06-23,2570,Hyderabad,East,Other,Electronics,Product30,2,564,1128,No,3,4
+1592,2024-12-15,2239,Kolkata,NE,Social,Sports,Product30,4,4448,17792,Yes,4,3
+1593,2024-12-28,1570,Pune,South,Other,Electronics,Product36,2,1198,2396,No,1,3
+1594,2024-02-21,2463,Pune,NE,Other,Home,Product78,3,4645,13935,No,2,5
+1595,2024-07-12,1696,Bengaluru,East,Other,Sports,Product2,3,4650,13950,Yes,7,4
+1596,2024-09-03,2161,Bengaluru,East,Website,Electronics,Product87,4,3208,12832,No,4,2
+1597,2024-10-02,1272,Delhi,South,Other,Fashion,Product43,4,2294,9176,Yes,2,1
+1598,2024-10-02,2032,Kolkata,East,Other,Books,Product29,3,2997,8991,No,2,4
+1599,2024-01-09,1340,Pune,East,Website,Beauty,Product40,3,2235,6705,No,3,3
+1600,2024-12-10,1110,Pune,NE,Social,Sports,Product43,3,631,1893,No,7,1
+1601,2024-07-11,2686,Kolkata,East,Website,Home,Product39,5,1868,9340,No,7,1
+1602,2024-04-28,2974,Mumbai,North,Other,Beauty,Product66,1,205,205,Yes,1,3
+1603,2024-08-08,2227,Delhi,West,Social,Fashion,Product10,4,1922,7688,No,5,1
+1604,2024-02-07,2091,Hyderabad,East,Other,Books,Product79,1,1818,1818,No,6,1
+1605,2024-04-13,2942,Hyderabad,East,Mobile App,Electronics,Product95,5,4495,22475,No,4,5
+1606,2024-01-02,1674,Hyderabad,North,Social,Home,Product48,5,2790,13950,No,6,2
+1607,2024-05-21,2504,Delhi,NE,Social,Home,Product84,2,4622,9244,No,1,5
+1608,2024-09-11,2160,Delhi,North,Website,Home,Product79,5,2491,12455,No,5,5
+1609,2024-12-02,2826,Bengaluru,West,Social,Sports,Product66,1,2498,2498,No,5,5
+1610,2024-09-03,2955,Delhi,NE,Other,Electronics,Product31,4,1232,4928,No,1,4
+1611,2024-07-12,1913,Delhi,South,Mobile App,Books,Product17,3,4082,12246,Yes,7,3
+1612,2024-05-22,1957,Kolkata,NE,Mobile App,Books,Product49,5,3470,17350,No,5,3
+1613,2024-09-22,1862,Mumbai,West,Website,Home,Product4,4,4693,18772,No,6,4
+1614,2024-08-20,1742,Delhi,East,Website,Books,Product73,5,4840,24200,No,4,3
+1615,2024-03-28,1212,Hyderabad,NE,Website,Books,Product48,5,1796,8980,No,6,1
+1616,2024-03-03,1510,Kolkata,NE,Social,Beauty,Product32,4,1599,6396,Yes,5,2
+1617,2024-02-24,1092,Delhi,North,Other,Sports,Product42,5,2572,12860,No,6,1
+1618,2024-01-17,2292,Kolkata,South,Website,Fashion,Product34,5,3349,16745,No,1,4
+1619,2024-06-25,2070,Mumbai,West,Social,Home,Product72,5,564,2820,No,5,5
+1620,2024-06-08,1326,Mumbai,East,Other,Sports,Product90,4,921,3684,No,2,3
+1621,2024-02-01,1859,Kolkata,NE,Social,Sports,Product16,4,4628,18512,No,6,5
+1622,2024-10-05,2174,Kolkata,South,Mobile App,Books,Product27,1,2182,2182,No,4,2
+1623,2024-12-25,1253,Kolkata,South,Website,Sports,Product76,3,1506,4518,No,6,2
+1624,2024-08-04,2697,Bengaluru,NE,Other,Books,Product65,2,3423,6846,No,2,3
+1625,2024-01-07,2875,Mumbai,East,Mobile App,Home,Product9,5,3247,16235,No,2,4
+1626,2024-08-24,1786,Hyderabad,North,Mobile App,Sports,Product48,3,1363,4089,No,2,3
+1627,2024-04-09,2463,Hyderabad,East,Mobile App,Books,Product83,5,3684,18420,No,4,1
+1628,2024-07-04,1710,Delhi,North,Website,Electronics,Product3,4,2720,10880,No,2,2
+1629,2024-02-18,2094,Kolkata,West,Mobile App,Electronics,Product38,1,1963,1963,No,4,2
+1630,2024-09-09,2148,Delhi,West,Website,Home,Product4,4,4319,17276,No,5,4
+1631,2024-06-15,2819,Pune,West,Social,Home,Product96,4,4594,18376,No,4,4
+1632,2024-08-08,2905,Bengaluru,East,Mobile App,Sports,Product98,2,4060,8120,No,4,4
+1633,2024-09-02,1960,Delhi,West,Website,Sports,Product40,5,3854,19270,No,4,5
+1634,2024-06-18,1622,Bengaluru,South,Social,Sports,Product93,4,1141,4564,Yes,4,5
+1635,2024-11-10,2808,Kolkata,North,Mobile App,Electronics,Product59,5,660,3300,No,2,4
+1636,2024-05-26,1332,Kolkata,North,Website,Books,Product74,3,4190,12570,No,3,2
+1637,2024-03-22,2451,Mumbai,NE,Other,Electronics,Product18,4,2839,11356,No,4,3
+1638,2024-01-28,2882,Mumbai,NE,Website,Fashion,Product7,2,4754,9508,No,4,5
+1639,2024-09-10,1478,Delhi,North,Mobile App,Books,Product51,4,1811,7244,No,7,1
+1640,2024-02-13,1722,Bengaluru,North,Social,Fashion,Product100,5,4381,21905,No,4,3
+1641,2024-07-12,2356,Delhi,West,Website,Home,Product85,4,213,852,No,7,5
+1642,2024-01-27,1980,Delhi,North,Social,Sports,Product99,1,913,913,Yes,5,1
+1643,2024-03-06,1872,Bengaluru,South,Website,Beauty,Product83,5,2924,14620,No,3,3
+1644,2024-04-09,2824,Delhi,South,Website,Home,Product60,3,4465,13395,No,4,5
+1645,2024-06-13,2071,Kolkata,West,Other,Fashion,Product65,1,233,233,No,4,2
+1646,2024-02-20,1021,Kolkata,North,Social,Sports,Product60,3,3899,11697,No,6,3
+1647,2024-01-15,1963,Mumbai,South,Other,Beauty,Product16,1,3801,3801,No,4,5
+1648,2024-05-05,2703,Bengaluru,South,Website,Fashion,Product14,1,535,535,No,1,1
+1649,2024-04-27,2128,Bengaluru,NE,Mobile App,Books,Product7,2,600,1200,No,3,5
+1650,2024-05-02,2954,Delhi,North,Mobile App,Home,Product2,5,3145,15725,No,6,5
+1651,2024-08-27,2694,Hyderabad,West,Mobile App,Home,Product61,1,2144,2144,No,1,3
+1652,2024-10-12,1441,Kolkata,East,Mobile App,Books,Product70,2,4883,9766,No,5,3
+1653,2024-02-09,1385,Mumbai,South,Website,Electronics,Product15,5,1962,9810,No,3,3
+1654,2024-09-06,1978,Hyderabad,East,Other,Books,Product50,3,2090,6270,No,2,3
+1655,2024-09-14,1189,Hyderabad,North,Social,Sports,Product18,1,825,825,No,2,4
+1656,2024-11-12,2133,Bengaluru,West,Other,Sports,Product27,5,3435,17175,Yes,2,4
+1657,2024-12-04,1603,Delhi,South,Other,Home,Product56,1,698,698,No,4,5
+1658,2024-05-15,2107,Hyderabad,East,Social,Beauty,Product87,3,1834,5502,No,6,1
+1659,2024-11-21,1658,Delhi,East,Mobile App,Beauty,Product46,2,784,1568,No,3,3
+1660,2024-01-14,2718,Pune,North,Social,Beauty,Product35,3,4196,12588,No,5,1
+1661,2024-03-13,2236,Hyderabad,West,Mobile App,Beauty,Product34,1,1638,1638,No,7,3
+1662,2024-04-09,1460,Kolkata,East,Mobile App,Electronics,Product4,1,1476,1476,Yes,2,2
+1663,2024-09-21,1498,Hyderabad,NE,Other,Electronics,Product21,5,200,1000,No,1,3
+1664,2024-11-15,1938,Delhi,East,Website,Fashion,Product26,4,3378,13512,No,1,5
+1665,2024-02-25,1184,Hyderabad,NE,Other,Electronics,Product58,1,3232,3232,No,6,4
+1666,2024-03-13,2586,Kolkata,NE,Website,Beauty,Product16,1,4870,4870,No,4,2
+1667,2024-10-26,1915,Hyderabad,North,Social,Fashion,Product26,2,2260,4520,No,1,3
+1668,2024-11-19,2858,Mumbai,East,Website,Sports,Product97,1,1035,1035,No,4,1
+1669,2024-12-19,1805,Pune,South,Mobile App,Books,Product43,4,3915,15660,No,4,2
+1670,2024-01-24,1559,Kolkata,South,Website,Sports,Product70,2,733,1466,No,6,3
+1671,2024-03-05,1934,Hyderabad,NE,Other,Sports,Product44,3,3949,11847,No,4,2
+1672,2024-12-10,2665,Kolkata,West,Mobile App,Beauty,Product90,2,642,1284,No,5,5
+1673,2024-01-17,1930,Hyderabad,North,Mobile App,Beauty,Product4,5,3812,19060,No,2,2
+1674,2024-06-13,1854,Bengaluru,NE,Mobile App,Home,Product38,2,1029,2058,No,1,1
+1675,2024-03-14,2651,Delhi,South,Mobile App,Books,Product22,4,4481,17924,No,4,3
+1676,2024-03-11,2017,Hyderabad,South,Social,Sports,Product43,2,504,1008,No,5,4
+1677,2024-09-02,1343,Delhi,NE,Website,Books,Product85,2,1485,2970,No,6,5
+1678,2024-08-02,2368,Bengaluru,North,Mobile App,Electronics,Product62,5,3376,16880,Yes,6,2
+1679,2024-04-19,1021,Mumbai,South,Website,Books,Product88,2,2307,4614,No,5,5
+1680,2024-03-20,1395,Delhi,NE,Social,Sports,Product83,5,4823,24115,No,1,3
+1681,2024-11-25,2595,Delhi,East,Other,Electronics,Product53,3,4737,14211,No,3,3
+1682,2024-02-18,2072,Delhi,West,Website,Sports,Product26,4,3987,15948,No,1,2
+1683,2024-06-06,2980,Kolkata,NE,Website,Sports,Product95,1,4311,4311,No,7,2
+1684,2024-07-04,2977,Hyderabad,East,Social,Fashion,Product96,5,260,1300,Yes,1,1
+1685,2024-05-22,2892,Pune,North,Website,Fashion,Product92,2,1209,2418,No,5,4
+1686,2024-11-25,1741,Pune,NE,Social,Beauty,Product12,5,2328,11640,Yes,5,2
+1687,2024-02-26,2371,Pune,South,Other,Books,Product51,1,3801,3801,No,5,2
+1688,2024-10-14,2369,Hyderabad,South,Other,Home,Product92,4,890,3560,No,7,1
+1689,2024-02-14,2689,Bengaluru,West,Website,Sports,Product43,5,2864,14320,No,1,3
+1690,2024-01-09,2437,Kolkata,South,Social,Electronics,Product93,1,1330,1330,No,2,4
+1691,2024-08-21,2142,Delhi,South,Social,Books,Product61,5,1462,7310,No,6,5
+1692,2024-09-08,1857,Bengaluru,South,Social,Home,Product32,4,1516,6064,No,5,3
+1693,2024-04-10,2383,Hyderabad,NE,Website,Home,Product18,4,3146,12584,No,2,3
+1694,2024-03-28,1735,Bengaluru,North,Mobile App,Books,Product32,3,4413,13239,No,7,1
+1695,2024-01-03,2766,Delhi,West,Other,Electronics,Product57,2,2543,5086,Yes,7,1
+1696,2024-02-07,1260,Kolkata,North,Website,Books,Product82,2,579,1158,No,3,4
+1697,2024-02-10,1582,Pune,East,Website,Fashion,Product19,3,2846,8538,No,2,5
+1698,2024-10-14,1730,Hyderabad,South,Website,Home,Product17,3,1032,3096,No,5,5
+1699,2024-08-21,1571,Hyderabad,West,Social,Books,Product59,4,1357,5428,Yes,4,4
+1700,2024-11-03,2968,Kolkata,NE,Other,Electronics,Product9,2,3280,6560,No,4,4
+1701,2024-03-15,1394,Bengaluru,East,Social,Beauty,Product100,1,667,667,No,2,1
+1702,2024-01-14,2830,Pune,West,Other,Sports,Product76,2,2634,5268,No,4,4
+1703,2024-09-12,2154,Bengaluru,NE,Mobile App,Sports,Product8,5,2437,12185,No,5,2
+1704,2024-12-16,2018,Hyderabad,South,Website,Sports,Product1,5,475,2375,No,4,5
+1705,2024-01-11,2827,Bengaluru,South,Mobile App,Books,Product17,5,3859,19295,No,3,1
+1706,2024-07-16,1938,Delhi,West,Social,Electronics,Product78,4,4268,17072,No,2,4
+1707,2024-10-05,2313,Mumbai,NE,Social,Sports,Product81,3,2531,7593,No,5,4
+1708,2024-09-16,2667,Bengaluru,West,Other,Beauty,Product73,3,1069,3207,No,2,2
+1709,2024-11-08,1488,Hyderabad,East,Social,Books,Product69,3,1209,3627,No,6,5
+1710,2024-10-11,1189,Bengaluru,North,Mobile App,Sports,Product15,3,4532,13596,Yes,6,4
+1711,2024-02-14,1724,Mumbai,South,Website,Beauty,Product86,4,535,2140,No,2,5
+1712,2024-05-17,1035,Pune,North,Social,Fashion,Product82,3,1820,5460,No,5,4
+1713,2024-06-25,2415,Mumbai,South,Website,Beauty,Product77,1,3799,3799,No,4,2
+1714,2024-11-15,1173,Kolkata,North,Other,Home,Product93,2,3699,7398,No,6,1
+1715,2024-03-22,2265,Mumbai,NE,Other,Sports,Product73,3,3241,9723,No,2,2
+1716,2024-02-19,1196,Delhi,West,Website,Fashion,Product29,3,3842,11526,No,5,1
+1717,2024-10-19,2367,Pune,North,Mobile App,Fashion,Product93,1,330,330,No,7,2
+1718,2024-06-22,2012,Hyderabad,East,Social,Beauty,Product68,5,4272,21360,No,2,5
+1719,2024-07-21,2461,Pune,NE,Other,Sports,Product21,3,2048,6144,No,2,2
+1720,2024-10-16,1630,Pune,NE,Mobile App,Beauty,Product9,3,1831,5493,No,5,3
+1721,2024-04-21,1694,Pune,North,Website,Electronics,Product37,5,3726,18630,No,5,3
+1722,2024-06-08,1080,Bengaluru,West,Website,Sports,Product78,1,4003,4003,No,6,1
+1723,2024-04-18,1128,Pune,East,Mobile App,Beauty,Product97,2,3949,7898,No,7,1
+1724,2024-11-12,2804,Hyderabad,South,Mobile App,Fashion,Product92,5,3002,15010,No,1,4
+1725,2024-09-16,1731,Hyderabad,NE,Social,Fashion,Product48,2,793,1586,No,6,2
+1726,2024-05-03,1375,Mumbai,NE,Social,Beauty,Product92,1,1711,1711,No,7,3
+1727,2024-04-23,1487,Hyderabad,North,Website,Beauty,Product52,5,3761,18805,No,6,5
+1728,2024-03-02,2925,Bengaluru,North,Other,Electronics,Product6,5,497,2485,No,3,2
+1729,2024-04-01,1893,Mumbai,South,Social,Fashion,Product59,4,3191,12764,No,1,5
+1730,2024-04-22,1480,Mumbai,East,Other,Fashion,Product87,3,3294,9882,No,7,3
+1731,2024-03-07,1530,Hyderabad,NE,Website,Books,Product6,4,1927,7708,No,5,4
+1732,2024-05-26,2816,Bengaluru,West,Social,Beauty,Product41,5,3314,16570,Yes,6,2
+1733,2024-09-22,1738,Bengaluru,North,Other,Books,Product39,4,1560,6240,No,7,5
+1734,2024-07-19,2700,Pune,NE,Mobile App,Electronics,Product51,1,1783,1783,No,4,4
+1735,2024-03-26,1934,Pune,North,Mobile App,Sports,Product77,5,2225,11125,No,6,5
+1736,2024-09-27,2083,Hyderabad,North,Mobile App,Sports,Product13,4,1669,6676,No,4,5
+1737,2024-02-27,1051,Bengaluru,East,Mobile App,Home,Product33,3,3358,10074,No,1,3
+1738,2024-09-27,2428,Kolkata,South,Social,Books,Product51,4,4822,19288,Yes,2,5
+1739,2024-04-07,1644,Hyderabad,North,Other,Home,Product1,3,769,2307,No,3,5
+1740,2024-06-15,1049,Mumbai,South,Mobile App,Books,Product89,2,1969,3938,No,7,4
+1741,2024-12-13,2232,Mumbai,NE,Website,Beauty,Product64,3,4366,13098,No,1,4
+1742,2024-11-26,2598,Mumbai,South,Social,Books,Product64,3,1670,5010,No,7,1
+1743,2024-12-09,1529,Delhi,West,Mobile App,Beauty,Product73,1,4193,4193,No,1,5
+1744,2024-06-26,2172,Pune,West,Social,Books,Product61,3,4358,13074,No,1,3
+1745,2024-04-13,1145,Hyderabad,East,Mobile App,Books,Product21,3,2146,6438,No,7,1
+1746,2024-05-06,1432,Bengaluru,West,Website,Fashion,Product45,2,1578,3156,No,5,1
+1747,2024-02-07,2278,Kolkata,West,Other,Beauty,Product29,2,1226,2452,Yes,1,5
+1748,2024-08-15,2544,Delhi,North,Social,Electronics,Product50,1,1767,1767,No,6,2
+1749,2024-09-21,2362,Hyderabad,East,Other,Electronics,Product74,1,806,806,No,4,2
+1750,2024-12-08,2300,Bengaluru,South,Social,Home,Product97,1,3350,3350,No,4,4
+1751,2024-04-22,2645,Bengaluru,East,Other,Home,Product13,1,2528,2528,No,1,2
+1752,2024-11-05,2249,Mumbai,South,Website,Fashion,Product73,2,3112,6224,Yes,6,3
+1753,2024-09-10,1273,Bengaluru,NE,Mobile App,Books,Product51,3,3465,10395,No,2,4
+1754,2024-10-27,2909,Delhi,South,Social,Beauty,Product3,5,4204,21020,No,1,2
+1755,2024-01-20,2473,Mumbai,North,Other,Books,Product2,4,2576,10304,No,6,4
+1756,2024-11-17,2676,Delhi,South,Other,Electronics,Product47,2,3673,7346,Yes,2,4
+1757,2024-04-25,1564,Pune,North,Other,Electronics,Product46,4,2503,10012,No,1,5
+1758,2024-11-09,2302,Kolkata,NE,Mobile App,Books,Product35,4,1628,6512,No,2,5
+1759,2024-07-15,1713,Hyderabad,NE,Website,Books,Product62,2,1296,2592,No,3,2
+1760,2024-05-05,1001,Bengaluru,NE,Website,Books,Product41,4,3759,15036,No,4,5
+1761,2024-12-07,1487,Pune,NE,Social,Fashion,Product29,2,3189,6378,No,7,2
+1762,2024-06-06,1164,Kolkata,South,Other,Home,Product1,1,3963,3963,No,6,2
+1763,2024-08-09,1757,Bengaluru,West,Other,Electronics,Product91,1,1870,1870,No,7,2
+1764,2024-06-25,1366,Kolkata,South,Other,Home,Product49,3,3893,11679,No,6,4
+1765,2024-02-04,2260,Kolkata,NE,Social,Electronics,Product95,3,339,1017,No,4,4
+1766,2024-01-10,2853,Delhi,South,Website,Books,Product60,4,2593,10372,No,6,1
+1767,2024-07-11,1026,Mumbai,East,Other,Books,Product95,5,3900,19500,No,4,2
+1768,2024-11-18,1589,Pune,East,Social,Sports,Product43,3,2013,6039,No,4,3
+1769,2024-11-06,2865,Mumbai,East,Other,Fashion,Product92,3,4134,12402,No,1,2
+1770,2024-04-28,1042,Delhi,West,Mobile App,Home,Product3,5,4800,24000,No,5,4
+1771,2024-09-17,1228,Kolkata,West,Mobile App,Books,Product46,2,957,1914,No,5,1
+1772,2024-09-20,1145,Mumbai,West,Mobile App,Fashion,Product99,3,3572,10716,No,3,3
+1773,2024-09-28,2486,Delhi,West,Website,Electronics,Product14,5,1997,9985,No,1,3
+1774,2024-03-09,1575,Kolkata,West,Other,Sports,Product15,3,3530,10590,No,6,3
+1775,2024-05-05,2675,Pune,West,Website,Beauty,Product92,1,4592,4592,No,1,2
+1776,2024-12-14,2821,Pune,South,Website,Fashion,Product49,1,1972,1972,No,5,2
+1777,2024-10-10,1826,Pune,South,Other,Fashion,Product53,2,3349,6698,No,6,1
+1778,2024-03-19,1564,Bengaluru,South,Social,Beauty,Product34,2,1193,2386,No,2,4
+1779,2024-04-21,1853,Mumbai,North,Social,Beauty,Product91,1,434,434,No,2,3
+1780,2024-10-17,2818,Pune,North,Mobile App,Home,Product21,3,3074,9222,No,6,4
+1781,2024-08-23,2429,Pune,South,Mobile App,Books,Product19,5,1085,5425,No,4,2
+1782,2024-08-07,1969,Delhi,South,Website,Beauty,Product63,2,3082,6164,No,5,3
+1783,2024-03-16,2012,Hyderabad,NE,Mobile App,Fashion,Product65,1,2543,2543,No,1,1
+1784,2024-01-19,2367,Delhi,East,Social,Beauty,Product20,5,1300,6500,No,4,2
+1785,2024-08-24,2597,Hyderabad,North,Other,Fashion,Product58,3,3802,11406,Yes,5,1
+1786,2024-06-07,1265,Mumbai,NE,Website,Books,Product79,3,1645,4935,Yes,5,1
+1787,2024-11-12,1731,Delhi,NE,Other,Books,Product40,5,857,4285,No,1,5
+1788,2024-12-23,2109,Bengaluru,South,Social,Home,Product26,4,829,3316,Yes,7,5
+1789,2024-08-28,1742,Hyderabad,East,Mobile App,Fashion,Product12,1,2351,2351,No,1,4
+1790,2024-08-02,2915,Hyderabad,North,Website,Fashion,Product99,5,3850,19250,No,6,4
+1791,2024-11-11,1670,Kolkata,South,Mobile App,Electronics,Product14,4,4108,16432,No,5,1
+1792,2024-07-12,2781,Delhi,South,Social,Beauty,Product4,5,2349,11745,No,6,3
+1793,2024-11-20,2958,Hyderabad,South,Mobile App,Sports,Product30,1,3769,3769,No,3,3
+1794,2024-05-17,2578,Delhi,South,Mobile App,Sports,Product56,3,4637,13911,No,4,2
+1795,2024-01-21,2066,Hyderabad,South,Social,Sports,Product81,3,4275,12825,No,7,4
+1796,2024-10-17,2530,Hyderabad,NE,Other,Sports,Product10,4,2485,9940,No,6,1
+1797,2024-08-18,2799,Delhi,North,Other,Electronics,Product80,1,602,602,No,4,3
+1798,2024-09-11,2639,Pune,West,Mobile App,Books,Product12,3,1670,5010,No,1,5
+1799,2024-05-22,1062,Mumbai,West,Other,Fashion,Product88,2,2952,5904,No,7,2
+1800,2024-05-06,1543,Delhi,West,Other,Beauty,Product40,2,3476,6952,No,1,2
+1801,2024-06-15,2425,Pune,North,Mobile App,Sports,Product18,2,2520,5040,No,1,4
+1802,2024-04-18,1861,Hyderabad,NE,Other,Beauty,Product92,4,1842,7368,No,2,4
+1803,2024-01-02,2687,Delhi,North,Website,Sports,Product2,2,4882,9764,No,7,2
+1804,2024-03-15,2852,Bengaluru,North,Social,Electronics,Product5,2,3884,7768,Yes,7,3
+1805,2024-01-13,1261,Hyderabad,South,Mobile App,Home,Product60,1,4586,4586,No,1,1
+1806,2024-11-02,2630,Hyderabad,NE,Website,Sports,Product59,3,3486,10458,No,7,3
+1807,2024-06-21,2972,Delhi,NE,Mobile App,Fashion,Product49,2,2628,5256,No,6,2
+1808,2024-10-13,1835,Mumbai,North,Website,Sports,Product76,1,1467,1467,No,3,1
+1809,2024-07-21,2030,Pune,East,Other,Fashion,Product67,1,3537,3537,No,3,1
+1810,2024-09-22,1901,Kolkata,East,Website,Books,Product45,1,3856,3856,No,6,2
+1811,2024-12-19,1106,Delhi,South,Social,Sports,Product79,3,3435,10305,No,2,4
+1812,2024-11-04,2553,Kolkata,East,Other,Beauty,Product45,5,478,2390,No,4,5
+1813,2024-03-07,1487,Mumbai,North,Social,Books,Product75,4,2204,8816,No,2,3
+1814,2024-06-04,1214,Mumbai,East,Mobile App,Sports,Product36,4,786,3144,No,1,1
+1815,2024-07-26,2962,Kolkata,East,Website,Beauty,Product66,3,1470,4410,No,4,5
+1816,2024-08-07,2427,Mumbai,West,Mobile App,Home,Product73,2,1004,2008,No,6,3
+1817,2024-07-25,1642,Pune,North,Social,Electronics,Product36,2,4209,8418,No,1,2
+1818,2024-09-27,1013,Delhi,West,Other,Sports,Product70,5,3460,17300,No,5,4
+1819,2024-02-06,2949,Mumbai,West,Mobile App,Electronics,Product24,3,3773,11319,No,4,4
+1820,2024-03-27,1074,Mumbai,South,Mobile App,Books,Product12,3,2534,7602,No,4,1
+1821,2024-09-06,1506,Kolkata,South,Other,Books,Product33,1,2913,2913,No,1,1
+1822,2024-07-05,2602,Hyderabad,East,Mobile App,Beauty,Product95,5,2804,14020,No,2,3
+1823,2024-09-12,1473,Pune,North,Mobile App,Sports,Product81,3,3703,11109,No,7,5
+1824,2024-10-10,2945,Mumbai,West,Social,Home,Product62,1,793,793,No,2,2
+1825,2024-03-15,1069,Mumbai,East,Website,Fashion,Product65,1,3604,3604,No,2,5
+1826,2024-06-28,2434,Mumbai,NE,Social,Home,Product8,2,4151,8302,No,4,5
+1827,2024-06-17,2349,Delhi,East,Other,Fashion,Product97,1,1167,1167,No,2,4
+1828,2024-07-14,1168,Kolkata,NE,Other,Home,Product37,5,1187,5935,No,4,5
+1829,2024-03-06,1623,Pune,South,Website,Beauty,Product82,2,596,1192,No,7,3
+1830,2024-02-26,2618,Mumbai,NE,Social,Electronics,Product51,1,232,232,No,5,2
+1831,2024-12-03,1033,Hyderabad,East,Social,Sports,Product71,5,881,4405,No,7,3
+1832,2024-04-08,2808,Pune,NE,Website,Beauty,Product75,3,4135,12405,No,1,4
+1833,2024-08-26,1076,Bengaluru,East,Social,Home,Product98,2,4849,9698,No,6,4
+1834,2024-08-03,1574,Pune,North,Mobile App,Fashion,Product87,4,2020,8080,No,2,5
+1835,2024-03-05,2654,Delhi,NE,Website,Electronics,Product55,5,4405,22025,Yes,5,3
+1836,2024-12-14,1463,Hyderabad,NE,Mobile App,Books,Product53,2,2450,4900,No,6,3
+1837,2024-08-11,1894,Mumbai,West,Other,Electronics,Product99,2,611,1222,No,3,1
+1838,2024-12-14,1082,Kolkata,East,Other,Books,Product57,5,4926,24630,No,1,3
+1839,2024-02-23,1898,Bengaluru,South,Mobile App,Fashion,Product96,3,2207,6621,Yes,5,2
+1840,2024-04-16,1885,Pune,North,Social,Electronics,Product53,4,3979,15916,No,6,3
+1841,2024-09-13,1348,Mumbai,NE,Website,Beauty,Product25,3,260,780,No,6,5
+1842,2024-02-05,1060,Pune,South,Social,Fashion,Product7,3,938,2814,No,7,4
+1843,2024-12-27,2870,Delhi,NE,Other,Books,Product26,4,3415,13660,No,4,5
+1844,2024-09-06,2299,Bengaluru,East,Social,Home,Product33,2,1382,2764,No,1,5
+1845,2024-07-01,1232,Mumbai,North,Social,Sports,Product89,2,4027,8054,No,7,1
+1846,2024-11-11,1705,Mumbai,East,Social,Books,Product64,4,2148,8592,No,4,5
+1847,2024-10-25,1200,Mumbai,West,Other,Beauty,Product59,3,3011,9033,No,7,1
+1848,2024-12-14,1850,Kolkata,North,Other,Home,Product9,2,1999,3998,No,7,1
+1849,2024-01-16,2046,Hyderabad,East,Social,Sports,Product31,2,778,1556,No,6,5
+1850,2024-04-25,2245,Bengaluru,South,Other,Electronics,Product18,4,3517,14068,No,4,5
+1851,2024-04-01,2638,Kolkata,North,Mobile App,Books,Product5,5,3345,16725,No,7,3
+1852,2024-11-12,2101,Hyderabad,West,Website,Sports,Product7,3,4458,13374,No,1,2
+1853,2024-09-02,1241,Pune,South,Website,Sports,Product77,1,3267,3267,No,6,1
+1854,2024-10-11,2891,Pune,West,Mobile App,Fashion,Product10,4,2748,10992,No,2,1
+1855,2024-06-09,2675,Bengaluru,East,Website,Sports,Product83,2,789,1578,No,5,4
+1856,2024-10-12,2173,Hyderabad,East,Website,Books,Product63,2,2960,5920,No,3,5
+1857,2024-01-14,1468,Delhi,North,Website,Books,Product86,5,2057,10285,No,4,5
+1858,2024-12-21,1602,Hyderabad,North,Mobile App,Sports,Product67,4,2065,8260,No,7,3
+1859,2024-10-06,2406,Kolkata,South,Website,Books,Product21,4,4887,19548,No,1,1
+1860,2024-03-24,1835,Delhi,NE,Social,Sports,Product13,2,2569,5138,No,2,5
+1861,2024-05-02,1791,Mumbai,NE,Website,Sports,Product99,2,937,1874,No,2,5
+1862,2024-02-06,2039,Hyderabad,North,Other,Home,Product69,4,843,3372,Yes,4,4
+1863,2024-01-09,2051,Bengaluru,South,Other,Fashion,Product56,1,2486,2486,No,1,3
+1864,2024-12-26,1977,Pune,North,Mobile App,Fashion,Product75,3,1199,3597,No,2,2
+1865,2024-06-01,2166,Pune,West,Website,Beauty,Product84,5,1907,9535,No,5,2
+1866,2024-04-07,1597,Hyderabad,South,Website,Beauty,Product42,2,2449,4898,No,6,1
+1867,2024-10-05,1793,Delhi,West,Social,Beauty,Product27,1,203,203,No,7,2
+1868,2024-08-10,2733,Delhi,South,Mobile App,Beauty,Product96,3,3497,10491,No,5,4
+1869,2024-03-22,2474,Pune,South,Mobile App,Beauty,Product98,4,3418,13672,No,4,4
+1870,2024-01-18,2873,Mumbai,East,Website,Fashion,Product35,3,2523,7569,Yes,6,5
+1871,2024-12-22,2328,Mumbai,NE,Other,Fashion,Product78,1,4161,4161,No,5,4
+1872,2024-08-27,1667,Delhi,North,Website,Home,Product8,1,3000,3000,No,7,1
+1873,2024-08-12,2422,Kolkata,South,Social,Home,Product25,2,849,1698,No,4,4
+1874,2024-02-04,1307,Kolkata,West,Other,Electronics,Product44,5,4915,24575,No,6,4
+1875,2024-05-23,1940,Kolkata,South,Other,Sports,Product86,2,1413,2826,No,3,4
+1876,2024-03-07,1406,Hyderabad,East,Website,Home,Product98,5,3334,16670,No,1,2
+1877,2024-06-11,1435,Hyderabad,North,Other,Beauty,Product55,3,2808,8424,No,2,4
+1878,2024-07-25,2807,Kolkata,South,Social,Sports,Product97,5,2539,12695,No,6,2
+1879,2024-05-16,1627,Delhi,NE,Social,Fashion,Product64,2,3399,6798,No,7,1
+1880,2024-08-06,1172,Kolkata,North,Mobile App,Fashion,Product3,5,1535,7675,No,4,3
+1881,2024-06-23,1692,Kolkata,East,Mobile App,Books,Product96,2,4731,9462,No,4,4
+1882,2024-01-15,2852,Pune,North,Social,Sports,Product66,3,3778,11334,No,6,4
+1883,2024-06-27,1465,Kolkata,NE,Mobile App,Beauty,Product74,2,266,532,No,6,1
+1884,2024-07-28,1034,Bengaluru,South,Other,Electronics,Product6,3,4660,13980,No,5,1
+1885,2024-09-21,1714,Mumbai,NE,Other,Home,Product19,2,1869,3738,No,1,2
+1886,2024-07-09,2433,Kolkata,North,Mobile App,Fashion,Product76,1,2248,2248,Yes,1,1
+1887,2024-08-09,2747,Pune,South,Other,Fashion,Product29,2,4533,9066,No,3,2
+1888,2024-04-03,1324,Delhi,NE,Mobile App,Books,Product41,5,4351,21755,Yes,2,1
+1889,2024-03-17,1330,Delhi,East,Website,Home,Product46,4,1457,5828,No,6,5
+1890,2024-08-23,1172,Delhi,NE,Website,Beauty,Product6,4,4274,17096,No,4,1
+1891,2024-04-28,2432,Pune,East,Social,Books,Product48,2,4336,8672,No,3,1
+1892,2024-01-03,1855,Delhi,North,Website,Electronics,Product64,4,3163,12652,No,1,2
+1893,2024-06-13,1162,Delhi,NE,Social,Beauty,Product12,1,3581,3581,No,5,3
+1894,2024-08-24,2912,Mumbai,South,Other,Fashion,Product94,4,2884,11536,No,5,2
+1895,2024-09-16,1693,Pune,West,Mobile App,Beauty,Product96,4,4159,16636,No,5,1
+1896,2024-06-01,1723,Pune,North,Other,Home,Product24,4,1207,4828,No,5,5
+1897,2024-06-11,1802,Kolkata,West,Social,Books,Product51,2,748,1496,No,5,5
+1898,2024-08-11,1753,Bengaluru,South,Website,Electronics,Product32,3,3547,10641,No,5,3
+1899,2024-01-14,1114,Pune,NE,Social,Home,Product71,1,930,930,No,1,3
+1900,2024-07-06,1759,Mumbai,NE,Other,Home,Product71,5,4694,23470,No,5,1
+1901,2024-02-05,1844,Delhi,NE,Other,Home,Product65,2,4285,8570,No,2,1
+1902,2024-09-04,1861,Hyderabad,NE,Social,Books,Product27,4,224,896,No,7,4
+1903,2024-08-15,1275,Hyderabad,East,Mobile App,Home,Product10,1,2679,2679,No,6,2
+1904,2024-05-11,1046,Delhi,East,Other,Home,Product37,1,2613,2613,No,6,2
+1905,2024-06-19,1732,Bengaluru,East,Website,Electronics,Product83,1,2638,2638,No,4,5
+1906,2024-04-27,2200,Mumbai,NE,Social,Electronics,Product84,3,2875,8625,No,5,4
+1907,2024-10-01,2339,Bengaluru,NE,Social,Home,Product27,5,4332,21660,No,3,4
+1908,2024-04-13,2189,Pune,North,Website,Fashion,Product65,5,3499,17495,No,7,4
+1909,2024-07-01,1059,Hyderabad,North,Other,Home,Product36,3,3057,9171,No,1,4
+1910,2024-04-08,2850,Pune,West,Other,Home,Product55,1,3014,3014,No,3,5
+1911,2024-07-03,2939,Kolkata,South,Website,Electronics,Product23,5,2137,10685,No,5,4
+1912,2024-05-23,1489,Pune,East,Website,Books,Product39,5,1854,9270,Yes,7,1
+1913,2024-04-05,1220,Pune,South,Website,Books,Product5,5,4678,23390,Yes,7,3
+1914,2024-07-22,2380,Bengaluru,NE,Website,Books,Product10,4,3157,12628,Yes,4,3
+1915,2024-07-13,2187,Hyderabad,South,Website,Electronics,Product8,5,1608,8040,No,4,3
+1916,2024-08-23,1422,Delhi,North,Website,Fashion,Product4,5,2893,14465,No,1,4
+1917,2024-10-13,2235,Delhi,NE,Website,Electronics,Product31,1,4988,4988,No,1,4
+1918,2024-10-19,2109,Kolkata,NE,Social,Home,Product93,2,211,422,No,1,2
+1919,2024-07-19,2238,Pune,West,Mobile App,Beauty,Product35,1,1342,1342,No,3,1
+1920,2024-08-18,2365,Pune,North,Other,Home,Product49,2,4604,9208,No,3,1
+1921,2024-07-03,1164,Bengaluru,South,Mobile App,Books,Product91,3,3101,9303,No,1,5
+1922,2024-09-04,1082,Delhi,South,Mobile App,Fashion,Product46,1,2516,2516,No,1,2
+1923,2024-07-28,2551,Bengaluru,West,Mobile App,Books,Product13,4,3258,13032,No,6,2
+1924,2024-05-19,2848,Kolkata,East,Mobile App,Home,Product69,3,3963,11889,No,3,5
+1925,2024-02-19,2683,Pune,North,Other,Beauty,Product82,4,2470,9880,No,6,1
+1926,2024-10-18,2459,Mumbai,West,Website,Sports,Product93,4,866,3464,No,3,4
+1927,2024-12-10,1405,Pune,South,Social,Sports,Product44,1,2099,2099,No,1,1
+1928,2024-03-03,2174,Bengaluru,North,Social,Electronics,Product17,3,4461,13383,No,2,2
+1929,2024-08-26,2054,Pune,South,Website,Sports,Product63,4,3129,12516,No,3,3
+1930,2024-12-14,2863,Mumbai,West,Other,Fashion,Product49,5,1514,7570,No,5,1
+1931,2024-12-09,2423,Mumbai,NE,Social,Books,Product94,5,636,3180,No,7,4
+1932,2024-05-07,2881,Pune,NE,Other,Sports,Product62,5,1221,6105,No,5,5
+1933,2024-04-02,2866,Mumbai,South,Social,Fashion,Product4,5,414,2070,No,7,2
+1934,2024-05-05,1989,Hyderabad,North,Other,Electronics,Product29,2,2899,5798,Yes,1,5
+1935,2024-07-04,2825,Bengaluru,South,Website,Beauty,Product79,5,1858,9290,No,2,3
+1936,2024-04-11,1350,Kolkata,East,Social,Sports,Product21,4,4684,18736,No,1,2
+1937,2024-12-19,1289,Bengaluru,East,Mobile App,Fashion,Product6,3,3585,10755,No,1,1
+1938,2024-05-28,1843,Bengaluru,North,Other,Electronics,Product57,1,4594,4594,No,1,3
+1939,2024-12-20,2242,Kolkata,West,Social,Sports,Product9,2,981,1962,No,7,5
+1940,2024-10-04,2964,Hyderabad,NE,Other,Sports,Product7,5,2445,12225,No,5,5
+1941,2024-03-03,1234,Delhi,North,Social,Books,Product22,4,3104,12416,No,3,1
+1942,2024-11-02,1520,Mumbai,North,Mobile App,Home,Product85,3,2191,6573,No,6,1
+1943,2024-01-15,1402,Bengaluru,South,Mobile App,Beauty,Product99,2,4174,8348,No,7,4
+1944,2024-12-01,2666,Mumbai,North,Social,Fashion,Product53,4,3627,14508,No,4,2
+1945,2024-09-24,1534,Delhi,South,Social,Fashion,Product16,1,4924,4924,No,5,5
+1946,2024-07-10,2760,Mumbai,East,Other,Fashion,Product50,2,4173,8346,No,5,2
+1947,2024-09-02,1806,Delhi,West,Other,Books,Product90,1,2867,2867,No,3,4
+1948,2024-11-23,2476,Bengaluru,East,Social,Fashion,Product25,3,4317,12951,No,2,2
+1949,2024-05-18,2000,Bengaluru,East,Social,Fashion,Product90,2,1421,2842,Yes,4,1
+1950,2024-07-08,2150,Delhi,North,Social,Fashion,Product16,4,756,3024,Yes,1,5
+1951,2024-02-01,2199,Delhi,West,Website,Home,Product48,3,1552,4656,No,7,1
+1952,2024-06-09,2847,Pune,South,Website,Electronics,Product80,4,3682,14728,No,7,5
+1953,2024-01-11,1281,Mumbai,South,Website,Books,Product43,4,834,3336,No,4,5
+1954,2024-04-12,2887,Mumbai,South,Social,Beauty,Product100,1,3218,3218,No,6,5
+1955,2024-02-25,1324,Kolkata,NE,Mobile App,Books,Product37,5,4987,24935,No,2,4
+1956,2024-12-02,2316,Hyderabad,East,Website,Fashion,Product90,2,2212,4424,Yes,4,2
+1957,2024-09-11,1356,Kolkata,South,Other,Electronics,Product58,4,2225,8900,No,3,4
+1958,2024-12-08,1512,Delhi,South,Social,Electronics,Product26,3,3822,11466,No,2,2
+1959,2024-08-22,2681,Pune,South,Social,Books,Product51,1,4490,4490,No,3,5
+1960,2024-07-16,2756,Hyderabad,NE,Other,Beauty,Product81,4,379,1516,No,2,5
+1961,2024-06-23,2742,Kolkata,NE,Social,Beauty,Product50,3,669,2007,No,5,3
+1962,2024-05-23,1074,Delhi,North,Website,Books,Product28,2,3644,7288,No,4,3
+1963,2024-04-10,2585,Bengaluru,West,Website,Fashion,Product18,3,2400,7200,No,3,3
+1964,2024-05-22,1493,Delhi,South,Other,Home,Product60,2,3322,6644,Yes,7,2
+1965,2024-12-10,2271,Bengaluru,NE,Website,Beauty,Product76,4,262,1048,No,6,2
+1966,2024-04-24,2828,Kolkata,East,Mobile App,Fashion,Product71,2,4769,9538,No,6,4
+1967,2024-08-05,1767,Kolkata,South,Website,Electronics,Product4,4,4480,17920,No,5,2
+1968,2024-12-22,2758,Delhi,North,Other,Home,Product59,5,2591,12955,No,5,1
+1969,2024-12-24,1669,Delhi,West,Social,Books,Product67,2,4892,9784,No,3,4
+1970,2024-05-05,2864,Hyderabad,North,Website,Home,Product57,2,2717,5434,No,7,2
+1971,2024-04-13,1945,Bengaluru,West,Other,Books,Product48,1,1530,1530,No,6,4
+1972,2024-08-13,1837,Mumbai,East,Other,Fashion,Product60,5,4133,20665,No,1,1
+1973,2024-10-03,1687,Pune,East,Mobile App,Books,Product14,4,3752,15008,No,3,1
+1974,2024-12-10,1469,Delhi,North,Social,Electronics,Product77,2,281,562,No,5,3
+1975,2024-06-06,2715,Mumbai,West,Website,Beauty,Product74,2,4287,8574,No,3,5
+1976,2024-09-06,2771,Hyderabad,South,Mobile App,Fashion,Product88,2,626,1252,No,3,4
+1977,2024-07-06,1710,Pune,South,Website,Home,Product43,5,2842,14210,No,3,3
+1978,2024-12-16,2325,Delhi,South,Social,Home,Product24,3,1596,4788,No,5,1
+1979,2024-05-05,1020,Bengaluru,South,Social,Beauty,Product65,5,4939,24695,No,3,1
+1980,2024-04-02,1127,Bengaluru,South,Social,Sports,Product12,1,4225,4225,No,5,1
+1981,2024-07-19,1206,Hyderabad,South,Other,Fashion,Product15,3,2458,7374,No,5,5
+1982,2024-08-26,2283,Kolkata,East,Mobile App,Electronics,Product64,1,954,954,No,7,4
+1983,2024-04-18,2189,Mumbai,South,Other,Beauty,Product68,2,1112,2224,No,7,3
+1984,2024-07-26,2127,Bengaluru,South,Website,Sports,Product62,4,1550,6200,No,7,1
+1985,2024-12-21,2194,Bengaluru,NE,Other,Beauty,Product57,1,4505,4505,No,6,5
+1986,2024-12-09,1647,Pune,North,Other,Sports,Product28,4,2388,9552,No,5,5
+1987,2024-09-20,2819,Kolkata,South,Social,Beauty,Product73,2,3240,6480,No,7,5
+1988,2024-10-09,1642,Mumbai,East,Other,Fashion,Product41,2,305,610,No,2,2
+1989,2024-07-05,2315,Delhi,South,Website,Home,Product67,2,2189,4378,Yes,7,5
+1990,2024-10-04,1861,Bengaluru,West,Website,Books,Product18,5,3603,18015,No,7,2
+1991,2024-02-13,1271,Mumbai,West,Mobile App,Books,Product13,5,628,3140,No,6,1
+1992,2024-12-14,2224,Mumbai,West,Mobile App,Electronics,Product69,5,942,4710,No,7,5
+1993,2024-10-28,2449,Kolkata,West,Social,Sports,Product45,2,4685,9370,No,7,2
+1994,2024-12-08,1173,Bengaluru,North,Social,Sports,Product15,3,2828,8484,No,2,3
+1995,2024-08-05,2773,Kolkata,South,Other,Books,Product64,5,2310,11550,No,1,4
+1996,2024-09-28,2636,Hyderabad,East,Social,Electronics,Product78,5,4844,24220,No,4,5
+1997,2024-02-20,2661,Kolkata,North,Website,Home,Product6,5,1106,5530,No,4,1
+1998,2024-05-22,2991,Mumbai,East,Social,Home,Product45,4,2118,8472,No,5,2
+1999,2024-06-10,2329,Mumbai,NE,Other,Electronics,Product73,2,3627,7254,No,1,5
+2000,2024-12-15,1681,Kolkata,North,Website,Electronics,Product8,4,4916,19664,No,1,4
